@@ -12,25 +12,18 @@ Organized by category and priority.
 ---
 
 ## 💼 Work
-- [ ] [P2] ➕ 2025-02-18 Complete project documentation
-- [ ] [P1] 📅 2025-02-20 ➕ 2025-02-18 Prepare quarterly report
 
 ## 🏠 Personal
-- [ ] [P3] ➕ 2025-02-18 Organize digital photos
-- [ ] [P2] ➕ 2025-02-18 Schedule dentist appointment
+- [ ] [P2] ➕ 2026-02-18 Calculate yearly expenses - spending has been high lately
+- [ ] [P1] 📅 2026-03-20 ➕ 2026-02-18 Pay motorcycle yearly tax
 
 ## 💪 Health
-- [ ] [P2] ➕ 2025-02-18 Start morning stretching routine
-- [ ] [P3] ➕ 2025-02-18 Research meal prep options
 
 ## 📚 Learning
-- [ ] [P3] ➕ 2025-02-18 Read "Atomic Habits"
-- [ ] [P2] ➕ 2025-02-18 Complete online course chapter
 
 ## 🔧 Maintenance
-- [ ] [P3] ➕ 2025-02-18 Backup important files
-- [ ] [P2] ➕ 2025-02-18 Update software
 
 ---
 
-*Last reviewed: 2025-02-18*
+*Last reviewed: 2026-02-18*
+*Cleared: 2026-02-18*

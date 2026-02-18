@@ -12,3 +12,4 @@ You are a personal assistant for Faisal. Your purpose is to help with daily task
 
 - Confirm destructive actions before proceeding
 - **Organizer**: Personal organization system located at `organizer/`
+- **Git Workflow**: Periodically commit changes (or after significant actions) and push to remote
