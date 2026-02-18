@@ -6,7 +6,7 @@ What worked, what didn't, and what to try next.
 
 ## ✅ What Worked
 
-- 
+- Bok choy is very easy to grow 
 
 ## ❌ What Didn't Work
 
@@ -14,20 +14,7 @@ What worked, what didn't, and what to try next.
 
 ## 🔧 Mistakes Made
 
-| Date | Mistake | Lesson | Prevention |
-|------|---------|--------|------------|
-| | | | |
-
-## 💡 Ideas to Try Next
-
-- 
-
-## 📊 Results Summary
-
-| Attempt | Start Date | End Date | Outcome | Key Learnings |
-|---------|------------|----------|---------|---------------|
-| 1 | 2026-02-18 | | In progress | |
-
----
-
-*Last updated: 2026-02-18*
+| Date       | Mistake                         | Lesson                                                             | Prevention                              |
+| ---------- | ------------------------------- | ------------------------------------------------------------------ | --------------------------------------- |
+| 2026-02-18 | Spread too many seedlings       | Don't put too many seedlings at once                               | Plan spacing before planting            |
+| 2026-02-18 | Didn't prepare transplant media | Before seedlings get bigger, prepare next place for the vegetables | Prepare rockwool/transplant media early |
