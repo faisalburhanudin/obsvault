@@ -1,9 +1,9 @@
-# Daily Todo - {{DATE}}
 
 ## 🌅 Morning Routine
-- [ ] 
+- [ ] Check Email
+- [ ] Update on Slack
 
-## 🎯 Top 3 Priorities
+## 🎯 Top Priorities
 1. [ ] 
 2. [ ] 
 3. [ ] 

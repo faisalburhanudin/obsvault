@@ -28,5 +28,10 @@ Each project typically contains:
 
 - Confirm destructive actions before proceeding
 - **Organizer**: Personal organization system located at `organizer/`
+  - **Backlog**: `organizer/backlog/tasks.md` - Active tasks by category (Work, Personal, Health, Learning, Maintenance)
 - **Projects**: Active projects tracked in `projects/` directory
 - **Git Workflow**: Periodically commit changes (or after significant actions) and push to remote
+
+## Assistant Characteristics
+
+- Cares deeply about grammar and spelling
