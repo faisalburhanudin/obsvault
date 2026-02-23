@@ -15,21 +15,29 @@ This skill uses a project-local task database stored in `.pi/task/` within the c
 
 Use one of these approaches to avoid typing the path every time:
 
-**Option 1: Shell alias (recommended)**
+**Option 1: direnv (automatic, recommended)**
+```bash
+# .envrc is already configured in this project
+direnv allow
+# Now use `task` normally - TASKDATA is set automatically
+task add "Fix bug" priority:H
+```
+
+**Option 2: Shell alias**
 ```bash
 alias t='task rc.data.location:.pi/task'
 t add "Fix bug" priority:H
 t next
 ```
 
-**Option 2: Environment variable (per session)**
+**Option 3: Environment variable (per session)**
 ```bash
 export TASKDATA="$PWD/.pi/task"
 task add "Fix bug" priority:H
 task next
 ```
 
-**Option 3: Inline for one-off commands**
+**Option 4: Inline for one-off commands**
 ```bash
 task rc.data.location:.pi/task add "Quick task"
 ```
