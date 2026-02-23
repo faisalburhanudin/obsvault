@@ -30,8 +30,8 @@ score_tasks() {
             category=$(echo "$line" | sed 's/^## //' | sed 's/^[💼🏠💪📚🔧] //')
         fi
         
-        # Parse task lines
-        if [[ $line =~ ^-\ \[\ \] ]]; then
+        # Parse task lines (skip empty template tasks)
+        if [[ $line =~ ^-\ \[\ \] ]] && [[ ! $line =~ ^-\ \[\ \]\ $ ]]; then
             local task="$line"
             local score=0
             local priority="P3"
@@ -47,6 +47,11 @@ score_tasks() {
                 score=$((score + 50))
             else
                 score=$((score + 10))
+            fi
+            
+            # Extra weight for recurring tasks (♻️ emoji)
+            if [[ $task =~ ♻️ ]]; then
+                score=$((score + 30))
             fi
             
             # Extract due date

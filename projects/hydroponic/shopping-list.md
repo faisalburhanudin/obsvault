@@ -8,8 +8,8 @@ Complete list of items needed to build the Media Bed system from *DIY Hydroponic
 
 | Item | Qty | Specs | Estimated Price (IDR) | Notes |
 |------|-----|-------|----------------------|-------|
-| **Grow Bed** | 1 | ~36 cm L x ~28 cm W x **~8-10 cm H** plastic container | 15,000 - 50,000 | Shallow tray/tote. Bottom should fit inside reservoir. |
-| **Reservoir** | 1 | ~37 cm L x ~27 cm W x **~20-25 cm H** plastic container (~15-20 L) | 25,000 - 60,000 | Deeper than grow bed. Must hold water volume + pump. |
+| **Grow Bed** | 1 | ~36 cm L x ~28 cm W x **~8-10 cm H** plastic container | 15,000 - 50,000 | Place on SEPARATE stand (not on reservoir). Shallow tray/tote. |
+| **Reservoir** | 1 | **Cooler box 16-20L** (insulated, strong rim) OR ember tong HDPE | 40,000 - 120,000 | Stands alone on floor. Must fit pump + 15L water. |
 
 **Shopping tip:** Look for "tempat makanan" or storage containers at Mitra10, Ace Hardware, or supermarkets. The grow bed should sit on top with its lip overhanging.
 
@@ -17,14 +17,18 @@ Complete list of items needed to build the Media Bed system from *DIY Hydroponic
 
 ## 💧 Irrigation Components
 
-| Item | Qty | Specs | Estimated Price (IDR) | Where to Find |
-|------|-----|-------|----------------------|---------------|
-| **Fill/Drain Fitting Kit** | 1 set | ~13 mm (1/2") and ~19 mm (3/4") bulkhead fittings with screens | 50,000 - 100,000 | Hydroponic shops, Tokopedia "bulkhead fitting hidroponik" |
-| **Black Vinyl Tubing** | 1 meter | ~13 mm (1/2") diameter | 10,000 - 20,000 | Hardware stores, aquarium shops, "selang hitam 1/2 inch" |
-| **Submersible Water Pump** | 1 | ~600 L/hour (160 GPH) | 100,000 - 200,000 | Aquarium shops, Tokopedia, Shopee - search "pompa celup aquarium" |
-| **Mechanical Timer** | 1 | 24-hour mechanical outlet timer | 40,000 - 80,000 | Electrical/hardware stores, "timer listrik" |
+| Item                             | Qty     | Specs                                                          | Estimated Price (IDR) | Where to Find                                                     |
+| -------------------------------- | ------- | -------------------------------------------------------------- | --------------------- | ----------------------------------------------------------------- |
+| **Fill/Drain Fitting Kit**       | 1 set   | ~13 mm (1/2") and ~19 mm (3/4") bulkhead fittings with screens | 50,000 - 100,000      | Hydroponic shops, Tokopedia "bulkhead fitting hidroponik"         |
+| **OR: Uniseal Alternative**      | 2 pcs   | 20-25 mm rubber uniseal                                        | 30,000 - 60,000       | Tokopedia "uniseal hidroponik" - allows flush pipe installation   |
+| **OR: Grommet + Barbed Fitting** | 2 sets  | Rubber grommet 20mm + barbed fitting                           | 20,000 - 40,000       | Hardware stores "karet grommet" + aquarium shops "fitting selang" |
+| **Black Vinyl Tubing**           | 1 meter | ~13 mm (1/2") diameter                                         | 10,000 - 20,000       | Hardware stores, aquarium shops, "selang hitam 1/2 inch"          |
+| **Submersible Water Pump**       | 1       | ~600 L/hour (160 GPH)                                          | 100,000 - 200,000     | Aquarium shops, Tokopedia, Shopee - search "pompa celup aquarium" |
+| **Mechanical Timer**             | 1       | 24-hour mechanical outlet timer                                | 40,000 - 80,000       | Electrical/hardware stores, "timer listrik"                       |
 
-**Pump alternatives:**
+**Chosen:** Sobo/AN-600 8W 600L/H (confirmed suitable)
+
+**Alternatives:**
 - Atman AT-301/AT-302 (~600-800 L/h)
 - Resun SP-980 (~800 L/h)
 - Yamano WP-300 (~600 L/h)
@@ -106,10 +110,12 @@ Print this and check off as you buy:
 - [ ] Reservoir (~37 x 27 x 20-25 cm, deeper than grow bed)
 
 ### Irrigation
-- [ ] Fill/drain fitting kit (~13mm & ~19mm)
-- [ ] Black vinyl tubing (~13mm, 1 meter)
-- [ ] Submersible pump (~600 L/h)
-- [ ] Timer
+- [x] Uniseal 3/4
+- [x] Submersible pump (~600 L/h)
+- [ ] PVC 1/2
+- [x] Selang 1/2 warna hitam
+- [x] Male to Male 1/2
+- [x] Timer
 
 ### Media
 - [ ] Expanded clay pebbles (10L)

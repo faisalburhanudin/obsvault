@@ -27,8 +27,10 @@ Each project typically contains:
 ## Notes
 
 - Confirm destructive actions before proceeding
-- **Organizer**: Personal organization system located at `organizer/`
-  - **Backlog**: `organizer/backlog/tasks.md` - Active tasks by category (Work, Personal, Health, Learning, Maintenance)
+- **Task Management**: Uses Taskwarrior CLI via the `task` skill. All tasks, recurring items, and backlog managed through the `task` command (see `task help` or `.pi/skills/task/SKILL.md`)
+- **Organizer**: Legacy organization files archived at `organizer/`
+  - **Archived TODOs**: `organizer/todo/archive/` - Old daily task files (migrated 2026-02-23)
+  - **Backlog**: `organizer/backlog/tasks.md` - Reference only (migrated to Taskwarrior)
 - **Projects**: Active projects tracked in `projects/` directory
 - **Git Workflow**: Periodically commit changes (or after significant actions) and push to remote
 
