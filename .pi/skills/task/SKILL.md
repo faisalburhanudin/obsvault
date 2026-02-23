@@ -7,59 +7,86 @@ description: Taskwarrior CLI task management. Use for adding, viewing, completin
 
 Taskwarrior is a command-line task manager that handles recurring tasks, priorities, and due dates automatically.
 
+## Project-Local Storage
+
+This skill uses a project-local task database stored in `.pi/task/` within the current project directory. This keeps tasks isolated per project.
+
+### Setup
+
+Use one of these approaches to avoid typing the path every time:
+
+**Option 1: Shell alias (recommended)**
+```bash
+alias t='task rc.data.location:.pi/task'
+t add "Fix bug" priority:H
+t next
+```
+
+**Option 2: Environment variable (per session)**
+```bash
+export TASKDATA="$PWD/.pi/task"
+task add "Fix bug" priority:H
+task next
+```
+
+**Option 3: Inline for one-off commands**
+```bash
+task rc.data.location:.pi/task add "Quick task"
+```
+
 ## Quick Reference
 
-### Add Tasks
+### Add Tasks (using `t` alias)
 ```bash
-task add "Pay utility bills" due:eom recur:monthly
-task add "Fix AC leak" priority:H project:maintenance
-task add "Review PR" due:friday +work
+t add "Pay utility bills" due:eom recur:monthly
+t add "Fix AC leak" priority:H project:maintenance
+t add "Review PR" due:friday +work
 ```
 
 ### View Tasks
 ```bash
-task              # pending tasks (default: next report)
-task next         # most urgent
-task list         # pending with details
-task ready        # actionable (not blocked)
-task overdue      # overdue
-task recurring    # recurring tasks
-task all          # all including completed
-task completed    # completed tasks
-task 42 info      # full details of task 42
+t                 # pending tasks (default: next report)
+t next            # most urgent
+t list            # pending with details
+t ready           # actionable (not blocked)
+t overdue         # overdue
+t recurring       # recurring tasks
+t all             # all including completed
+t completed       # completed tasks
+t 42 info         # full details of task 42
 ```
 
 ### Complete/Modify
 ```bash
-task 1 done                    # mark complete
-task 1 delete                  # delete task
-task 1 modify priority:H       # set priority
-task 1 modify project:work     # set project
-task 1 modify due:2026-03-01   # set due date
-task 1 modify +tag             # add tag
-task 1 start                   # start tracking time
-task 1 stop                    # stop tracking
+t 1 done                    # mark complete
+t 1 delete                  # delete task
+t 1 modify priority:H       # set priority
+t 1 modify project:work     # set project
+t 1 modify due:2026-03-01   # set due date
+t 1 modify +tag             # add tag
+t 1 start                   # start tracking time
+t 1 stop                    # stop tracking
 ```
 
 ## Common Workflows
 
 ### Daily Standup
 ```bash
-task ready           # what can I do now?
-task due:today       # what's due today?
-task due.before:today  # what's overdue?
+t ready              # what can I do now?
+t due:today          # what's due today?
+t due.before:today   # what's overdue?
 ```
 
 ### Weekly Review
 ```bash
-task completed end.after:-7days   # what did I finish?
-task add "Weekly review" recur:weekly due:sunday
+t completed end.after:-7days   # what did I finish?
+t add "Weekly review" recur:weekly due:sunday
 ```
 
 ### Monthly Tasks
 ```bash
-task add "Review budget" recur:monthly due:eom
-task add "Pay bills" recur:monthly due:28th
+t add "Review budget" recur:monthly due:eom
+t add "Pay bills" recur:monthly due:28th
 ```
 
 ## Attributes & Modifiers
@@ -94,15 +121,15 @@ task add "Pay bills" recur:monthly due:28th
 
 ```bash
 # Filters combine with AND
-task project:work +urgent due.before:friday list
+t project:work +urgent due.before:friday list
 
 # Multiple IDs
-task 1 2 3 done
-task 1-5 delete
+t 1 2 3 done
+t 1-5 delete
 
 # Complex filters
-task '( /urgent/ or /critical/ )' list
-task 'project:work or project:personal' list
+t '( /urgent/ or /critical/ )' list
+t 'project:work or project:personal' list
 ```
 
 ## Tips
@@ -115,25 +142,25 @@ task 'project:work or project:personal' list
 
 ## Configuration
 
-Config file: `~/.taskrc`
+Project-local config: `.pi/task/taskrc` (optional)
 
 ```bash
-# Default report when running 'task'
+# Default report when running 't'
 rc.default.command=next
 
 # Contexts (preset filters)
 context.work=project:work
-task context work    # apply work filter to all commands
+t context work    # apply work filter to all commands
 ```
 
 ## Backup & Sync
 
-Data location: `~/.task/` (pending.data, completed.data)
+Data location: `.pi/task/` (project-local)
 
 ```bash
 # Export all tasks
-task export > tasks-backup.json
+t export > tasks-backup.json
 
 # Import
-task import tasks-backup.json
+t import tasks-backup.json
 ```
