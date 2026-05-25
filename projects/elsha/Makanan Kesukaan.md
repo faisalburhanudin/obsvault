@@ -1,0 +1,44 @@
+- Cemilan
+	- Brokoli kering
+	- Agar - agar
+	- Semangka
+	- Jagung
+	- Pisang
+
+- Utama
+	- Hari 1![[Pasted image 20260430065447.png]]
+		- Pagi: Scrambled egg creamy + nasi
+		- Siang: Ayam kremes + nasi
+		- Malam: Sop makaroni
+		- 👉 Hari pertama full comfort (biar baseline aman)
+
+	- Hari 2![[Pasted image 20260430065504.png]]
+		- Pagi: Mac & cheese
+		- Siang: Chicken katsu + nasi
+		- Malam: Sup ayam kentang wortel
+		- 👉 Mulai introduce katsu (mirip ayam goreng tapi beda tekstur)
+	- Hari 3 ![[Pasted image 20260430065514.png]]
+		- Pagi: Telur dadar keju
+		- Siang: Nasi goreng mentega
+		- Malam: Chicken popcorn
+		- 👉 Nasi goreng versi lebih mild (no strong spice)
+	- Hari 4 ![[Pasted image 20260430065526.png]]
+		- Pagi: Roti isi telur
+		- Siang: Ayam saus mentega + nasi
+		- Malam: Cream soup jagung
+		- 👉 Introduce creamy soup (step up dari sop biasa)
+	- Hari 5 ![[Pasted image 20260430065536.png]]
+		- Pagi: Tamagoyaki
+		- Siang: Beef teriyaki rice bowl
+		- Malam: Baked potato + keju
+		- 👉 Masuk ke rasa manis-gurih Jepang (biasanya anak suka)
+	- Hari 6 ![[Pasted image 20260430065548.png]]
+		- Pagi: Pancake (optional madu tipis)
+		- Siang: Ayam crispy saus madu
+		- Malam: Sup bakso
+		- 👉 Ada sedikit sweet profile (biar variasi)
+	- Hari 7 ![[Pasted image 20260430065558.png]]
+		- Pagi: Omelette isi sayur + keju
+		- Siang: Nasi goreng telur
+		- Malam: Spaghetti carbonara
+		- 👉 Ini sudah mulai “advance experiment” tapi masih aman

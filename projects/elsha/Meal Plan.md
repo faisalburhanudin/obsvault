@@ -1,0 +1,13 @@
+- Senin
+- Selasa
+- Rabu
+	- Cemilan
+		- 
+	- Utama
+		- Nasi Telur
+		- Nasi goreng iga
+		- 
+- Kamis
+- Jumat
+- Sabtu
+- Minggu
