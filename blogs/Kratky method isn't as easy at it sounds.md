@@ -1,0 +1,6 @@
+Kratky sounds almost too easy: fill half with water, leave half as air, and you're done. But once you start running multiple buckets, the simplicity starts to fall apart, and most of it comes down to keeping nutrients in check.
+
+For healthy plants I try to keep PPM between 800 and 1000, with EC around 1.4. The problem is the water level constantly changes. Evaporation concentrates the nutrients over time, pushing EC higher than it should be. Then rain comes along and dilutes everything, and sometimes overflows the bucket entirely. Every time that happens I have to top up, remix, and recalibrate. With one bucket that's manageable. With ten it becomes a full-time job.
+
+So I started looking into other methods that make nutrient control easier. NFT is off the table for me since I'm worried about electrical failures, one pump outage and everything dies. Right now I'm considering shallow DFT, or maybe flood and drain. I came across this outdoor flood and drain setup on Reddit that looked pretty solid: https://www.reddit.com/r/Hydroponics/comments/1ts5c1z/my_outdoor_flood_and_drain_system. Still deciding, but I think anything with a reservoir I can check in one place will be a big improvement over managing ten buckets individually.
+
