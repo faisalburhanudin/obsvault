@@ -3,5 +3,10 @@
 
 ## 2026-06-02
 
+Ario
 - [ ] Investigate [anotherworldportal@gmail.com](mailto:anotherworldportal@gmail.com)
+	- [ ] Lync C
+		- [ ] 01:24 -> 03:41
+
+Personal
 - [ ] Apply https://www.upwork.com/jobs/~022061608220786979272?referrer_url_path=%2Fbest-matches%2Fdetails%2F~022061608220786979272
