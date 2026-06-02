@@ -1,5 +1,6 @@
 ## Backlog
-
+- [ ] English homework, voice note at whatsapp
+- [ ] Suspend https://genda.fly.dev/ 4 Jun 2026
 ## 2026-06-02
 
 ## Ario
