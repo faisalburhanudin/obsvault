@@ -1,5 +1,4 @@
 ## Backlog
-- [ ] Apply https://www.upwork.com/jobs/~022061608220786979272
 
 ## 2026-06-02
 
@@ -17,4 +16,5 @@
 - [ ] check sentry
 
 Personal
-- [ ] Apply https://www.upwork.com/jobs/~022061608220786979272
+- [x] Apply https://www.upwork.com/jobs/~022061608220786979272
+---
