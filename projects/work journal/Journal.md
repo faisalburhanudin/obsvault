@@ -15,6 +15,14 @@
 - [ ] help cost optim
 - [ ] check sentry
 
-Personal
+### Personal
 - [x] Apply https://www.upwork.com/jobs/~022061608220786979272
 ---
+### English
+1. an auto mechanic
+2. getting degree in medical
+3. James is pursuing job for woman
+4. education and office works
+5. taking care of his own car
+
+![[Pasted image 20260602195348.png]]
