@@ -12,8 +12,7 @@
 ## 2026-06-03
 ### Ario
 - [x] Check sentry
-- [ ] inboxcart capacity
-	- [ ] 
+- [x] inboxcart capacity https://github.com/gather-engineering/demos/pull/849
 - [ ] backward filling
 - [ ] metabase dashboard
 
