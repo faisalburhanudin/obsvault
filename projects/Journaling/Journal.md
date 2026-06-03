@@ -15,6 +15,7 @@
 - [ ] inboxcart capacity
 	- [ ] 
 - [ ] backward filling
+- [ ] metabase dashboard
 
 ### Personal
 - [ ] impecable skill is so wonderfull, looks behind the machine
