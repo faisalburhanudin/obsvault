@@ -2,6 +2,23 @@
 - [ ] English homework, voice note at whatsapp
 - [ ] Suspend https://genda.fly.dev/ 4 Jun 2026
 - [ ] Lem sendal mama
+- [ ] [[Ganti no HP]]
+- [ ] [[Finance]]
+- [ ] Planning liburan malang
+- [ ] Planning Qurban 4/7
+- [ ] Planning THR
+- [ ] Lem Headset
+
+## 2026-06-03
+### Ario
+- [x] Check sentry
+- [ ] inboxcart capacity
+	- [ ] 
+- [ ] backward filling
+
+### Personal
+- [ ] impecable skill is so wonderfull, looks behind the machine
+
 ## 2026-06-02
 
 ## Ario

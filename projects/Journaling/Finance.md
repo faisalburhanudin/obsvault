@@ -1,0 +1,4 @@
+- 1 bulan pengeluaran 30jt
+- LED Strip housing 100rb
+- Dashcam
+- Sony WF-C710N: 1.3jt

@@ -1,0 +1,6 @@
+- [ ] Indomaret
+- [ ] Mandiri
+- [ ] DBS
+- [ ] Facebook
+- [ ] Instagram
+- [ ] Google
