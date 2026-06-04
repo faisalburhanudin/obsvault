@@ -15,6 +15,7 @@
 ### Ario
 - [ ] Security: refresh token should be encrypted
 - [ ] backward filling https://github.com/gather-engineering/demos/pull/853
+- [x] Adjust capacity, worker shouldn't use capacity
 
 ## 2026-06-03
 ### Ario
