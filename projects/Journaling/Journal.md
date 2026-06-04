@@ -13,8 +13,11 @@
 ### Ario
 - [x] Check sentry
 - [x] inboxcart capacity https://github.com/gather-engineering/demos/pull/849
-- [ ] backward filling
+- [ ] backward filling https://github.com/gather-engineering/demos/pull/853
 - [ ] metabase dashboard
+	- [ ] [[inboxcart-metabase-query]]
+	- [ ] only USD
+	- [ ] remove test email
 
 ### Personal
 - [ ] impecable skill is so wonderfull, looks behind the machine
