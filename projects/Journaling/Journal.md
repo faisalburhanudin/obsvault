@@ -11,11 +11,16 @@
 - [ ] Check Asuransi Erlang
 - [ ] Apply https://www.upwork.com/nx/proposals/job/~022062222775677732245/apply/
 
+## 2026-06-05
+- [ ] Dedup https://heyario.slack.com/archives/C049DGC1D2M/p1780546640434359
+- [ ] Capacity using database
+- [ ] work on this issue https://github.com/gather-engineering/demos/issues/860
 ## 2026-06-04
 ### Ario
 - [ ] Security: refresh token should be encrypted
 - [ ] backward filling https://github.com/gather-engineering/demos/pull/853
 - [x] Adjust capacity, worker shouldn't use capacity
+- [ ] Why mxxn and blinds test always running?
 
 ## 2026-06-03
 ### Ario
