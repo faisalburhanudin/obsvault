@@ -8,6 +8,13 @@
 - [ ] Planning Qurban 4/7
 - [ ] Planning THR
 - [ ] Lem Headset
+- [ ] Check Asuransi Erlang
+- [ ] Apply https://www.upwork.com/nx/proposals/job/~022062222775677732245/apply/
+
+## 2026-06-04
+### Ario
+- [ ] Security: refresh token should be encrypted
+- [ ] backward filling https://github.com/gather-engineering/demos/pull/853
 
 ## 2026-06-03
 ### Ario
@@ -24,7 +31,7 @@
 
 ## 2026-06-02
 
-## Ario
+### Ario
 - [ ] Investigate [anotherworldportal@gmail.com](mailto:anotherworldportal@gmail.com)
 	- [ ] Lync C
 		- [ ] 01:24 -> 03:41
