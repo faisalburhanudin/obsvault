@@ -1,6 +1,5 @@
 ## Backlog
 - [ ] English homework, voice note at whatsapp
-- [ ] Suspend https://genda.fly.dev/ 4 Jun 2026
 - [ ] Lem sendal mama
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
@@ -9,14 +8,21 @@
 - [ ] Planning THR
 - [ ] Lem Headset
 - [ ] Check Asuransi Erlang
-- [ ] Apply https://www.upwork.com/nx/proposals/job/~022062222775677732245/apply/
 
 ## 2026-06-05
+
+### Ario
+- [ ] https://github.com/gather-engineering/demos/issues/860
+	- [ ] dns
+	- [ ] tap
 - [ ] Dedup https://heyario.slack.com/archives/C049DGC1D2M/p1780546640434359
 - [ ] Capacity using database
 - [ ] work on this issue https://github.com/gather-engineering/demos/issues/860
 - [ ] Gmail after: timezone gap in forward sync — pre-existing, highest impact
 - [ ] Backfill permanently skips LLM-failed emails — introduced-ish (new exposure)
+- [ ] Security: refresh token should be encrypted
+- [ ] Why mxxn and blinds test always running?
+- [ ] 
 ## 2026-06-04
 ### Ario
 - [ ] Security: refresh token should be encrypted
