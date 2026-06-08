@@ -23,7 +23,6 @@
 - [ ] Why mxxn and blinds test always running?
 - [ ] Check beta-testing issue.
 	- [ ] ## Receipts results: Location instead of restaurant name on some results
-		- [ ] Orange Park
 	- [ ] ## Receipt search stopped/hung
 	- [ ] ## Receipt fetching took around 30/60 seconds
 	- [ ] ## Receipts page- shows only two receipts from a store and that too without location, history and other details
