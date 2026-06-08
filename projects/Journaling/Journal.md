@@ -10,15 +10,16 @@
 - [ ] Check Asuransi Erlang
 - [ ] Monitor harga bahan pokok
 - [ ] Snaplet alternative
+- [ ] [[Ideas]]
 
 ## 2026-06-05
 
 ### Ario
 - [ ] https://github.com/gather-engineering/demos/issues/860
 	- [ ] dns
-	- [ ] tap -> change screen to instant
-- [ ] forward sync
-	- [ ] store source of email, is it from sync or initial
+	- [x] tap -> change screen to instant
+- [x] forward sync
+	- [x] store source of email, is it from sync or initial
 - [ ] Dedup https://heyario.slack.com/archives/C049DGC1D2M/p1780546640434359
 - [ ] Capacity using database
 - [ ] work on this issue https://github.com/gather-engineering/demos/issues/860
