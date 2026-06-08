@@ -21,19 +21,19 @@
 	- [x] announcement
 - [ ] Backfill permanently skips LLM-failed emails — introduced-ish (new exposure)
 - [ ] Why mxxn and blinds test always running?
-- [ ] Check beta-testing issue.
-	- [ ] ## Receipts results: Location instead of restaurant name on some results
-	- [ ] ## Receipt search stopped/hung
-	- [ ] ## Receipt fetching took around 30/60 seconds
-	- [ ] ## Receipts page- shows only two receipts from a store and that too without location, history and other details
-	- [ ] ## Connecting to gmail account was not successful on 1st attempt
-		- [ ] He didn't check location
+- [x] Check beta-testing issue.
+	- [x] ## Receipts results: Location instead of restaurant name on some results
+	- [x] ## Receipt search stopped/hung
+	- [x] ## Receipt fetching took around 30/60 seconds
+	- [x] ## Receipts page- shows only two receipts from a store and that too without location, history and other details
+	- [x] ## Connecting to gmail account was not successful on 1st attempt
 - [ ] Logfire
 	- [ ] Only for extracted flowEmail apa, extracted value, attachment email
 - [x] Remove fajar email
 - [x] Metabase
 	- [x] in funnel I added unique order
 	- [x] Deduplicate total purchase order
+- [x] Update Gmail UX
 - [ ] Store raw email to sentry
 
 ### Personal
