@@ -35,8 +35,11 @@
 - [x] Metabase
 	- [x] in funnel I added unique order
 	- [x] Deduplicate total purchase order
+- [ ] Store raw email to sentry
+
 ### Personal
 - [ ] Daftar https://www.instagram.com/p/DZUDJFsxNly/
+- [ ] Kumpulkan tugas english
 
 ## 2026-06-05
 
