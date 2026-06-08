@@ -11,6 +11,18 @@
 - [ ] Monitor harga bahan pokok
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
+## 2026-06-08
+
+### Ario
+- [x] **blocked** https://github.com/gather-engineering/demos/issues/860
+- [x] Dedup https://heyario.slack.com/archives/C049DGC1D2M/p1780546640434359
+	- [x] Unique by user_id and order_id
+	- [x] use max total_price to ignore null and possible conflict amount
+- [ ] Backfill permanently skips LLM-failed emails — introduced-ish (new exposure)
+- [ ] Why mxxn and blinds test always running?
+- [ ] Check beta-testing issue.
+- [ ] Logfire
+	- [ ] Only for extracted flowEmail apa, extracted value, attachment email
 
 ## 2026-06-05
 
