@@ -15,9 +15,7 @@
 
 ### Ario
 - [x]  https://github.com/gather-engineering/demos/issues/860
-- [x] Dedup https://heyario.slack.com/archives/C049DGC1D2M/p1780546640434359
-	- [x] Unique by user_id and order_id
-	- [x] use max total_price to ignore null and possible conflict amount
+
 - [x] Check backfill sync worked in production
 	- [x] [question](https://metabase.getgather.dev/question#eyJkYXNoYm9hcmRfaWQiOjE1LCJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjozLCJsaWIvdHlwZSI6Im1icWwvcXVlcnkiLCJzdGFnZXMiOlt7ImxpYi90eXBlIjoibWJxbC5zdGFnZS9tYnFsIiwib3JkZXItYnkiOltbImRlc2MiLHsibGliL3V1aWQiOiI0NmMzMTAwNi0yZDZmLTRkN2ItYjg3OC05OTJjZGJiZTI3OWQifSxbImZpZWxkIix7ImJhc2UtdHlwZSI6InR5cGUvVGV4dCIsImVmZmVjdGl2ZS10eXBlIjoidHlwZS9UZXh0IiwibGliL3V1aWQiOiI2N2MzZTA1Ni1iMTdmLTRlNDEtOGNhOS01ZWI0OGU1Y2IyODgifSwiYmFja2ZpbGxfc3RhdGUiXV1dLCJzb3VyY2UtY2FyZCI6MTcwfV19LCJkaXNwbGF5IjoidGFibGUiLCJkaXNwbGF5SXNMb2NrZWQiOnRydWUsIm5hbWUiOiJJbmJveENhcnQ6IFBlci11c2VyIGJhY2tmaWxsIHByb2dyZXNzIiwib3JpZ2luYWxfY2FyZF9pZCI6MTcwLCJwYXJhbWV0ZXJzIjpbXSwidHlwZSI6InF1ZXN0aW9uIiwidmlzdWFsaXphdGlvbl9zZXR0aW5ncyI6eyJ0YWJsZS5jZWxsX2NvbHVtbiI6InNjcmFwZWQiLCJ0YWJsZS5waXZvdF9jb2x1bW4iOiJzeW5jX2N1cnNvciJ9fQ==)
 	- [x] announcement
@@ -33,6 +31,10 @@
 		- [ ] He didn't check location
 - [ ] Logfire
 	- [ ] Only for extracted flowEmail apa, extracted value, attachment email
+- [x] Remove fajar email
+- [x] Metabase
+	- [x] in funnel I added unique order
+	- [x] Deduplicate total purchase order
 ### Personal
 - [ ] Daftar https://www.instagram.com/p/DZUDJFsxNly/
 
