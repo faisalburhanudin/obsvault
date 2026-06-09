@@ -11,6 +11,11 @@
 - [ ] Monitor harga bahan pokok
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
+## 2026-06-09
+- [ ] Why mxxn and blinds test always running?
+### Personal
+- [ ] English task
+
 ## 2026-06-08
 
 ### Ario
