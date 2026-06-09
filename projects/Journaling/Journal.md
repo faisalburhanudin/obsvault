@@ -38,7 +38,7 @@
 
 ### Personal
 - [ ] Daftar https://www.instagram.com/p/DZUDJFsxNly/
-- [ ] Kumpulkan tugas english
+
 
 ## 2026-06-05
 
