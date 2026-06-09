@@ -13,6 +13,10 @@
 - [ ] [[Ideas]]
 ## 2026-06-09
 - [ ] Why mxxn and blinds test always running?
+- [x] LLM Optimization
+	- [x] Batch call
+	- [x] Prompt Caching
+	- [x] Gemini Batch API
 ### Personal
 - [ ] English task
 
