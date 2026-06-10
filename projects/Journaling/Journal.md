@@ -12,16 +12,17 @@
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
 - [ ] GMail Cleaner
-- [ ] Check email ayem tentrem
+- [x] Check email ayem tentrem
 
 ## 2026-06-10
-- [ ] Why mxxn and blinds test always running?
-- [ ] Remove juang email
-- [ ] Check is mistral model using trusted provider
-- [ ] Sentry
+- [x] Why mxxn and blinds test always running?
+- [x] Remove juang email
+- [x] Check is mistral model using trusted provider
+- [x] Sentry
 	- [ ] https://heyario.sentry.io/issues/7540879616/events/c9d1b8669b62488aaab799a9a9164b60/
-- [x] Improvement
-	- [x] https://github.com/gather-engineering/demos/pull/894
+
+- [x] https://github.com/gather-engineering/demos/pull/894
+- [x] https://github.com/gather-engineering/demos/pull/896
 ### Personal
 - [ ] English task
 ## 2026-06-09
