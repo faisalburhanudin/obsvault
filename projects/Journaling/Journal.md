@@ -14,6 +14,11 @@
 
 ## 2026-06-10
 - [ ] Why mxxn and blinds test always running?
+- [ ] Remove juang email
+- [ ] Check is mistral model using trusted provider
+- [ ] Sentry
+	- [ ] https://heyario.sentry.io/issues/7540879616/events/c9d1b8669b62488aaab799a9a9164b60/
+	- [ ] 
 ### Personal
 - [ ] English task
 ## 2026-06-09
