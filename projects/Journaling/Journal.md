@@ -20,9 +20,8 @@
 - [ ] Check is mistral model using trusted provider
 - [ ] Sentry
 	- [ ] https://heyario.sentry.io/issues/7540879616/events/c9d1b8669b62488aaab799a9a9164b60/
-- [ ] Improvement
-	- [ ] https://github.com/gather-engineering/demos/pull/894
-	- [ ] 
+- [x] Improvement
+	- [x] https://github.com/gather-engineering/demos/pull/894
 ### Personal
 - [ ] English task
 ## 2026-06-09
