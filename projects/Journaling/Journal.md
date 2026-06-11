@@ -18,6 +18,7 @@
 
 ## 2026-06-11
 - [ ] Pattern not found purchase amazon prime
+- [ ] Import email sample
 
 ## 2026-06-10
 - [x] Why mxxn and blinds test always running?
