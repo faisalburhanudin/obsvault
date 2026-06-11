@@ -13,6 +13,8 @@
 - [ ] [[Ideas]]
 - [ ] GMail Cleaner
 - [x] Check email ayem tentrem
+- [ ] sentry cli
+- [ ] logfire cli
 
 ## 2026-06-10
 - [x] Why mxxn and blinds test always running?
