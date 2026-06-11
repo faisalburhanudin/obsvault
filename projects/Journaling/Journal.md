@@ -16,6 +16,9 @@
 - [ ] sentry cli
 - [ ] logfire cli
 
+## 2026-06-11
+- [ ] Pattern not found purchase amazon prime
+
 ## 2026-06-10
 - [x] Why mxxn and blinds test always running?
 - [x] Remove juang email
