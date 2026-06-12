@@ -18,6 +18,8 @@
 
 ## 2026-06-12
 - [ ] Handle this? https://heyario.slack.com/archives/C03KV5ZK9CG/p1781213244955679?thread_ts=1781210736.470069&cid=C03KV5ZK9CG
+- [ ] Clean https://heyario.sentry.io/issues/7519560064/?project=4511432600846336&query=is%3Aunresolved&referrer=issue-stream
+- [x] scale performance-4x
 ## 2026-06-11
 - [ ] **merged** Pattern not found purchase amazon prime
 - [ ] Pattern empty watch list
