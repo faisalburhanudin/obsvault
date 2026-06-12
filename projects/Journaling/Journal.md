@@ -16,8 +16,14 @@
 - [ ] sentry cli
 - [ ] logfire cli
 
+## 2026-06-12
+- [ ] Handle this? https://heyario.slack.com/archives/C03KV5ZK9CG/p1781213244955679?thread_ts=1781210736.470069&cid=C03KV5ZK9CG
 ## 2026-06-11
-- [ ] Pattern not found purchase amazon prime
+- [ ] **merged** Pattern not found purchase amazon prime
+- [ ] Pattern empty watch list
+	- [ ] https://github.com/remotebrowser/mcp/pull/1331
+	- [ ] https://github.com/remotebrowser/mcp/pull/1330
+- [ ] 
 - [ ] Import email sample
 
 ## 2026-06-10
