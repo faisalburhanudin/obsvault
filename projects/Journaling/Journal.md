@@ -21,6 +21,9 @@
 - [ ] Clean https://heyario.sentry.io/issues/7519560064/?project=4511432600846336&query=is%3Aunresolved&referrer=issue-stream
 - [x] scale performance-4x
 - [x] https://github.com/remotebrowser/mcp/pull/1333
+- [ ] Flag enable worker
+- [ ] Clean refresh_token
+- [ ] check distill on log
 ## 2026-06-11
 - [ ] **merged** Pattern not found purchase amazon prime
 - [ ] Pattern empty watch list
