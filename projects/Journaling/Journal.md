@@ -16,6 +16,22 @@
 - [ ] sentry cli
 - [ ] logfire cli
 
+## 2026-06-13
+
+Dug into the 14 users (created since Jun 12) with a missing refresh_token. 
+
+It looks like the users are revoking Gmail access after connecting.
+
+Instead the refresh token gone in multiple lifetimes ~2 min, ~1h, ~2h, ~3h, ~7h, ~26h, ~28h
+after signup..
+
+  Flow:
+  • Token works -> user revokes from their Google security page -> next sync gets invalid_grant:
+	  Token has been expired or revoked -> we null the token
+  • 8 of 14 got exactly one successful sync before the next hourly run failed -> they pulled access within the first hour.
+  • 2 never synced at all (revoked in ~2 min).
+  • Outliers presleym311 (26 syncs / ~26h) and steveramosjr1985 (7 syncs / ~7h) left it connected longer, then revoked same cause, later.
+
 ## 2026-06-12
 - [ ] Handle this? https://heyario.slack.com/archives/C03KV5ZK9CG/p1781213244955679?thread_ts=1781210736.470069&cid=C03KV5ZK9CG
 - [ ] Clean https://heyario.sentry.io/issues/7519560064/?project=4511432600846336&query=is%3Aunresolved&referrer=issue-stream
