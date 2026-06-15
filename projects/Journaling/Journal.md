@@ -16,6 +16,12 @@
 - [ ] sentry cli
 - [ ] logfire cli
 
+
+- Buat lebih cepet
+- user revoke token setelah selesai
+- pengennya user connect, within 2 minute
+- 
+
 ## 2026-06-13
 
 Dug into the 14 users (created since Jun 12) with a missing refresh_token. 
