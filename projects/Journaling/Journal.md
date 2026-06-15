@@ -20,7 +20,11 @@
 - Buat lebih cepet
 - user revoke token setelah selesai
 - pengennya user connect, within 2 minute
-- 
+- 1 module parameterize
+- get_purchase_by_detail
+	- ketika singgin success, langsung scraping until 2020 langsung
+	- worker cuma buat forward
+- clints
 
 ## 2026-06-13
 
