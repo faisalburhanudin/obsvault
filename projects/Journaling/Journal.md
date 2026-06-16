@@ -26,6 +26,8 @@
 	- worker cuma buat forward
 - clints
 
+- Take capacity
+- background immediately
 ## 2026-06-13
 
 Dug into the 14 users (created since Jun 12) with a missing refresh_token. 
