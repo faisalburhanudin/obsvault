@@ -16,6 +16,8 @@
 - [ ] sentry cli
 - [ ] logfire cli
 
+## 2026-06-15
+- repeated log 
 
 - Buat lebih cepet
 - user revoke token setelah selesai
