@@ -26,8 +26,8 @@
 	- [x] grabbit-lambda
 	- [x] headline-hub-lambda
 	- [x] page-turner-lambda
-	- [ ] ytboard-lambda                     │ yuxi-yao            │ deployed  │ May 4 2026 00:40
-
+	- [x] ytboard-lambda
+- [x] Clean up  insufficient authentication scopes sentry error, just 5 user ![[Pasted image 20260617190153.png]]
 - [x] 200 on capacity, waiting room
 ## 2026-06-15
 - [ ] https://github.com/gather-engineering/demos/pull/924
