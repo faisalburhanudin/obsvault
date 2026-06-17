@@ -24,8 +24,8 @@
 	- [x] circuit-shack-lambda 
 	- [x] datadash-lambda
 	- [x] grabbit-lambda
-	- [ ] headline-hub-lambda                │ yuxi-yao            │ deployed  │ Jun 15 2026 18:31
-	- [ ] page-turner-lambda                 │ yuxi-yao            │ deployed  │ May 4 2026 20:11
+	- [x] headline-hub-lambda
+	- [x] page-turner-lambda
 	- [ ] ytboard-lambda                     │ yuxi-yao            │ deployed  │ May 4 2026 00:40
 
 - [x] 200 on capacity, waiting room
