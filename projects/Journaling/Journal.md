@@ -16,6 +16,9 @@
 - [ ] sentry cli
 - [ ] logfire cli
 
+## 2026-06-17
+- [ ] Backfilling
+- [ ] 200 on capacity, waiting room
 ## 2026-06-15
 - [ ] https://github.com/gather-engineering/demos/pull/924
 - [ ] https://github.com/gather-engineering/demos/pull/925
