@@ -17,8 +17,9 @@
 - [ ] logfire cli
 
 ## 2026-06-17
-- [ ] Backfilling
-- [ ] fix server hangupthio
+- [ ] UI to check extraction in production
+- [ ] Backfilling preparation
+- [ ] set GIT_REV in build-arg
 - [x] 200 on capacity, waiting room
 ## 2026-06-15
 - [ ] https://github.com/gather-engineering/demos/pull/924
