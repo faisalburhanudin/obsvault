@@ -20,6 +20,14 @@
 - [ ] UI to check extraction in production
 - [ ] Backfilling preparation
 - [ ] set GIT_REV in build-arg
+- [ ] Migrate
+	- [x] circuit-shack-lambda 
+	- [x] datadash-lambda
+	- [x] grabbit-lambda
+	- [ ] headline-hub-lambda                │ yuxi-yao            │ deployed  │ Jun 15 2026 18:31
+	- [ ] page-turner-lambda                 │ yuxi-yao            │ deployed  │ May 4 2026 20:11
+	- [ ] ytboard-lambda                     │ yuxi-yao            │ deployed  │ May 4 2026 00:40
+
 - [x] 200 on capacity, waiting room
 ## 2026-06-15
 - [ ] https://github.com/gather-engineering/demos/pull/924
