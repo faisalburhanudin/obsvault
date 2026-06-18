@@ -18,9 +18,9 @@
 
 ## 2026-06-17
 - [ ] UI to check extraction in production
-- [ ] Backfilling preparation
+- [ ] Backfilling
 - [ ] set GIT_REV in build-arg
-- [ ] Migrate
+- [x] Migrate
 	- [x] circuit-shack-lambda 
 	- [x] datadash-lambda
 	- [x] grabbit-lambda
