@@ -26,30 +26,16 @@
 ![[Pasted image 20260618202647.png]]
 
 
-Every morning, I **sleep only with my baby in my bed room** because I **do not sleep with my wife and my daughter**.
-
+Every night, I **sleep with my baby in my bed room** because I **do not sleep with my wife and my daughter**.
 I do not **sleep alone** because I **think it will be selfish**.
-
-Right now, I **don't have ** 
-
----
-
-Every morning, I **tidur berdua dengan anak bayi saya dikamar saya** because I **tidak ingin anak pertama terganggu tidurnya**
-
-I do not **tidur sendiri** because I **believe baby shouldn't sleep alone**
-
-Right now, I **tidak tidur dengan anak** because I **kejatahan tidur dengan anak di pagi hari**
-
-Since **saya ketajatahan menjaga anak dipagi hari**, I **tidur lebih awal daripada istri**
+Right now, I **don't have sleeping schedule** because I **am adapting to my baby schedule.**.
+Since **I slept with my baby**, I **don't have enough sleep**.
 
 ---
-Yesterday, I **menanam sereh** because I **mempunyai sereh sisa masak**
-
-I didn't **membuangnya** because I **ingin mengembangbiakannya**
-
-When I **menanam sereh**, I **memakai pot bekas anggrek**
-
-I **membersihkan pot tersebut** before I **memberi media tanah untuk sereh**
+Yesterday, I **planted lemongrass** because I **had left over from refrigerator**.
+I didn't **want to throw it away** because I **want to propagate it**.
+When I **was planting the lemongrass**, I **used used orchid pot**.
+I **had been clean the pot** before I **found out that the pot is too small for the lemongrass**.
 ![[Pasted image 20260618200026.png]]
 ![[Pasted image 20260618202623.png]]
 
