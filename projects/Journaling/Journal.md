@@ -16,12 +16,42 @@
 - [ ] sentry cli
 - [ ] logfire cli
 
-## 2026-06-17
+## 2026-06-18
 - [x]  Use oxylabs for lambda-remotebrowser
 - [ ] Backfilling
 	- [x] Est cost, check availability.
 	- [ ] Run.
 - [ ] Check why there is no amazon
+
+![[Pasted image 20260618202647.png]]
+
+
+Every morning, I **sleep only with my baby in my bed room** because I **do not sleep with my wife and my daughter**.
+
+I do not **sleep alone** because I **think it will be selfish**.
+
+Right now, I **don't have ** 
+
+---
+
+Every morning, I **tidur berdua dengan anak bayi saya dikamar saya** because I **tidak ingin anak pertama terganggu tidurnya**
+
+I do not **tidur sendiri** because I **believe baby shouldn't sleep alone**
+
+Right now, I **tidak tidur dengan anak** because I **kejatahan tidur dengan anak di pagi hari**
+
+Since **saya ketajatahan menjaga anak dipagi hari**, I **tidur lebih awal daripada istri**
+
+---
+Yesterday, I **menanam sereh** because I **mempunyai sereh sisa masak**
+
+I didn't **membuangnya** because I **ingin mengembangbiakannya**
+
+When I **menanam sereh**, I **memakai pot bekas anggrek**
+
+I **membersihkan pot tersebut** before I **memberi media tanah untuk sereh**
+![[Pasted image 20260618200026.png]]
+![[Pasted image 20260618202623.png]]
 
 ## 2026-06-17
 - [ ] UI to check extraction in production
