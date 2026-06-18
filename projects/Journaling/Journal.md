@@ -19,6 +19,15 @@
 ## 2026-06-17
 - [ ] UI to check extraction in production
 - [ ] Backfilling
+	- [ ] Issue found when backfilling
+		- [ ] Walgreens (226 emails)
+			- [ ] using transaction id instead of order id, so it not parsed
+				- [ ] map transaction to order id ?
+			- [ ] routes issue
+		- [ ] Domino's (83 emails)
+			- [ ] classify as purchase but the email is too short just contain click to view notification
+				- [ ] maybe instead of classify as purchase also check is it parse able?
+		- [ ] Walmart no order number for shippingg
 - [ ] set GIT_REV in build-arg
 - [x] Migrate
 	- [x] circuit-shack-lambda 
