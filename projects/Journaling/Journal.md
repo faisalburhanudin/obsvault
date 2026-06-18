@@ -27,7 +27,7 @@
 		- [ ] Domino's (83 emails)
 			- [ ] classify as purchase but the email is too short just contain click to view notification
 				- [ ] maybe instead of classify as purchase also check is it parse able?
-		- [ ] Walmart no order number for shippingg
+		- [ ] Walmart no order number for shippinggmigr
 - [ ] set GIT_REV in build-arg
 - [x] Migrate
 	- [x] circuit-shack-lambda 
