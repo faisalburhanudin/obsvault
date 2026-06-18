@@ -19,8 +19,9 @@
 ## 2026-06-17
 - [x]  Use oxylabs for lambda-remotebrowser
 - [ ] Backfilling
-	- [ ] Est cost, check availability.
+	- [x] Est cost, check availability.
 	- [ ] Run.
+- [ ] Check why there is no amazon
 
 ## 2026-06-17
 - [ ] UI to check extraction in production
