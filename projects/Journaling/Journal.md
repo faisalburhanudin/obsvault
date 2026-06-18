@@ -17,6 +17,11 @@
 - [ ] logfire cli
 
 ## 2026-06-17
+- [x]  Use oxylabs for lambda-remotebrowser
+- [ ] Backfilling
+	- [ ] 
+
+## 2026-06-17
 - [ ] UI to check extraction in production
 - [ ] Backfilling
 	- [ ] Issue found when backfilling
