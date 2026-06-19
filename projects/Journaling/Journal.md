@@ -17,6 +17,7 @@
 - [ ] logfire cli
 
 ## 2026-06-19
+- [ ] 
 - Remotebrowser discussion
 	- Browserless
 	- Browserbased
