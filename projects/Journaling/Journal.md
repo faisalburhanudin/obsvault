@@ -16,6 +16,47 @@
 - [ ] sentry cli
 - [ ] logfire cli
 
+## 2026-06-19
+- Remotebrowser discussion
+	- Browserless
+	- Browserbased
+		- bisa human in the loop
+		- jangan full desktop
+		- dia rewrite CDP
+	- Cloak browser
+		- yg jadi vnc browsernya doang
+	- Bisa direkam
+		- screen recording
+	- Steel browser
+		- CDP langsung jalan
+	- Milestones
+		- pattern banyak masalah
+		- investigate cloak browser 
+		- fly vs daytona
+			- daytona more for machine
+		- **mcp auth bisa dibuang**
+			- dipakai untuk menentukan nama machine
+		- but we still need consider auth
+			- SaaS
+		- seperti browserbased **goals**
+	- claude context CDP?
+		- can claude connect with CDP
+	- experiment
+		- bisa 100% python
+		- https://sourcehut.org/
+	- SaaS 
+	- Hubungan dengan corelens
+		- Connectors
+			- tap-connect
+				- connect.corelens.ai
+					- 1 FE
+					- 1 BE
+			- Tugasnya sampai dapat refresh token
+			- hand off to backstage
+			- connector yg nyalain remotebrowser
+		- Backstage
+			- User remote browser
+		- Insight
 ## 2026-06-18
 - [x]  Use oxylabs for lambda-remotebrowser
 - [ ] Backfilling
