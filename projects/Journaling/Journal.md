@@ -56,7 +56,13 @@
 			- connector yg nyalain remotebrowser
 		- Backstage
 			- User remote browser
+			- bikin kyk test manager aja
+			- **test pattern api**
 		- Insight
+	- Milestones
+		- Speed topic utama
+		- Masalah stealth pakai Cloak
+		- Comparing current competitor
 ## 2026-06-18
 - [x]  Use oxylabs for lambda-remotebrowser
 - [ ] Backfilling
