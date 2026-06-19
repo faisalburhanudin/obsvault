@@ -17,6 +17,7 @@
 - [ ] logfire cli
 
 ## 2026-06-19
+- [ ] debug routes
 - [ ] 
 - Remotebrowser discussion
 	- Browserless
