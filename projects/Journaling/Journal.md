@@ -17,8 +17,8 @@
 - [ ] logfire cli
 
 ## 2026-06-19
-- [ ] debug routes
-- [ ] 
+- [x] https://github.com/corelens-engineering/demos/pull/983
+- [ ] debug headline-hub-lambda
 - Remotebrowser discussion
 	- Browserless
 	- Browserbased
