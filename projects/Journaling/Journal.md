@@ -18,6 +18,9 @@
 
 ## 2026-05-22
 - [ ] Check why cost per user isn't optimize
+- [ ] backfill encryption key
+- [ ] research
+	- [ ] 
 ## 2026-06-19
 - [x] https://github.com/corelens-engineering/demos/pull/983
 - [x] debug headline-hub-lambda
