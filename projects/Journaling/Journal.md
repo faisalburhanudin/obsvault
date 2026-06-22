@@ -16,9 +16,11 @@
 - [ ] sentry cli
 - [ ] logfire cli
 
+## 2026-05-22
+- [ ] Check why cost per user isn't optimize
 ## 2026-06-19
 - [x] https://github.com/corelens-engineering/demos/pull/983
-- [ ] debug headline-hub-lambda
+- [x] debug headline-hub-lambda
 - Remotebrowser discussion
 	- Browserless
 	- Browserbased
