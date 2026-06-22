@@ -17,10 +17,9 @@
 - [ ] logfire cli
 
 ## 2026-05-22
-- [ ] Check why cost per user isn't optimize
-- [ ] backfill encryption key
+- [x] backfill encryption key
 - [ ] research
-	- [ ] 
+	- [ ] Pakai Steel with browserbased
 ## 2026-06-19
 - [x] https://github.com/corelens-engineering/demos/pull/983
 - [x] debug headline-hub-lambda
