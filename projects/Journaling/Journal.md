@@ -18,7 +18,8 @@
 
 ## 2026-06-23
 - [ ] tap connect daytona -> remote browser test
-- [ ] tap amazon 
+- [ ] test cint integration
+- [ ] Document remote browser
 ## 2026-05-22
 - [x] backfill encryption key
 - [ ] research
