@@ -16,6 +16,9 @@
 - [ ] sentry cli
 - [ ] logfire cli
 
+## 2026-06-23
+- [ ] tap connect daytona -> remote browser test
+- [ ] tap amazon 
 ## 2026-05-22
 - [x] backfill encryption key
 - [ ] research
