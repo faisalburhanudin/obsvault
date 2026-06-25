@@ -1,5 +1,4 @@
 ## Backlog
-- [ ] English homework, voice note at whatsapp
 - [ ] Lem sendal mama
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
@@ -15,13 +14,22 @@
 - [x] Check email ayem tentrem
 - [ ] sentry cli
 - [ ] logfire cli
-
+## 2026-06-25
+- [x] create test manager for daytona and demo
+- [ ] remote browser listing feature
+- [ ] test yuxi issue using allowlist email
+### Persona
+- [ ] English task
+	- [ ] I ate a lot yesterday because my wife made a delicious meal.
+	- [ ] She made fried shrimp with simple seasoning because the shrimp was very fresh, and we wanted to preserve its natural flavor. I had bought it directly from a fisherman.
+	- [ ] I had a job to clean the shrimp, by the time I finished
+- [ ] Budgeting
 ## 2026-06-23
 - [ ] tap connect daytona -> remote browser test
 - [x] test cint integration
 - [ ] Document remote browser
 
-## English
+### English
 - [ ] I am a programer. I have been programmer for 10 years. I am making a browser integration today.
 - [ ] I love gar
 - [ ] I was bored yesterday. I was begging a job to my manager when our teems conducted the morning meeting. By the afternoon, my teams had finished all of the works before the days ended.
