@@ -10,20 +10,21 @@
 - [ ] Monitor harga bahan pokok
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
-- [x] GMail Cleaner
-- [x] Check email ayem tentrem
 - [ ] sentry cli
 - [ ] logfire cli
+- [ ] ganti ban motor
 ## 2026-06-25
 - [x] create test manager for daytona and demo
 - [ ] remote browser listing feature
 - [ ] test yuxi issue using allowlist email
-### Persona
-- [ ] English task
-	- [ ] I ate a lot yesterday because my wife made a delicious meal.
-	- [ ] She made fried shrimp with simple seasoning because the shrimp was very fresh, and we wanted to preserve its natural flavor. I had bought it directly from a fisherman.
-	- [ ] I had a job to clean the shrimp, by the time I finished
+### Personal
+- [x] English task
+	- [x] I ate a lot yesterday because my wife made a delicious meal.
+	- [x] She made fried shrimp with simple seasoning because the shrimp was very fresh, and we wanted to preserve its natural flavor. I had bought it directly from a fisherman.
+	- [ ] By the time my wife finished cooking the shrimp, I had already eaten half of it.
 - [ ] Budgeting
+	- [ ] Mandiri: Pengembalian iuran tahunan
+	- [ ] DBS: Pengembalian iuran tahunan
 ## 2026-06-23
 - [ ] tap connect daytona -> remote browser test
 - [x] test cint integration
