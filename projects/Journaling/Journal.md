@@ -25,6 +25,13 @@
 - [x] Budgeting
 	- [x] Mandiri: Pengembalian iuran tahunan
 	- [ ] DBS: Pengembalian iuran tahunan
+### English
+- 1. a
+- 2.b
+- 3.b
+- 4.b
+- 5.c
+
 ## 2026-06-23
 - [ ] tap connect daytona -> remote browser test
 - [x] test cint integration
