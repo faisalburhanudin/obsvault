@@ -23,7 +23,7 @@
 	- [x] She made fried shrimp with simple seasoning because the shrimp was very fresh, and we wanted to preserve its natural flavor. I had bought it directly from a fisherman.
 	- [ ] By the time my wife finished cooking the shrimp, I had already eaten half of it.
 - [ ] Budgeting
-	- [ ] Mandiri: Pengembalian iuran tahunan
+	- [x] Mandiri: Pengembalian iuran tahunan
 	- [ ] DBS: Pengembalian iuran tahunan
 ## 2026-06-23
 - [ ] tap connect daytona -> remote browser test
