@@ -15,8 +15,8 @@
 - [ ] ganti ban motor
 ## 2026-06-25
 - [x] create test manager for daytona and demo
-- [ ] remote browser listing feature
-- [ ] test yuxi issue using allowlist email
+- [x] remote browser listing feature
+- [x] test yuxi issue using allowlist email
 ### Personal
 - [x] English task
 	- [x] I ate a lot yesterday because my wife made a delicious meal.
