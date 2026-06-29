@@ -18,9 +18,9 @@
 - [x] fix(inboxcart): reject Google accounts without a Gmail mailbox at connect
 - [x] fix: too many concurrent requests https://github.com/corelens-engineering/demos/pull/1028
 - [ ] Capsolver
-- [ ] Backfill until 2019
+- [x] Backfill until 2019
 - [ ] tap recording
-- [ ] request yuxi 
+- [x] request yuxi https://metabase.getgather.dev/dashboard/16-the-big-board
 ## 2026-06-25
 - [x] create test manager for daytona and demo
 - [x] remote browser listing feature
