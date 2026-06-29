@@ -16,7 +16,10 @@
 
 ## 2026-06-29
 - [x] fix(inboxcart): reject Google accounts without a Gmail mailbox at connect
+- [ ] 429
 - [ ] Capsolver
+- [ ] Backfill until 2019
+- [ ] 
 ## 2026-06-25
 - [x] create test manager for daytona and demo
 - [x] remote browser listing feature
