@@ -13,6 +13,10 @@
 - [ ] sentry cli
 - [ ] logfire cli
 - [ ] ganti ban motor
+
+## 2026-06-29
+- [x] fix(inboxcart): reject Google accounts without a Gmail mailbox at connect
+- [ ] Capsolver
 ## 2026-06-25
 - [x] create test manager for daytona and demo
 - [x] remote browser listing feature
