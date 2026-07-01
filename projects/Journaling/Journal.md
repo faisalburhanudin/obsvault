@@ -14,6 +14,11 @@
 - [ ] logfire cli
 - [ ] ganti ban motor
 
+## 2026-07-01
+- [ ] Captcha solving
+- [ ] Tab Recording
+- [x] add tap-connect to callback gmail
+- [ ] 
 ## 2026-06-29
 - [x] fix(inboxcart): reject Google accounts without a Gmail mailbox at connect
 - [x] fix: too many concurrent requests https://github.com/corelens-engineering/demos/pull/1028
