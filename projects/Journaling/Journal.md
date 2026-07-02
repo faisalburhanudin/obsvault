@@ -13,7 +13,14 @@
 - [ ] sentry cli
 - [ ] logfire cli
 - [ ] ganti ban motor
-
+## 2026-07-02
+- [ ] Yuxi Dashboard
+	- [ ] Re-organize
+	- [ ] fix
+		- [ ] 
+- [ ] Captcha solving
+- [ ] Tab Recording
+- [ ] Figure out email missing 2019
 ## 2026-07-01
 - [ ] Captcha solving
 - [ ] Tab Recording
