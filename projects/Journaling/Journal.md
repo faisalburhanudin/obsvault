@@ -16,7 +16,7 @@
 ## 2026-07-02
 - [ ] Yuxi Dashboard
 	- [ ] Re-organize
-	- [ ] fix
+	- [ ] Ask di tap connect hnya
 		- [ ] 
 - [ ] Captcha solving
 - [ ] Tab Recording
