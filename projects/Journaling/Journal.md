@@ -14,10 +14,8 @@
 - [ ] logfire cli
 - [ ] ganti ban motor
 ## 2026-07-02
-- [ ] Yuxi Dashboard
-	- [ ] Re-organize
-	- [ ] Ask di tap connect hnya
-		- [ ] 
+- [x] Yuxi Dashboard
+	- [x] Re-organize
 - [ ] Captcha solving
 - [ ] Tab Recording
 - [ ] Figure out email missing 2019
