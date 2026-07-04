@@ -16,9 +16,15 @@
 ## 2026-07-02
 - [x] Yuxi Dashboard
 	- [x] Re-organize
+- [x] Investigate slow inboxcart
+	- [x] https://heyario.slack.com/archives/C049DGC1D2M/p1783022954021789
 - [ ] Captcha solving
 - [ ] Tab Recording
 - [ ] Figure out email missing 2019
+	- [ ]  Amazon senders are stable — same three addresses in every year;
+	- [ ] Root cause, simply user that have email up to 2019 is low
+		- [ ] 607 in 2019
+		- [ ] 
 ## 2026-07-01
 - [ ] Captcha solving
 - [ ] Tab Recording
