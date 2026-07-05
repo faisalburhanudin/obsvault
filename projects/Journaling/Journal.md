@@ -20,11 +20,11 @@
 	- [x] https://heyario.slack.com/archives/C049DGC1D2M/p1783022954021789
 - [ ] Captcha solving
 - [ ] Tab Recording
-- [ ] Figure out email missing 2019
+- [x] Figure out email missing 2019
 	- [ ] Grouped inboxcart_emails by year + sender_email. Same 3 Amazon addresses in every year → not a sender change.
-	- [ ] Root cause, simply user that have email up to 2019 is low
-		- [ ] 607 in 2019
-		- [ ] 
+	- [ ] Sample 100, create script  is production actually missing emails? and does the fixed walk retrieve everything?
+	- [ ] Sender changed
+		- [ ] ![[Pasted image 20260705185913.png]]
 ## 2026-07-01
 - [ ] Captcha solving
 - [ ] Tab Recording
