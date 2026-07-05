@@ -21,7 +21,7 @@
 - [ ] Captcha solving
 - [ ] Tab Recording
 - [ ] Figure out email missing 2019
-	- [ ]  Amazon senders are stable — same three addresses in every year;
+	- [ ] Grouped inboxcart_emails by year + sender_email. Same 3 Amazon addresses in every year → not a sender change.
 	- [ ] Root cause, simply user that have email up to 2019 is low
 		- [ ] 607 in 2019
 		- [ ] 
