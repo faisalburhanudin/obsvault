@@ -13,16 +13,18 @@
 - [ ] sentry cli
 - [ ] logfire cli
 - [ ] ganti ban motor
+## 2026-07-07
+- [ ] https://github.com/corelens-engineering/demos/issues/1042#event-27404259708
 ## 2026-07-06
 - [ ] Log captcha type, collect data
 	- [ ] https://github.com/remotebrowser/remotebrowser/pull/1375
 - [x] Create discussion ETL or
 	- [x] Enable Query Insight
 	- [x] discussion https://heyario.slack.com/archives/C049DGC1D2M/p1783320054223029?thread_ts=1783022954.021789&cid=C049DGC1D2M
-	- [ ] Setup replica
-		- [ ] Reduce vCPU into 2 for each
-		- [ ] Change metabase to use replica
-		- [ ] replica join tailscale
+	- [x] Setup replica
+		- [x] Reduce vCPU into 2 for each
+		- [x] Change metabase to use replica
+		- [x] replica join tailscale
 - [ ] Check CDP recording must record all tabs.
 	- [ ] Record per-tab no all
 	- [ ] Naming convention
