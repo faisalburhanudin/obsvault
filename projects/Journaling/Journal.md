@@ -19,9 +19,14 @@
 - [x] Create discussion ETL or
 	- [x] Enable Query Insight
 	- [x] discussion https://heyario.slack.com/archives/C049DGC1D2M/p1783320054223029?thread_ts=1783022954.021789&cid=C049DGC1D2M
+	- [ ] Setup replica
+		- [ ] Reduce vCPU into 2 for each
+		- [ ] Change metabase to use replica
+		- [ ] replica join tailscale
 - [ ] Check CDP recording must record all tabs.
 	- [ ] Record per-tab no all
 	- [ ] Naming convention
+- [ ] 
 ## 2026-07-02
 - [x] Yuxi Dashboard
 	- [x] Re-organize
