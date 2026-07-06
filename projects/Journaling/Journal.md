@@ -14,6 +14,11 @@
 - [ ] logfire cli
 - [ ] ganti ban motor
 ## 2026-07-06
+- [ ] Log captcha type, collect data
+- [ ] Create discussion ETL or
+- [ ] Check CDP recording must record all tabs.
+	- [ ] Record per-tab no all
+	- [ ] Naming convention
 ## 2026-07-02
 - [x] Yuxi Dashboard
 	- [x] Re-organize
