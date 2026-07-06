@@ -15,7 +15,10 @@
 - [ ] ganti ban motor
 ## 2026-07-06
 - [ ] Log captcha type, collect data
-- [ ] Create discussion ETL or
+	- [ ] https://github.com/remotebrowser/remotebrowser/pull/1375
+- [x] Create discussion ETL or
+	- [x] Enable Query Insight
+	- [x] discussion https://heyario.slack.com/archives/C049DGC1D2M/p1783320054223029?thread_ts=1783022954.021789&cid=C049DGC1D2M
 - [ ] Check CDP recording must record all tabs.
 	- [ ] Record per-tab no all
 	- [ ] Naming convention
