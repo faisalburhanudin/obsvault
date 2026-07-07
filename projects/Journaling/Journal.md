@@ -17,11 +17,12 @@
 	- [ ] browser_trace https://github.com/remotebrowser/browser-trace/pull/2
 		- [x] release v0.3.0
 	- [ ] chrome-live
-		- [ ] build the image
-		- [ ] recording working?
+		- [x] build the image
 	- [ ] flyfleet
 		- [ ] pinning image version
+		- [ ] recording working
 	- [ ] remotebrowser
+		- [ ] send header
 ### Personal
 - [ ] reimburse mama
 ## 2026-07-06
