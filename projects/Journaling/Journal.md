@@ -6,7 +6,6 @@
 - [ ] Planning Qurban 4/7
 - [ ] Planning THR
 - [ ] Lem Headset
-- [ ] Check Asuransi Erlang
 - [ ] Monitor harga bahan pokok
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
@@ -14,8 +13,11 @@
 - [ ] logfire cli
 - [ ] ganti ban motor
 ## 2026-07-07
-- [ ] https://github.com/corelens-engineering/demos/issues/1042#event-27404259708
-- [ ] https://heyario.slack.com/archives/C049DGC1D2M/p1783376863747949?thread_ts=1782762478.500759&cid=C049DGC1D2M
+- [ ] Tab Recording
+	- [ ] browser_trace https://github.com/remotebrowser/browser-trace/pull/2
+	- [ ] chromefleet
+	- [ ] flyfleet
+	- [ ] remotebrowser
 ## 2026-07-06
 - [ ] Log captcha type, collect data
 	- [ ] https://github.com/remotebrowser/remotebrowser/pull/1375
