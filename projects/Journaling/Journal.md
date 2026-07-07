@@ -15,6 +15,7 @@
 - [ ] ganti ban motor
 ## 2026-07-07
 - [ ] https://github.com/corelens-engineering/demos/issues/1042#event-27404259708
+- [ ] https://heyario.slack.com/archives/C049DGC1D2M/p1783376863747949?thread_ts=1782762478.500759&cid=C049DGC1D2M
 ## 2026-07-06
 - [ ] Log captcha type, collect data
 	- [ ] https://github.com/remotebrowser/remotebrowser/pull/1375
@@ -26,7 +27,10 @@
 		- [x] Change metabase to use replica
 		- [x] replica join tailscale
 - [ ] Check CDP recording must record all tabs.
-	- [ ] Record per-tab no all
+	- [ ] Record per-tab
+		- [ ] problem is browser_trace is sidecar for chrome-live, not gateway
+		- [ ] need to change chromefleet / flyfleet
+	- [ ] Record all tab simultanousely, it's cheap since no storage for now
 	- [ ] Naming convention
 - [ ] 
 ## 2026-07-02
