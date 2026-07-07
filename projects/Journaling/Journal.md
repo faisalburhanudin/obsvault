@@ -16,6 +16,9 @@
 - [ ] Tab Recording
 	- [ ] browser_trace https://github.com/remotebrowser/browser-trace/pull/2
 		- [x] release v0.3.0
+		- [ ] fix recording path
+		- [ ] bind to host
+		- [ ] 
 	- [ ] chrome-live
 		- [ ] PR
 		- [x] build the image
