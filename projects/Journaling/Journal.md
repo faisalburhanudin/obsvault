@@ -15,9 +15,15 @@
 ## 2026-07-07
 - [ ] Tab Recording
 	- [ ] browser_trace https://github.com/remotebrowser/browser-trace/pull/2
-	- [ ] chromefleet
+		- [x] release v0.3.0
+	- [ ] chrome-live
+		- [ ] build the image
+		- [ ] recording working?
 	- [ ] flyfleet
+		- [ ] pinning image version
 	- [ ] remotebrowser
+### Personal
+- [ ] reimburse mama
 ## 2026-07-06
 - [ ] Log captcha type, collect data
 	- [ ] https://github.com/remotebrowser/remotebrowser/pull/1375
