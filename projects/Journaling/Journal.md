@@ -17,10 +17,12 @@
 	- [ ] browser_trace https://github.com/remotebrowser/browser-trace/pull/2
 		- [x] release v0.3.0
 	- [ ] chrome-live
+		- [ ] PR
 		- [x] build the image
+			- [ ]  registry.fly.io/v2/keep-chrome-live-dev/manifests/latest
 	- [ ] flyfleet
-		- [ ] pinning image version
-		- [ ] recording working
+		- [x] recording working
+		- [ ] how we access the recording?
 	- [ ] remotebrowser
 		- [ ] send header
 ### Personal
