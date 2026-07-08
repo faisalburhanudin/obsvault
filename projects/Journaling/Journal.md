@@ -14,10 +14,13 @@
 - [ ] ganti ban motor
 ## 2026-07-08
 - [ ] Finished tab recording
-	- [x] by default ke-record
+	- [ ] browser-trace
+		- [ ] always record to local
+		- [ ] use aiohttp instead of raw server handle
+		- [ ] remove aws/s3/tigris so PR only focus on recording
 	- [x] UI navigation
-	- [ ] use fastapi instead of raw server handle
-	- [ ] remove aws/s3/tigris so PR only focus on recording
+	- [ ] 
+	- [ ] 
 - [ ] try paseo.sh
 ## 2026-07-07
 - [ ] Tab Recording
