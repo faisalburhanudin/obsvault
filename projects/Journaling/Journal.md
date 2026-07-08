@@ -12,6 +12,12 @@
 - [ ] sentry cli
 - [ ] logfire cli
 - [ ] ganti ban motor
+## 2026-07-08
+- [ ] Finished tab recording
+	- [ ] by default ke-record
+	- [ ] UI navigation
+	- [ ] remote browser x-record == persistance
+- [ ] try paseo.sh
 ## 2026-07-07
 - [ ] Tab Recording
 	- [ ] browser_trace https://github.com/remotebrowser/browser-trace/pull/2
