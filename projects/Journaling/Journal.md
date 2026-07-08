@@ -2,7 +2,7 @@
 - [ ] Lem sendal mama
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
-- [ ] Planning liburan malang
+- [ ] [[Liburan malang]]
 - [ ] Planning Qurban 4/7
 - [ ] Planning THR
 - [ ] Lem Headset
