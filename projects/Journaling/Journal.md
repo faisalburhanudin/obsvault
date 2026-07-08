@@ -14,9 +14,8 @@
 - [ ] ganti ban motor
 ## 2026-07-08
 - [ ] Finished tab recording
-	- [ ] by default ke-record
-	- [ ] UI navigation
-	- [ ] remote browser x-record == persistance
+	- [x] by default ke-record
+	- [x] UI navigation
 - [ ] try paseo.sh
 ## 2026-07-07
 - [ ] Tab Recording
