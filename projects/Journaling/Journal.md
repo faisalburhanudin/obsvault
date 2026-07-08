@@ -16,6 +16,8 @@
 - [ ] Finished tab recording
 	- [x] by default ke-record
 	- [x] UI navigation
+	- [ ] use fastapi instead of raw server handle
+	- [ ] remove aws/s3/tigris so PR only focus on recording
 - [ ] try paseo.sh
 ## 2026-07-07
 - [ ] Tab Recording
