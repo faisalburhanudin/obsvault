@@ -14,9 +14,13 @@
 - [ ] ganti ban motor
 - [ ] 
 
-## 2026-07-08
-- [ ] Recording timeout
-- [ ] 
+## 2026-07-09
+- [x] Recording timeout
+- [x] https://github.com/corelens-engineering/demos/pull/1093
+- [x] Update PR https://github.com/remotebrowser/remotebrowser/pull/1375
+- [ ] Default providers
+- [ ] Check ? Always-on Gmail connection on Tap though collect less than 50 a day
+- [ ] Daytona for production -> to get its API key
 ## 2026-07-08
 - [ ] Finished tab recording
 	- [ ] browser-trace
