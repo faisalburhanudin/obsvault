@@ -18,8 +18,12 @@
 - [x] Recording timeout
 - [x] https://github.com/corelens-engineering/demos/pull/1093
 - [x] Update PR https://github.com/remotebrowser/remotebrowser/pull/1375
-- [ ] Default providers
-- [ ] Check ? Always-on Gmail connection on Tap though collect less than 50 a day
+- [x] Default providers
+- [x] Check ? Always-on Gmail connection on Tap though collect less than 50 a day
+	- [ ] The "<50/day" is only accurate per connection.
+	- [ ] ![[Pasted image 20260709213650.png]]
+	- [ ] 
+	- [ ] 
 - [ ] Daytona for production -> to get its API key
 ## 2026-07-08
 - [ ] Finished tab recording
