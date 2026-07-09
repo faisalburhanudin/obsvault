@@ -12,6 +12,11 @@
 - [ ] sentry cli
 - [ ] logfire cli
 - [ ] ganti ban motor
+- [ ] 
+
+## 2026-07-08
+- [ ] Recording timeout
+- [ ] 
 ## 2026-07-08
 - [ ] Finished tab recording
 	- [ ] browser-trace
