@@ -14,6 +14,9 @@
 - [ ] ganti ban motor
 - [ ] 
 
+## 2026-07-10
+- [ ] remove http server from browser-trace
+- [ ] 
 ## 2026-07-09
 - [x] Recording timeout
 - [x] https://github.com/corelens-engineering/demos/pull/1093
