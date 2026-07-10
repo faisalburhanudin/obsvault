@@ -15,8 +15,10 @@
 - [ ] 
 
 ## 2026-07-10
-- [ ] remove http server from browser-trace
-- [ ] 
+- [x] remove http server from browser-trace
+- [ ] Harden Daytona
+- [ ] TODO: approach ini cuma works kalau udah ada captcha pattern
+- [ ] Bikin follow up yuxi di eng
 ## 2026-07-09
 - [x] Recording timeout
 - [x] https://github.com/corelens-engineering/demos/pull/1093
