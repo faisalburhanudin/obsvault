@@ -15,7 +15,8 @@
 - [ ] 
 
 ## 2026-07-13
-- [ ] Drop CLI
+- [x] Drop CLI
+- [ ] Check test runner
 ## 2026-07-10
 - [x] remove http server from browser-trace
 - [ ] Harden Daytona
