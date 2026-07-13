@@ -20,6 +20,7 @@
 	- [x] Yuxi daily 50
 	- [x] moving to deep infra
 		- [ ] https://heyario.slack.com/archives/C049DGC1D2M/p1783925177219409?thread_ts=1783609567.388809&cid=C049DGC1D2M
+- [ ] 
 ## 2026-07-10
 - [x] remove http server from browser-trace
 - [ ] Harden Daytona
