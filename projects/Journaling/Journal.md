@@ -15,7 +15,7 @@
 - [ ] 
 
 ## 2026-07-13
-- [ ] Moving frame recording from temporary dir to tempfs
+- [ ] Drop CLI
 ## 2026-07-10
 - [x] remove http server from browser-trace
 - [ ] Harden Daytona
