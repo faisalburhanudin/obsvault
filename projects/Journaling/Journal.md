@@ -14,6 +14,8 @@
 - [ ] ganti ban motor
 - [ ] 
 
+## 2026-07-13
+- [ ] Moving frame recording from temporary dir to tempfs
 ## 2026-07-10
 - [x] remove http server from browser-trace
 - [ ] Harden Daytona
