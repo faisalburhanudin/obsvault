@@ -1,4 +1,6 @@
 ## Backlog
+- [ ] Bayar biaya sekolah elsha
+- [ ] Bayar tencent
 - [ ] Lem sendal mama
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
@@ -12,9 +14,14 @@
 - [ ] sentry cli
 - [ ] logfire cli
 - [ ] ganti ban motor
-- [ ] 
+- [ ] Try herdr
 ## 2026-07-14
-- [ ] 
+- [x] Check faisal's column
+	- [x] The result is correct but improvement isn't there
+	- [x] https://github.com/corelens-engineering/demos/pull/1111
+- [x] Bump tags
+	- [x] https://github.com/remotebrowser/chrome-live/pull/23
+- [ ] Check my PR
 ## 2026-07-13
 - [x] Drop CLI
 - [x] Follow up
