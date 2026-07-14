@@ -16,6 +16,7 @@
 - [ ] ganti ban motor
 - [ ] Try herdr
 - [ ] setup n8n vm
+	- [ ] setup email cleaner
 - [ ] Elsha game
 - [ ] Unsubscribe getcontact
 ## 2026-07-14
@@ -26,6 +27,11 @@
 	- [x] https://github.com/remotebrowser/chrome-live/pull/23
 - [x] Check my PR
 - [ ] Experiment on email parsing
+---
+- [ ] ABC
+	- [ ] domain
+	- [ ] SSO
+	- [ ] sqlite
 ## 2026-07-13
 - [x] Drop CLI
 - [x] Follow up
