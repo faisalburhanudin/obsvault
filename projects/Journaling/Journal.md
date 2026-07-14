@@ -1,6 +1,6 @@
 ## Backlog
 - [ ] Bayar biaya sekolah elsha
-- [ ] Bayar tencent
+- [x] Bayar tencent
 - [ ] Lem sendal mama
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
@@ -15,13 +15,17 @@
 - [ ] logfire cli
 - [ ] ganti ban motor
 - [ ] Try herdr
+- [ ] setup n8n vm
+- [ ] Elsha game
+- [ ] Unsubscribe getcontact
 ## 2026-07-14
 - [x] Check faisal's column
 	- [x] The result is correct but improvement isn't there
 	- [x] https://github.com/corelens-engineering/demos/pull/1111
 - [x] Bump tags
 	- [x] https://github.com/remotebrowser/chrome-live/pull/23
-- [ ] Check my PR
+- [x] Check my PR
+- [ ] Experiment on email parsing
 ## 2026-07-13
 - [x] Drop CLI
 - [x] Follow up
