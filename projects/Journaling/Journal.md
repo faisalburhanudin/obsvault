@@ -27,6 +27,7 @@
 	- [x] https://github.com/remotebrowser/chrome-live/pull/23
 - [x] Check my PR
 - [ ] Experiment on email parsing
+	- [ ] raw_body maximum stability
 ---
 - [ ] ABC
 	- [ ] domain
