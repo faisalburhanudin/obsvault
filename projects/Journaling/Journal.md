@@ -28,6 +28,7 @@
 	- [x] deply flyfleet dev latest
 	- [x] ganti image flyfleet-dev jadi https://github.com/remotebrowser/chrome-live/pkgs/container/chrome-live-daytona
 	- [x] deploy tap-connect-dev , arahin ke remotebrowsers-dev
+	- [ ] add new env
 	- [ ] tambahin di test manager buat tap-connect (dev), tap-connect-doordash (dev), tap-connect-walmart (dev), tap-connect-safeway (dev)
 
 ## 2026-07-14
