@@ -21,11 +21,13 @@
 - [ ] Unsubscribe getcontact
 ## 2026-07-15
 - [x] Revert change deep infra
+- [ ] Market share
 - [ ] Deploy captcha log
+- [ ] backfill data juang
 - [ ] bantu faisal
 	- [x] deply flyfleet dev latest
 	- [x] ganti image flyfleet-dev jadi https://github.com/remotebrowser/chrome-live/pkgs/container/chrome-live-daytona
-	- [ ] deploy tap-connect-dev , arahin ke remotebrowsers-dev
+	- [x] deploy tap-connect-dev , arahin ke remotebrowsers-dev
 	- [ ] tambahin di test manager buat tap-connect (dev), tap-connect-doordash (dev), tap-connect-walmart (dev), tap-connect-safeway (dev)
 
 ## 2026-07-14
