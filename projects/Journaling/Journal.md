@@ -28,6 +28,10 @@
 - [x] Check my PR
 - [ ] Experiment on email parsing
 	- [ ] raw_body maximum stability
+	- [ ] Duplicated order_items — save-side append bug insert_order_items 
+	- [ ] The expected data is non-deterministic LLM output
+	- [ ] Router problem AMAZON_SHIPMENT_RE only matches "Your package was shipped!" / "Shipped:" "Your Amazon.com order #… has shipped" subject falls through to the default extractor
+	- [ ]  Placeholder / derived item names (LLM making things up)
 ---
 - [ ] ABC
 	- [ ] domain
