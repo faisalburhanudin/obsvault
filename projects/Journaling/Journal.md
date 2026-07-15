@@ -20,8 +20,13 @@
 - [ ] Elsha game
 - [ ] Unsubscribe getcontact
 ## 2026-07-15
-- [ ] Revert change deep infra
+- [x] Revert change deep infra
 - [ ] Deploy captcha log
+- [ ] bantu faisal
+	- [x] deply flyfleet dev latest
+	- [ ] ganti image flyfleet-dev jadi https://github.com/remotebrowser/chrome-live/pkgs/container/chrome-live-daytona
+	- [ ] deploy tap-connect-dev , arahin ke remotebrowsers-dev
+	- [ ] tambahin di test manager buat tap-connect (dev), tap-connect-doordash (dev), tap-connect-walmart (dev), tap-connect-safeway (dev)
 
 ## 2026-07-14
 - [x] Check faisal's column
