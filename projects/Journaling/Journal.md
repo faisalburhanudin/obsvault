@@ -19,6 +19,10 @@
 	- [ ] setup email cleaner
 - [ ] Elsha game
 - [ ] Unsubscribe getcontact
+## 2026-07-15
+- [ ] Revert change deep infra
+- [ ] Deploy captcha log
+
 ## 2026-07-14
 - [x] Check faisal's column
 	- [x] The result is correct but improvement isn't there
