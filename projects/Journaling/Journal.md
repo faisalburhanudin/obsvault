@@ -1,6 +1,5 @@
 ## Backlog
-- [ ] Bayar biaya sekolah elsha
-- [x] Bayar tencent
+- [ ] Check fly.io bill personal account
 - [ ] Lem sendal mama
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
@@ -19,7 +18,9 @@
 	- [ ] setup email cleaner
 - [ ] Elsha game
 - [ ] Unsubscribe getcontact
-
+- [ ] ABC: dockerize
+- [ ] ABC: deploy it
+- [ ] ABC: OAuth
 ## 2026-07-16
 - [ ] Captcha solving
 - [ ] Experiment: migrate browser-trace to http service
@@ -28,7 +29,7 @@
 - [ ] Moving deployment to remote-browsers and remote-browsers-dev from Yuxi org
 ---
 - [ ] Deploy ABC
-- [ ] Budget: SPP + Balikin duit asuransi
+- [x] Budget: SPP + Balikin duit asuransi
 ## 2026-07-15
 - [x] Revert change deep infra
 - [ ] Market share
