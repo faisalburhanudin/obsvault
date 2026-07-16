@@ -21,14 +21,20 @@
 - [ ] ABC: dockerize
 - [ ] ABC: deploy it
 - [ ] ABC: OAuth
+- [ ] ABC: migrate to postgres?
 ## 2026-07-16
+- [x] tap-connect-dev deployment
+- [x] backfill brand
+	- [x] make sure every row in tap_connect_users has retailer filled
+- [ ] Fix issue inboxcart
+	- [ ] https://github.com/corelens-engineering/demos/pull/1125
+	- [ ] 
 - [ ] Captcha solving
 - [ ] Experiment: migrate browser-trace to http service
 - [ ] Generic scrape output (small–medium) Add markdown / cleaned_html / readability to the page endpoints alongside distilled and raw html. Cheap to add (readability lib) and broadens us from "branded extractors only" to a usable general scraper.
-- [ ] Fix issue inboxcart
 - [ ] Moving deployment to remote-browsers and remote-browsers-dev from Yuxi org
 ---
-- [ ] Deploy ABC
+- [x] Deploy ABC
 - [x] Budget: SPP + Balikin duit asuransi
 ## 2026-07-15
 - [x] Revert change deep infra
