@@ -25,8 +25,9 @@
 - [ ] ABC: migrate to postgres?
 
 ## 2026-07-17
-- [ ] Create discussion migrate to http
-- [ ] Switch to deepinfra
+- [ ] Exploring discussion migrate to http
+- [ ] CI deploy dev environment
+- [x] Switch to deepinfra
 	- [ ] deploy to prod
 ## 2026-07-16
 - [x] tap-connect-dev deployment
