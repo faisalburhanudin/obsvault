@@ -26,9 +26,11 @@
 
 ## 2026-07-17
 - [ ] Exploring discussion migrate to http
+	- [x] Docs https://docs.google.com/document/d/1OgNFUoSJy3_UXxXSzv2KhPFW_LWHOq8lvY-iSUyuQHg/edit?usp=sharing
+	- [ ] Demo with 
 - [ ] CI deploy dev environment
 - [x] Switch to deepinfra
-	- [ ] deploy to prod
+	- [x] deploy to prod
 ## 2026-07-16
 - [x] tap-connect-dev deployment
 - [x] backfill brand
