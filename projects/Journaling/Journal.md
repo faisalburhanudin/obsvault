@@ -1,4 +1,5 @@
 ## Backlog
+- [ ] ABC: OAuth
 - [ ] Check fly.io bill personal account
 - [ ] Lem sendal mama
 - [ ] [[Ganti no HP]]
@@ -6,7 +7,7 @@
 - [ ] [[Liburan malang]]
 - [ ] Planning Qurban 4/7
 - [ ] Planning THR
-- [ ] Lem Headset
+- [x] Lem Headset
 - [ ] Monitor harga bahan pokok
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
@@ -16,12 +17,17 @@
 - [ ] Try herdr
 - [ ] setup n8n vm
 	- [ ] setup email cleaner
-- [ ] Elsha game
-- [ ] Unsubscribe getcontact
-- [ ] ABC: dockerize
-- [ ] ABC: deploy it
-- [ ] ABC: OAuth
+- [x] Elsha game
+- [x] Unsubscribe getcontact
+- [x] ABC: dockerize
+- [x] ABC: deploy it
+
 - [ ] ABC: migrate to postgres?
+
+## 2026-07-17
+- [ ] Create discussion migrate to http
+- [ ] Switch to deepinfra
+	- [ ] deploy to prod
 ## 2026-07-16
 - [x] tap-connect-dev deployment
 - [x] backfill brand
