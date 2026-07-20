@@ -1,28 +1,20 @@
 ## Backlog
 - [ ] ABC: OAuth
 - [ ] Check fly.io bill personal account
-- [ ] Lem sendal mama
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
 - [ ] [[Liburan malang]]
 - [ ] Planning Qurban 4/7
 - [ ] Planning THR
-- [x] Lem Headset
 - [ ] Monitor harga bahan pokok
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
 - [ ] sentry cli
 - [ ] logfire cli
 - [ ] ganti ban motor
-- [ ] Try herdr
+- [ ] Try herdr on mac
 - [ ] setup n8n vm
 	- [ ] setup email cleaner
-- [x] Elsha game
-- [x] Unsubscribe getcontact
-- [x] ABC: dockerize
-- [x] ABC: deploy it
-
-- [ ] ABC: migrate to postgres?
 
 ## 2026-07-17
 - [ ] Exploring discussion migrate to http
