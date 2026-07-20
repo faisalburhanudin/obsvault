@@ -1,5 +1,5 @@
 ## Backlog
-- [ ] Check fly.io bill personal account
+- [x] Check fly.io bill personal account
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
 - [ ] [[Liburan malang]]
@@ -15,16 +15,17 @@
 - [ ] setup n8n vm
 	- [ ] setup email cleaner
 - [ ] Moving project to new orgs name
+- [ ] review /report-change
 ## 2026-07-20
 - [x] Add path `/connect/gmail-callback`
 - [x] debugging sms relay
 	- [x] fix TS_AUTHKEY
 	- [x] migrate to OAuth https://github.com/corelens-engineering/sms-relay/pull/2
 		- [ ] deploy
-- [ ] HTTP service for browser-trace
+- [x] HTTP service for browser-trace https://github.com/remotebrowser/browser-trace/pull/4
 ---
 - [x] herdr command pallete to 
-	- [ ] create new 
+	- [x] create new 
 	- [ ] switch session
 ## 2026-07-17
 - [ ] Exploring discussion migrate to http
