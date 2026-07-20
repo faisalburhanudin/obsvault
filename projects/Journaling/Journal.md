@@ -15,12 +15,17 @@
 - [ ] Try herdr on mac
 - [ ] setup n8n vm
 	- [ ] setup email cleaner
+- [x] fzf to search project
+- [ ] Moving project to new orgs name
 ## 2026-07-20
 - [x] Add path `/connect/gmail-callback`
 - [x] debugging sms relay
-	- [ ] fix TS_AUTHKEY
-	- [ ] migrate to OAuth
+	- [x] fix TS_AUTHKEY
+	- [x] migrate to OAuth https://github.com/corelens-engineering/sms-relay/pull/2
+		- [ ] deploy
 - [ ] HTTP service for browser-trace
+---
+- [ ] Mov
 ## 2026-07-17
 - [ ] Exploring discussion migrate to http
 	- [x] Docs https://docs.google.com/document/d/1OgNFUoSJy3_UXxXSzv2KhPFW_LWHOq8lvY-iSUyuQHg/edit?usp=sharing
