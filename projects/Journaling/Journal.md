@@ -17,7 +17,10 @@
 	- [ ] setup email cleaner
 ## 2026-07-20
 - [x] Add path `/connect/gmail-callback`
-- [ ] debugging sms relay
+- [x] debugging sms relay
+	- [ ] fix TS_AUTHKEY
+	- [ ] migrate to OAuth
+- [ ] HTTP service for browser-trace
 ## 2026-07-17
 - [ ] Exploring discussion migrate to http
 	- [x] Docs https://docs.google.com/document/d/1OgNFUoSJy3_UXxXSzv2KhPFW_LWHOq8lvY-iSUyuQHg/edit?usp=sharing
