@@ -1,4 +1,5 @@
 ## Backlog
+- [ ] Fix ABC
 - [ ] Ijin wisuda
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
@@ -24,7 +25,6 @@
 	- [x] https://github.com/remotebrowser/chrome-live/pull/28
 - [x] Deploy OAuth and test https://heyario.slack.com/archives/C049DGC1D2M/p1784601808238869
 - [x] rename: https://test-manager.pitta-pound.ts.net/schedules/tap-connect-wallmart%20(dev)
-- [ ] [[telemetry issue]]
 ---
 - [ ] Fix ABC
 ## 2026-07-20
