@@ -18,8 +18,8 @@
 - [ ] review /report-change
 ## 2026-07-21
 - [ ] Move PR to chrome-live
-- [ ] Deploy OAuth and test
-- [ ] 
+- [x] Deploy OAuth and test https://heyario.slack.com/archives/C049DGC1D2M/p1784601808238869
+- [ ] rename: https://test-manager.pitta-pound.ts.net/schedules/tap-connect-wallmart%20(dev)
 ## 2026-07-20
 - [x] Add path `/connect/gmail-callback`
 - [x] debugging sms relay
