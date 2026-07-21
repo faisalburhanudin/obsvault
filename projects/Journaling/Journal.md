@@ -23,7 +23,7 @@
 	- [x] https://github.com/remotebrowser/chrome-live/pull/29
 	- [x] https://github.com/remotebrowser/chrome-live/pull/28
 - [x] Deploy OAuth and test https://heyario.slack.com/archives/C049DGC1D2M/p1784601808238869
-- [ ] rename: https://test-manager.pitta-pound.ts.net/schedules/tap-connect-wallmart%20(dev)
+- [x] rename: https://test-manager.pitta-pound.ts.net/schedules/tap-connect-wallmart%20(dev)
 - [ ] [[telemetry issue]]
 ---
 - [ ] Fix ABC
