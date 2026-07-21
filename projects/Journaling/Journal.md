@@ -16,6 +16,10 @@
 	- [ ] setup email cleaner
 - [ ] Moving project to new orgs name
 - [ ] review /report-change
+## 2026-07-21
+- [ ] Move PR to chrome-live
+- [ ] Deploy OAuth and test
+- [ ] 
 ## 2026-07-20
 - [x] Add path `/connect/gmail-callback`
 - [x] debugging sms relay
