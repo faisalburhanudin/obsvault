@@ -16,6 +16,7 @@
 	- [ ] setup email cleaner
 - [ ] Moving project to new orgs name
 - [ ] review /report-change
+- [ ] Ijin wisuda
 ## 2026-07-21
 - [ ] Move PR to chrome-live
 - [x] Deploy OAuth and test https://heyario.slack.com/archives/C049DGC1D2M/p1784601808238869
