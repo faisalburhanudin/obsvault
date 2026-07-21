@@ -1,5 +1,5 @@
 ## Backlog
-- [x] Check fly.io bill personal account
+- [ ] Ijin wisuda
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
 - [ ] [[Liburan malang]]
@@ -16,11 +16,17 @@
 	- [ ] setup email cleaner
 - [ ] Moving project to new orgs name
 - [ ] review /report-change
-- [ ] Ijin wisuda
+
+- [ ] Ideas: Factoria Games for kids to learn programming
 ## 2026-07-21
-- [ ] Move PR to chrome-live
+- [x] Move PR to chrome-live
+	- [x] https://github.com/remotebrowser/chrome-live/pull/29
+	- [x] https://github.com/remotebrowser/chrome-live/pull/28
 - [x] Deploy OAuth and test https://heyario.slack.com/archives/C049DGC1D2M/p1784601808238869
 - [ ] rename: https://test-manager.pitta-pound.ts.net/schedules/tap-connect-wallmart%20(dev)
+- [ ] [[telemetry issue]]
+---
+- [ ] Fix ABC
 ## 2026-07-20
 - [x] Add path `/connect/gmail-callback`
 - [x] debugging sms relay
