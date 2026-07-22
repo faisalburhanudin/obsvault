@@ -1,3 +1,4 @@
+## Doppler
 - chromefleet
 	- dev (empty can be deleted)
 	- dev_personal (empty can be deleted)
@@ -31,3 +32,9 @@
 	- demo (missing secret)
 	- dev (missing secret)
 	- daytona
+## MCP call on services
+TODO
+
+## Sentry
+
+## Domain

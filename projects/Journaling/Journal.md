@@ -1,6 +1,6 @@
 ## Backlog
-- [ ] Fix ABC
-- [ ] Ijin wisuda
+- [x] Fix ABC
+- [x] Ijin wisuda
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
 - [ ] [[Liburan malang]]
@@ -20,12 +20,13 @@
 - [ ] Ideas: Factoria Games for kids to learn programming
 - [ ] fix: lampu 17an
 - [ ] beli mainan 17an
+- [ ] ganti ban
 ## 2026-07-22
 - [ ] Clean up duplicate order
 - [ ] [[Clean up remotebrowser]]
 ---
 - [x] Budgeting
-- [ ] Fix ABC
+- [x] Fix ABC
 ## 2026-07-21
 - [x] Move PR to chrome-live
 	- [x] https://github.com/remotebrowser/chrome-live/pull/29
