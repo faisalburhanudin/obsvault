@@ -17,8 +17,14 @@
 	- [ ] setup email cleaner
 - [ ] Moving project to new orgs name
 - [ ] review /report-change
-
 - [ ] Ideas: Factoria Games for kids to learn programming
+- [ ] fix: lampu 17an
+- [ ] beli mainan 17an
+## 2026-07-22
+- [ ] Clean up duplicate order
+---
+- [ ] Budgeting
+- [ ] Fix ABC
 ## 2026-07-21
 - [x] Move PR to chrome-live
 	- [x] https://github.com/remotebrowser/chrome-live/pull/29
