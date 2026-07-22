@@ -23,7 +23,7 @@
 ## 2026-07-22
 - [ ] Clean up duplicate order
 ---
-- [ ] Budgeting
+- [x] Budgeting
 - [ ] Fix ABC
 ## 2026-07-21
 - [x] Move PR to chrome-live
