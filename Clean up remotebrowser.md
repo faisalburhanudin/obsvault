@@ -1,0 +1,33 @@
+- chromefleet
+	- dev (empty can be deleted)
+	- dev_personal (empty can be deleted)
+	- stg (empty can be deleted)
+	- prd (empty can be deleted)
+	- ci 
+	- ci_gce
+- corelens (actively used)
+- corelens-mcp (actively used)
+- demos
+	- prd
+	- prd_dokku (TODO: check if machine still available)
+	- prd_fly (TODO: check individual)
+	- prd_lambda (TODO: check individual)
+	- prd_yuxi (TODO: check individual)
+- flyfleet
+	- github
+	- fly (daytona secret missing)
+	- dev (daytona secret missing)
+- grabbit (check is project still exist)
+- headline-hub (check is project still exist)
+	- demo
+	- lambda
+	- daytona
+- page-turner (check is project still exist)
+	- demo
+	- lambda
+	- daytona
+- remote-browser-test (still used)
+- remotebrowser 
+	- demo (missing secret)
+	- dev (missing secret)
+	- daytona

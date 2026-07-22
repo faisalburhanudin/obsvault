@@ -22,6 +22,7 @@
 - [ ] beli mainan 17an
 ## 2026-07-22
 - [ ] Clean up duplicate order
+- [ ] [[Clean up remotebrowser]]
 ---
 - [x] Budgeting
 - [ ] Fix ABC
