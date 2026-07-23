@@ -24,7 +24,8 @@
 - [ ] [[Clean up remotebrowser]]
 	- [x] Doppler https://github.com/corelens-engineering/demos/issues/1156
 	- [ ] MCP
-	- [ ] Sentry 
+	- [x] Sentry 
+- [ ] Debugging grabbit down
 - [ ] Clean up duplicate order
 - [ ] remove tipsy-cellar project
 ---
