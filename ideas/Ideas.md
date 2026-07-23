@@ -1,4 +1,3 @@
-- UI for task warrior
 - GIS cloud
 - database UI
 - Whatsapp extension

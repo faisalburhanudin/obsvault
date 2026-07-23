@@ -1,14 +1,11 @@
 ## Backlog
 - [ ] [[Ganti no HP]]
-- [ ] [[Finance]]
 - [ ] [[Liburan malang]]
 - [ ] Planning Qurban 4/7
 - [ ] Planning THR
-- [ ] Monitor harga bahan pokok
+- [ ] Ideas: Monitor harga bahan pokok
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
-- [ ] sentry cli
-- [ ] logfire cli
 - [ ] ganti ban motor
 - [ ] Try herdr on mac
 - [ ] setup n8n vm
@@ -20,6 +17,12 @@
 - [ ] fix: lampu 17an
 - [ ] beli mainan 17an
 - [ ] ganti ban
+- [ ] Dana Darurat 1 bulan
+- [ ] LED strip housing
+- [ ] Dashcam
+## 2026-07-23
+- [ ] Fix deployment cron manager
+- [ ] Continue working on clean up
 ## 2026-07-22
 - [ ] Clean up duplicate order
 - [ ] [[Clean up remotebrowser]]
