@@ -1,6 +1,4 @@
 ## Backlog
-- [x] Fix ABC
-- [x] Ijin wisuda
 - [ ] [[Ganti no HP]]
 - [ ] [[Finance]]
 - [ ] [[Liburan malang]]
@@ -17,7 +15,8 @@
 	- [ ] setup email cleaner
 - [ ] Moving project to new orgs name
 - [ ] review /report-change
-- [ ] Ideas: Factoria Games for kids to learn programming
+- [ ] Ideas: Factoria Games but for kids to learn programming
+- [ ] Ideas: Drawing for kids, fill the line
 - [ ] fix: lampu 17an
 - [ ] beli mainan 17an
 - [ ] ganti ban
