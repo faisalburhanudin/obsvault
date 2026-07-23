@@ -20,6 +20,8 @@
 - [ ] LED strip housing
 - [ ] Dashcam
 ## 2026-07-23
+- [x] Add to google SSO
+- [ ] disable worker inboxcart
 - [ ] Fix deployment cron manager
 - [ ] Continue working on clean up
 ---
