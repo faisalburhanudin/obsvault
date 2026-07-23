@@ -1,3 +1,4 @@
 *.sqlite3
 .obsidian
 *.epub
+scripts/sync.log

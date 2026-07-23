@@ -1,0 +1,76 @@
+#!/bin/bash
+#
+# pre-commit: block accidental secret / .env-dump commits.
+#
+# Scans the *staged* additions for:
+#   1. Known credential signatures (Google OAuth, Fly, Logfire, AWS, GitHub, ...)
+#   2. Pasted .env dumps (a block of KEY="value" assignment lines)
+#
+# Bypass a false positive:
+#   - one-off:  git commit --no-verify
+#   - per-line: add the marker  gitguard:allow  on the same line
+#
+set -uo pipefail
+
+RED='\033[0;31m'; YEL='\033[0;33m'; NC='\033[0m'
+fail=0
+report() { printf "  ${RED}✖${NC} %s\n" "$1"; fail=1; }
+
+# Known high-confidence secret signatures:  regex::human label
+signatures=(
+  'GOCSPX-[A-Za-z0-9_-]{20,}::Google OAuth client secret'
+  '[0-9]+-[a-z0-9]{20,}\.apps\.googleusercontent\.com::Google OAuth client ID'
+  'pylf_v1_[a-z]{2}_[A-Za-z0-9]{20,}::Logfire token'
+  'FlyV1 fm2_[A-Za-z0-9+/=]{40,}::Fly.io API token'
+  'tskey-(client-|auth-)?[A-Za-z0-9]{10,}::Tailscale auth key'
+  'AKIA[0-9A-Z]{16}::AWS access key ID'
+  'ghp_[A-Za-z0-9]{36}::GitHub personal access token'
+  'github_pat_[A-Za-z0-9_]{40,}::GitHub fine-grained token'
+  'xox[baprs]-[A-Za-z0-9-]{10,}::Slack token'
+  'sk-ant-[A-Za-z0-9_-]{20,}::Anthropic API key'
+  'sk-[A-Za-z0-9]{32,}::OpenAI-style API key'
+  '-----BEGIN [A-Z ]*PRIVATE KEY-----::private key block'
+  'https://[a-f0-9]+@[a-z0-9.]+ingest[a-z0-9.]*sentry\.io::Sentry DSN'
+)
+
+# .env-dump heuristic: a staged file adding this many KEY=VALUE lines is treated
+# as a pasted environment file.
+ENVDUMP_MIN=4
+
+# Iterate staged, added/modified files (name-only is newline separated; quote for spaces).
+while IFS= read -r f; do
+  [ -z "$f" ] && continue
+
+  # Added lines for this file only, with the leading '+' and diff header stripped.
+  added=$(git diff --cached -U0 -- "$f" 2>/dev/null \
+            | grep -E '^\+' | grep -Ev '^\+\+\+' | sed 's/^\+//')
+  [ -z "$added" ] && continue
+
+  # Respect an explicit per-line allow marker.
+  scan=$(printf '%s\n' "$added" | grep -Fv 'gitguard:allow' || true)
+  [ -z "$scan" ] && continue
+
+  # 1. Known credential signatures.
+  for sig in "${signatures[@]}"; do
+    re="${sig%%::*}"; label="${sig##*::}"
+    if printf '%s\n' "$scan" | grep -Eq -e "$re"; then
+      report "$f: contains a $label"
+    fi
+  done
+
+  # 2. .env dump: count KEY=VALUE assignment lines (KEY is UPPER_SNAKE).
+  env_lines=$(printf '%s\n' "$scan" | grep -Ec '^[A-Z][A-Z0-9_]{1,}=.+' || true)
+  if [ "${env_lines:-0}" -ge "$ENVDUMP_MIN" ]; then
+    report "$f: looks like a pasted .env dump ($env_lines KEY=VALUE lines)"
+  fi
+done < <(git diff --cached --name-only --diff-filter=AM)
+
+if [ "$fail" -ne 0 ]; then
+  printf "\n${YEL}Commit blocked: possible secrets detected.${NC}\n"
+  printf "Remove/redact the values above, or if this is a genuine false positive:\n"
+  printf "  • add  gitguard:allow  to the offending line, or\n"
+  printf "  • run  git commit --no-verify  to bypass once.\n\n"
+  exit 1
+fi
+
+exit 0

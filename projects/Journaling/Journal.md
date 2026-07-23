@@ -1,7 +1,7 @@
 ## Backlog
 - [ ] [[Ganti no HP]]
-- [ ] Planning Qurban 4/7
-- [ ] Planning THR
+- [ ] Planning Qurban 4/7 = 16jt
+- [ ] [[Planning THR]]
 - [ ] Ideas: Monitor harga bahan pokok
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
@@ -21,9 +21,11 @@
 - [ ] Dashcam
 ## 2026-07-23
 - [x] Add to google SSO
-- [ ] disable worker inboxcart
-- [ ] Fix deployment cron manager
+- [x] disable worker inboxcart
+- [x] Fix deployment cron manager
+	- [x] change env
 - [ ] Continue working on clean up
+	- [ ] 
 ---
 - [ ] Clean up Mac
 ## 2026-07-22
