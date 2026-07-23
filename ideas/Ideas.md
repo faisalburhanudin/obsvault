@@ -1,3 +1,6 @@
 - GIS cloud
 - database UI
 - Whatsapp extension
+- Monitor harga bahan pokok
+- Factoria Games but for kids to learn programming
+- Drawing for kids, fill the line

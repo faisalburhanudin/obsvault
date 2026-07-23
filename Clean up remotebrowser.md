@@ -74,7 +74,6 @@
 - nestline
 - proxy-service
 - python
-- REDACTED
 - return-reminder-mobile
 - starpath
 - tipsy-cellar
