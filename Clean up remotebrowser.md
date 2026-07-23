@@ -1,59 +1,109 @@
 ## Doppler
-- chromefleet
+
+Doppler project → repo that consumes it (CE = corelens-engineering, RB = remotebrowser).
+Convention (per `chromefleet/.github/actions/download-env/action.yml`): the Doppler
+project name is meant to match the service and the GitHub repo name.
+
+- chromefleet — **repo: `CE/chromefleet`** (`.github/workflows/deploy-gce.yml` → `project: chromefleet`; `.github/actions/download-env`)
 	- dev (empty can be deleted)
 	- dev_personal (empty can be deleted)
 	- stg (empty can be deleted)
 	- prd (empty can be deleted)
 	- ci 
 	- ci_gce
-- corelens (actively used)
-- corelens-mcp (actively used)
-- demos
+- corelens (actively used) — **repo: `CE/corelens-insights`** (`.github/workflows/deploy-fly.yml` → `doppler-project: corelens`)
+- corelens-mcp (actively used) — **repo: `CE/corelens-insights`** (same repo; `doppler-project: corelens-mcp` for the MCP app, `fly.mcp.toml`)
+- demos — **repo: `CE/demos`** (`doppler.yaml` → `project: demos`, default `config: prd_fly`; `scripts/doppler-download-env.sh`)
 	- prd
 	- prd_dokku (TODO: check if machine still available)
 	- prd_fly (TODO: check individual)
 	- prd_lambda (TODO: check individual)
 	- prd_yuxi (TODO: check individual)
-- flyfleet
+- flyfleet — **repo: `CE/flyfleet`** (`.github/workflows/*.yml` → `doppler-project: flyfleet`; configs github/fly/dev all used)
 	- github
 	- fly (daytona secret missing)
 	- dev (daytona secret missing)
-- grabbit (check is project still exist)
-- headline-hub (check is project still exist)
+- grabbit (check is project still exist) — ⚠️ **no repo consumes it.** `CE/grabbit` deploys via Fly secrets directly (`scripts/deploy.sh`, no Doppler); `CE/demos/apps/grabbit` deploys under `doppler-project: demos`. This standalone `grabbit` project looks orphaned — safe-delete candidate after confirming.
+- headline-hub (check is project still exist) — **repo: `RB/headline-hub`** (`.github/workflows/deploy-fly.yml` → `doppler-project: headline-hub`)
 	- demo
 	- lambda
 	- daytona
-- page-turner (check is project still exist)
+- page-turner (check is project still exist) — **repo: `RB/page-turner`** (`.github/workflows/deploy-fly.yml` → `doppler-project: page-turner`)
 	- demo
 	- lambda
 	- daytona
-- remote-browser-test (still used)
-- remotebrowser 
+- remote-browser-test (still used) — **repo: `CE/remote-browser-tests`** (`lib/doppler.ts` fetches project `remote-browser-tests`, config `default`). ⚠️ Doppler project name here is singular `remote-browser-test` but the repo/code uses plural `remote-browser-tests` — confirm they're the same project.
+- remotebrowser — **repo: `RB/remotebrowser`** (`.github/workflows/deploy-fly.yml` → `doppler-project: remotebrowser`)
 	- demo (missing secret)
 	- dev (missing secret)
 	- daytona
 ## MCP call on services
+
+Caller chains traced to the top-level entry point. In every service the low-level MCP
+SDK `client.callTool(...)` sits inside a single wrapper (`callToolWithReconnect` /
+`MCPClient.callTool`), and every entry point is an Express HTTP route (no CLI / MCP-tool
+handler paths). Format: `entry point (HTTP route) → wrapper → client.callTool`.
+
 ## corelens-engineering/demos
-- `packages/connector/src/core/mcp-client.ts` — `callTool` L74, L103
-- `packages/connector/src/core/connector.ts` — `callTool` L109/L116
-- `packages/connector-sdk/src/server/router.ts` — `callTool` L108
-- `packages/connector/src/brands/wayfair/wayfair-brand.ts` — `callTool` L93
+
+Shared connector SDK — the wrapper chain is internal; real entry points live in the apps
+that consume `packages/connector`.
+
+Internal delegation (the listed L74/L103/L109/L116 sites are links in one chain):
+`Connector.callTool` (`packages/connector/src/core/connector.ts:109`, delegates :116)
+→ `McpClient.callTool` (`packages/connector/src/core/mcp-client.ts:74`, delegates :103)
+→ `McpConnector.callTool` (`.../core/mcp-connector.ts:258`)
+→ raw SDK `client.callTool` (`.../core/mcp-connector.ts:197`).
+
+Entry points that reach `Connector.callTool`:
+- **HTTP routes** (Tier A) — e.g. `GET /api/amazon_us/purchase-history` → handler `apps/tap-connect/src/server/amazon/routes.ts:93` → `connector.callTool` (:99). Other route callers: `apps/tap-connect/src/server.ts:561,638,952`, `.../amazon/routes.ts:99`, `.../target/routes.ts:51`, `.../safeway/routes.ts:61,75`, `apps/tap-amazon/src/server.ts:473,557,797,1082`, `apps/grabbit/src/server.ts:269,487,677`, `apps/circuit-shack/src/server.ts:250,482,590`, `apps/link-for-points-be/src/server/connector-routes.ts:105`, `apps/return-reminder/src/server/services/brand.service.ts:99`.
+- **Background-sync workers** (Tier B) — e.g. `startBackgroundPurchaseHistorySync` (`apps/tap-amazon/src/server/backgroundPurchaseSync.ts:171`) → `AmazonBrand.getPurchases` (`packages/connector/src/brands/amazon/amazon-brand.ts:501`) → `connector.callTool` (:533, also :168/196/235/360/476). Same pattern in grabbit / circuit-shack / tap-connect `backgroundPurchaseSync`.
+- **connector-sdk router** (`packages/connector-sdk/src/server/router.ts:108`) — `GET /api/connector/:brand`, handler `connectBrandHandler` (router.ts:81), mounted only at `apps/sdk-demo-be/src/server.ts:37`.
+- **wayfair-brand.ts:93** — `WayfairBrand.getPurchases` (`packages/connector/src/brands/wayfair/wayfair-brand.ts:69`). ⚠️ **No caller anywhere** — never invoked by any route/worker/CLI. Effectively dead code (only exported on the public API surface).
 
 ## corelens-engineering/circuit-shack
-- `src/server/mcpClient.ts` — `callTool` L103
-- `src/server.ts` — L123, L156, L208, L309
+
+Wrapper: `callToolWithReconnect` (`src/server/mcpClient.ts:85`; SDK call at :103, retry :112). All 4 sites are direct calls from Express handlers (no intermediate fn):
+
+| Entry point (HTTP route) | callTool site | MCP tool |
+|---|---|---|
+| `POST /api/search-purchase-history` (`src/server.ts:118`) | `src/server.ts:123` | `amazon_search_purchase_history` |
+| `POST /api/search-purchase-history` (`src/server.ts:118`) | `src/server.ts:156` (loop over extra keywords) | `amazon_search_purchase_history` |
+| `GET /api/purchase-history-stream` (`src/server.ts:191`, SSE) | `src/server.ts:208` (loop over years) | `amazon_get_purchase_history` |
+| `POST /api/poll-signin` (`src/server.ts:298`) | `src/server.ts:309` | `poll_signin` |
 
 ## corelens-engineering/grabbit
-- `src/server/mcpClient.ts` — `callTool` L119
-- `src/server.ts` — L317, L361, L554, L602
+
+Wrapper: `callToolWithReconnect` (`src/server/mcpClient.ts:99`; SDK call at :119, retry :132). Only 2 routes hit MCP:
+
+| Entry point (HTTP route) | callTool site | MCP tool |
+|---|---|---|
+| `GET /api/purchase-history-stream` (`src/server.ts:257`, SSE) | `src/server.ts:317` (via `breaker.execute`, loop over years) | `${brand}_dpage_get_purchase_history` |
+| `GET /api/purchase-history-stream` (`src/server.ts:257`) | `src/server.ts:361` ("profile not found" recovery retry) | `${brand}_dpage_get_purchase_history` |
+| `GET /api/purchase-history-stream` (`src/server.ts:257`) | `src/server.ts:554` (`if isLast`) | `finalize_signin` |
+| `POST /api/poll-signin` (`src/server.ts:590`) | `src/server.ts:602` | `check_signin` |
 
 ## remotebrowser/data-portrait
-- `src/server/mcp-client.ts` — `callTool` L104
-- `src/server/handlers/mcp-handler.ts` — L142, L199, L234, L272, L328, L355
-- `src/server/services/mcp-service.ts` — L20
+
+Wrapper: `MCPClient.callTool` (`src/server/mcp-client.ts:86`; SDK call at :104). Routes registered in `src/server/routes/api-routes.ts`, mounted under `/getgather` (`src/server/main.ts:152`):
+
+| Entry point (HTTP route) | Handler → callTool site | MCP tool |
+|---|---|---|
+| `GET /getgather/dpage-url/:brandId` (`api-routes.ts:51`) | `handleDpageUrl` (`mcp-handler.ts:256`) → :272 | `brand.toolName` (dynamic) |
+| `GET /getgather/purchase-history/:brandId` (`api-routes.ts:56`) | `handlePurchaseHistory` (`mcp-handler.ts:127`) → :142 | `brand.toolName` |
+| `GET /getgather/purchase-history-details/:brandId/:orderId` (`api-routes.ts:58`) | `handlePurchaseHistoryDetails` (`mcp-handler.ts:182`) → :199 | `brand.detailsToolName` |
+| `GET /getgather/mcp-poll/:brandId/:linkId` (`api-routes.ts:65`) | `handleMcpPoll` (`mcp-handler.ts:226`) → :234 | `poll_signin` |
+| `GET /getgather/dpage-signin-check/:brandId/:linkId` (`api-routes.ts:53`) | `handleDpageSigninCheck` (`mcp-handler.ts:320`) → :328, then :355, then `finalizeSignin` (`services/mcp-service.ts:3`→:20) at :408 | `check_signin` → `brand.toolName` → `finalize_signin` (in sequence) |
 
 ## remotebrowser/return-reminder
-- `src/server/mcp-service.ts` — `callTool` L120; public methods L156, L166, L210
+
+Wrapper: `MCPService.callToolWithReconnect` (`src/server/mcp-service.ts:105`; SDK call at :120, retry :131). Singleton `mcpService` imported once into `src/server/main.ts`; each public method has exactly one route caller:
+
+| Entry point (HTTP route) | Public method → callTool site | MCP tool |
+|---|---|---|
+| `POST /internal/get-signin-url` (`main.ts:109`) | `getDpageUrl` (`mcp-service.ts:154`) → :156 | `{brand}_dpage_get_purchase_history` / `..._get_order_history` (dynamic) |
+| `POST /internal/mcp/signin-check` (`main.ts:177`) | `checkDpageSignin` (`mcp-service.ts:165`) → :166 | `check_signin` |
+| `POST /internal/mcp/finalize-signin` (`main.ts:199`) | `finalizeSignin` (`mcp-service.ts:201`) → :210 | `finalize_signin` |
 ## Sentry
 
 ### No activity (90d)
