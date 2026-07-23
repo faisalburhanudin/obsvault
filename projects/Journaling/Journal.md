@@ -24,8 +24,10 @@
 - [x] disable worker inboxcart
 - [x] Fix deployment cron manager
 	- [x] change env
-- [ ] Continue working on clean up
-	- [ ] 
+- [ ] [[Clean up remotebrowser]]
+	- [ ] Doppler
+	- [ ] MCP
+	- [ ] Sentry
 ---
 - [ ] Clean up Mac
 ## 2026-07-22

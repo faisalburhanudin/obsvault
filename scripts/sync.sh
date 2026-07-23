@@ -15,8 +15,12 @@ cd "$REPO_DIR" || exit 1
 log() { printf '%s %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$*" >>"$LOG"; }
 
 notify() {
-  # $1 = short reason. Best-effort desktop alert; ignored if osascript absent.
+  # $1 = short reason. terminal-notifier is reliable from launchd/background
+  # contexts; osascript is a fallback for interactive runs.
   local msg="$1"
+  if command -v terminal-notifier >/dev/null 2>&1; then
+    terminal-notifier -title "obsvault sync failed" -message "$msg" -sound Basso >/dev/null 2>&1 && return
+  fi
   command -v osascript >/dev/null 2>&1 && \
     osascript -e "display notification \"$msg\" with title \"obsvault sync failed\" sound name \"Basso\"" >/dev/null 2>&1 || true
 }
