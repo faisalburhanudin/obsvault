@@ -166,19 +166,19 @@ event is >7 days old, so they're secondary cleanup candidates. (Everything ≤2 
 mcp-getgather, flyfleet, headline-hub, circuit-shack, grabbit, page-turner, tap-connect,
 inboxcart, tap-safeway, link4points — is genuinely live and omitted.)
 
-| Sentry project (last event) | Repo location | Fly app (owner · status · last deploy) |
-|---|---|---|
-| tap-amazon (7d) | `CE/demos/apps/tap-amazon` (fly.toml → `tap-amzn`) | `tap-amzn` · yuxi-yao · **deployed** · Jul 7 2026; `tap-amzn-lambda` |
-| datadash (12d) | No local source — only test specs (`CE/remote-browser-tests/tests/datadash.spec.ts`, `CE/demo-tests/src/test_datadash.py`) | `datadash` · remote-browsers · **deployed** · Jul 1 2026; `datadash-lambda`, `datadash-staging` · yuxi-yao · suspended |
-| gatherextension-browser (20d) | `CE/GatherExtension_v2` (also `gather-extension-v1/v2`, `extension`, `extensionMV3`) — browser extension | no Fly app (extension) |
-| instacart (27d) | No standalone repo — brand/component `CE/showroom/src/components/Instacart` | no Fly app |
-| chromefleet (~1mo) | `CE/chromefleet` + `RB/chromefleet` | fleet manager for ephemeral `chrome-*` machines; `keep-chrome-live` · remote-browsers · pending |
-| tap-walmart (~1mo) | No local source repo | `tap-wlmrt` · remote-browsers · suspended · Jun 18 2026 |
-| ytboard (~1mo) | No local source — only test spec `CE/remote-browser-tests/tests/ytboard.spec.ts` | `ytboard` · remote-browsers · suspended; `ytboard-lambda` · yuxi-yao · suspended |
-| dashbox (~7wk) | `CE/dashbox` (fly.toml → `dashbox`) | not deployed (`dashbox` absent from apps list) |
-| return-reminder (~2mo) | `CE/return-reminder` + `RB/return-reminder` + `CE/demos/apps/return-reminder` | `return-reminder` · yuxi-yao · suspended · Dec 26 2025; `return-reminder-v2` · suspended · Jun 16 2026 |
-| showroom (~2.5mo) | `CE/showroom` (no fly.toml) | no Fly app |
-| backstage (no events yet) | `CE/demos/apps/backstage` (fly.toml → `ario-backstage`) | `ario-backstage` · remote-browsers · **deployed** · 3h ago |
+| Sentry project (last event)   | Repo location                                                                                                              | Fly app (owner · status · last deploy)                                                                                 |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| tap-amazon (7d)               | `CE/demos/apps/tap-amazon` (fly.toml → `tap-amzn`)                                                                         | `tap-amzn` · yuxi-yao · **deployed** · Jul 7 2026; `tap-amzn-lambda`                                                   |
+| datadash (12d)                | No local source — only test specs (`CE/remote-browser-tests/tests/datadash.spec.ts`, `CE/demo-tests/src/test_datadash.py`) | `datadash` · remote-browsers · **deployed** · Jul 1 2026; `datadash-lambda`, `datadash-staging` · yuxi-yao · suspended |
+| gatherextension-browser (20d) | `CE/GatherExtension_v2` (also `gather-extension-v1/v2`, `extension`, `extensionMV3`) — browser extension                   | no Fly app (extension)                                                                                                 |
+| instacart (27d)               | No standalone repo — brand/component `CE/showroom/src/components/Instacart`                                                | no Fly app                                                                                                             |
+| chromefleet (~1mo)            | `CE/chromefleet` + `RB/chromefleet`                                                                                        | fleet manager for ephemeral `chrome-*` machines; `keep-chrome-live` · remote-browsers · pending                        |
+| tap-walmart (~1mo)            | No local source repo                                                                                                       | `tap-wlmrt` · remote-browsers · suspended · Jun 18 2026                                                                |
+| ytboard (~1mo)                | No local source — only test spec `CE/remote-browser-tests/tests/ytboard.spec.ts`                                           | `ytboard` · remote-browsers · suspended; `ytboard-lambda` · yuxi-yao · suspended                                       |
+| dashbox (~7wk)                | `CE/dashbox` (fly.toml → `dashbox`)                                                                                        | not deployed (`dashbox` absent from apps list)                                                                         |
+| return-reminder (~2mo)        | `CE/return-reminder` + `RB/return-reminder` + `CE/demos/apps/return-reminder`                                              | `return-reminder` · yuxi-yao · suspended · Dec 26 2025; `return-reminder-v2` · suspended · Jun 16 2026                 |
+| showroom (~2.5mo)             | `CE/showroom` (no fly.toml)                                                                                                | no Fly app                                                                                                             |
+| backstage (no events yet)     | `CE/demos/apps/backstage` (fly.toml → `ario-backstage`)                                                                    | `ario-backstage` · remote-browsers · **deployed** · 3h ago                                                             |
 
 ## Domain
 ## corelens.ai
