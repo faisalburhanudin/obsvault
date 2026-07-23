@@ -58,26 +58,32 @@
 
 ### No activity (90d)
 
-- blinds
-- bluewizard-staging
-- carry-co
-- dataportrait
-- demorewards
-- firehose
-- gather-sdk
-- getgather-dax
-- helper-web
-- lilalane
-- mcp-gateway
-- mcp-openweathermap
-- minirewards
-- nestline
-- proxy-service
-- python
-- return-reminder-mobile
-- starpath
-- tipsy-cellar
-- twinpersona
+Cross-referenced with local repos (`corelens-engineering/` = CE, `remotebrowser/` = RB)
+and `fly apps list` (2026-07-23). "not deployed" = declared in a fly.toml but absent
+from the current apps list; "no Fly app" = no matching app at all.
+
+| Sentry project         | Repo location                                                                                                                               | Fly app (owner · status · last deploy)                                                                           |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| blinds                 | No standalone repo — demo brand: DB tables `blinds_*` in `CE/demos/packages/database`; connector `RB/remotebrowser/getgather/mcp/blinds.py` | `blinds` · remote-browsers · suspended · Jun 16 2026                                                             |
+| bluewizard-staging     | `CE/bluewizard` (no fly.toml)                                                                                                               | no Fly app                                                                                                       |
+| carry-co               | No standalone repo — demo brand: DB tables `carryco_*` in `CE/demos/packages/database`                                                      | `carry-co` · yuxi-yao · suspended · Jun 16 2026                                                                  |
+| dataportrait           | `RB/data-portrait` (→ `data-portraits`) + `CE/data-portrait` (→ `data-portrait-prod`, not deployed)                                         | `data-portraits` · remote-browsers · **deployed** · Apr 24 2026; `data-portraits-staging` · yuxi-yao · suspended |
+| demorewards            | `CE/demorewards` (no fly.toml; routes: lilalane, nestline, papertrail, starpath)                                                            | `demorewards-homerun` · yuxi-yao · suspended · Oct 1 2025                                                        |
+| firehose               | `CE/firehose` (fly.toml → `firehose-ui`)                                                                                                    | `firehose-ui` · yuxi-yao · suspended · 56m ago; `firehose-divine-star-6956` · suspended                          |
+| gather-sdk             | `CE/gather_sdk` (also `CE/gather-sdk-template`) — SDK, no fly.toml                                                                          | no Fly app (library)                                                                                             |
+| getgather-dax          | `CE/dax` (also `CE/minidax`) — no fly.toml                                                                                                  | no Fly app                                                                                                       |
+| helper-web             | `CE/bluewizard/helper-web` (+ `helper-web-e2e`)                                                                                             | no Fly app                                                                                                       |
+| lilalane               | `CE/lilalane` (fly.toml; also a demorewards route)                                                                                          | `lilalane` · remote-browsers · suspended · Jun 16 2026                                                           |
+| mcp-gateway            | `RB/mcp-gateway` (also `CE/mcp-gateway-deployment`) — no fly.toml                                                                           | no Fly app                                                                                                       |
+| mcp-openweathermap     | `RB/mcp-openweathermap` (fly.toml → `mcp-openweathermap`)                                                                                   | not deployed (declared but absent from apps list)                                                                |
+| minirewards            | No standalone repo — file `CE/lilalane/minirewards.js` (part of lilalane)                                                                   | no Fly app                                                                                                       |
+| nestline               | No standalone repo — demo brand: demorewards `/nestline` route + DB tables `nestline_*`                                                     | `nestline` · remote-browsers · suspended · Jun 16 2026                                                           |
+| proxy-service          | `CE/proxy-service` (fly.toml → `getgather-proxy`)                                                                                           | `getgather-proxy` · yuxi-yao · suspended                                                                         |
+| python                 | `RB/Python-Template` (generic template)                                                                                                     | no Fly app                                                                                                       |
+| return-reminder-mobile | No local repo (only `return-reminder` in CE & RB)                                                                                           | no Fly app (`return-reminder`, `return-reminder-v2` exist for non-mobile)                                        |
+| starpath               | `CE/starpath` (fly.toml; also a demorewards route)                                                                                          | `starpath` · remote-browsers · suspended · Jun 16 2026                                                           |
+| tipsy-cellar           | `CE/demos/apps/tipsy-cellar`                                                                                                                | `tipsy-cellar` · yuxi-yao · suspended · Jun 16 2026                                                              |
+| twinpersona            | `CE/twinpersona-sandbox-app` (no fly.toml)                                                                                                  | `twinpersona` · yuxi-yao · suspended · Jun 16 2026                                                               |
 
 ### Active
 
@@ -102,6 +108,28 @@
 - return-reminder — ~2 months ago
 - showroom — ~2.5 months ago
 - backstage — no events yet (new service)
+
+### Active but stale (>7d) — repo + Fly cross-reference
+
+Same conventions as above. These still show in Sentry's "Active" list but the last
+event is >7 days old, so they're secondary cleanup candidates. (Everything ≤2 days —
+mcp-getgather, flyfleet, headline-hub, circuit-shack, grabbit, page-turner, tap-connect,
+inboxcart, tap-safeway, link4points — is genuinely live and omitted.)
+
+| Sentry project (last event) | Repo location | Fly app (owner · status · last deploy) |
+|---|---|---|
+| tap-amazon (7d) | `CE/demos/apps/tap-amazon` (fly.toml → `tap-amzn`) | `tap-amzn` · yuxi-yao · **deployed** · Jul 7 2026; `tap-amzn-lambda` |
+| datadash (12d) | No local source — only test specs (`CE/remote-browser-tests/tests/datadash.spec.ts`, `CE/demo-tests/src/test_datadash.py`) | `datadash` · remote-browsers · **deployed** · Jul 1 2026; `datadash-lambda`, `datadash-staging` · yuxi-yao · suspended |
+| gatherextension-browser (20d) | `CE/GatherExtension_v2` (also `gather-extension-v1/v2`, `extension`, `extensionMV3`) — browser extension | no Fly app (extension) |
+| instacart (27d) | No standalone repo — brand/component `CE/showroom/src/components/Instacart` | no Fly app |
+| chromefleet (~1mo) | `CE/chromefleet` + `RB/chromefleet` | fleet manager for ephemeral `chrome-*` machines; `keep-chrome-live` · remote-browsers · pending |
+| tap-walmart (~1mo) | No local source repo | `tap-wlmrt` · remote-browsers · suspended · Jun 18 2026 |
+| ytboard (~1mo) | No local source — only test spec `CE/remote-browser-tests/tests/ytboard.spec.ts` | `ytboard` · remote-browsers · suspended; `ytboard-lambda` · yuxi-yao · suspended |
+| dashbox (~7wk) | `CE/dashbox` (fly.toml → `dashbox`) | not deployed (`dashbox` absent from apps list) |
+| return-reminder (~2mo) | `CE/return-reminder` + `RB/return-reminder` + `CE/demos/apps/return-reminder` | `return-reminder` · yuxi-yao · suspended · Dec 26 2025; `return-reminder-v2` · suspended · Jun 16 2026 |
+| showroom (~2.5mo) | `CE/showroom` (no fly.toml) | no Fly app |
+| backstage (no events yet) | `CE/demos/apps/backstage` (fly.toml → `ario-backstage`) | `ario-backstage` · remote-browsers · **deployed** · 3h ago |
+
 ## Domain
 ## corelens.ai
 
