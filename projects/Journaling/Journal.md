@@ -22,9 +22,9 @@
 - [x] Fix deployment cron manager
 	- [x] change env
 - [ ] [[Clean up remotebrowser]]
-	- [ ] Doppler
+	- [x] Doppler https://github.com/corelens-engineering/demos/issues/1156
 	- [ ] MCP
-	- [ ] Sentry
+	- [ ] Sentry 
 - [ ] Clean up duplicate order
 ---
 - [ ] Clean up Mac
