@@ -1,6 +1,5 @@
 ## Backlog
 - [ ] [[Ganti no HP]]
-- [ ] [[Liburan malang]]
 - [ ] Planning Qurban 4/7
 - [ ] Planning THR
 - [ ] Ideas: Monitor harga bahan pokok
@@ -23,6 +22,8 @@
 ## 2026-07-23
 - [ ] Fix deployment cron manager
 - [ ] Continue working on clean up
+---
+- [ ] Clean up Mac
 ## 2026-07-22
 - [ ] Clean up duplicate order
 - [ ] [[Clean up remotebrowser]]
