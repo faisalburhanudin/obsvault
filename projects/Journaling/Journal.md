@@ -27,7 +27,6 @@
 	- [x] Sentry 
 - [ ] Debugging grabbit down
 - [ ] Clean up duplicate order
-- [ ] remove tipsy-cellar project
 ---
 - [ ] Clean up Mac
 ## 2026-07-22
