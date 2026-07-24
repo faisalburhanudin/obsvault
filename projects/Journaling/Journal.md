@@ -4,11 +4,9 @@
 - [[Planning THR]] — not started
 - [[Qurban]] — not started · 4/7 share, 16jt
 ## Backlog
-- [ ] ganti ban motor
 - [ ] fix: lampu 17an
-- [ ] beli mainan 17an
+	- [ ] blocked: waiting for sparepart
 - [ ] [[Ganti no HP]]
-- [ ] ganti ban
 - [ ] Dashcam
 - [ ] LED strip housing
 - [ ] setup n8n vm
@@ -16,19 +14,25 @@
 - [ ] Try herdr on mac
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
+## 2026-07-24
+
+### Works
+- [ ] setup Walgreens on tap-connect
+	- [ ] try manual login
+	- [ ] setup tap-connect
+- [ ] [[Clean up remotebrowser]]
+	- [ ] MCP
+- [ ] Clean up duplicate order
+
+### Personal
+- [ ] Clean up Mac
+- [ ] beli mainan 17an
 ## 2026-07-23
 - [x] Add to google SSO
 - [x] disable worker inboxcart
 - [x] Fix deployment cron manager
 	- [x] change env
-- [ ] [[Clean up remotebrowser]]
-	- [x] Doppler https://github.com/corelens-engineering/demos/issues/1156
-	- [ ] MCP
-	- [x] Sentry 
-- [ ] Debugging grabbit down
-- [ ] Clean up duplicate order
----
-- [ ] Clean up Mac
+- [x] Debugging grabbit down
 ## 2026-07-22
 - [x] Budgeting
 - [x] Fix ABC
