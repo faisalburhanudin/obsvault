@@ -4,6 +4,7 @@
 - [[Planning THR]] — not started
 - [[Qurban]] — not started · 4/7 share, 16jt
 ## Backlog
+- [ ] Unsubscribe brave vpn, deadline 31 Jul https://account.brave.com/account/
 - [ ] fix: lampu 17an
 	- [ ] blocked: waiting for sparepart
 - [ ] [[Ganti no HP]]
