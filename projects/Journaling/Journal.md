@@ -18,8 +18,11 @@
 ## 2026-07-24
 
 ### Works
-- [ ] setup Walgreens on tap-connect
-	- [ ] try manual login
+- [ ] setup Walgreens on tap-connect 
+	- [x] try manual login
+	- [x] artifact http://claude.ai/code/artifact/e2d80a68-1652-4df4-b2ac-1b4c46cc5f1d?via=auto_preview
+	- [ ] setup remotebrowser
+	- [ ] setup @ario/connector
 	- [ ] setup tap-connect
 - [ ] [[Clean up remotebrowser]]
 	- [ ] MCP
