@@ -15,6 +15,8 @@
 - [ ] Try herdr on mac
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
+## 2026-07-25
+![[Pasted image 20260725102716.png]]
 ## 2026-07-24
 
 ### Works
