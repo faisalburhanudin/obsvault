@@ -3,20 +3,40 @@
 - [[Dana Darurat]] — not started · after debt
 - [[Planning THR]] — not started
 - [[Qurban]] — not started · 4/7 share, 16jt
+- Beli IPhone untuk mama, deadline Mei 2027
+- Beli iPhone 15 untuk istri — cek stock di iBox, tunggu launch Apple Sept buat price drop
 ## Backlog
+- [ ] Buat kacamata deanline 27 Jul 2026
 - [ ] Unsubscribe brave vpn, deadline 31 Jul https://account.brave.com/account/
+- [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
+- [ ] Fix: ABC add buttom padding
+- [ ] Improvement: ABC add streak
+- [ ] Buy LED Strip too extend now it just 5 meter
 - [ ] fix: lampu 17an
-	- [ ] blocked: waiting for sparepart
+	- [x] blocked: waiting for sparepart
+	- [ ] blocked by instalasi listrik
 - [ ] [[Ganti no HP]]
 - [ ] Dashcam
+- [ ] beli mainan 17an
 - [ ] LED strip housing
 - [ ] setup n8n vm
 	- [ ] setup email cleaner
 - [ ] Try herdr on mac
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
-## 2026-07-25
-![[Pasted image 20260725102716.png]]
+
+
+## 2026-07-26
+
+### Works
+- [ ] setup Walgreens on tap-connect
+	- [x] setup remotebrowser
+	- [ ] setup @ario/connector
+	- [ ] setup tap-connect
+- [ ] [[Clean up remotebrowser]]
+	- [ ] MCP
+- [ ] Clean up duplicate order
+
 ## 2026-07-24
 
 ### Works
@@ -31,8 +51,7 @@
 - [ ] Clean up duplicate order
 
 ### Personal
-- [ ] Clean up Mac
-- [ ] beli mainan 17an
+- [x] Clean up Mac
 ## 2026-07-23
 - [x] Add to google SSO
 - [x] disable worker inboxcart
