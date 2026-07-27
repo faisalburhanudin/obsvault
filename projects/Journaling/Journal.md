@@ -6,8 +6,6 @@
 - Beli IPhone untuk mama, deadline Mei 2027
 - Beli iPhone 15 untuk istri — cek stock di iBox, tunggu launch Apple Sept buat price drop
 ## Backlog
-- [ ] Buat kacamata deanline 27 Jul 2026
-- [ ] Unsubscribe brave vpn, deadline 31 Jul https://account.brave.com/account/
 - [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
 - [ ] Fix: ABC add buttom padding
 - [ ] Improvement: ABC add streak
@@ -26,7 +24,11 @@
 - [ ] [[Ideas]]
 
 
-## 2026-07-26
+## 2026-07-27
+
+### Personal
+- [ ] Buat kacamata deanline 27 Jul 2026
+- [ ] Unsubscribe brave vpn, deadline 31 Jul https://account.brave.com/account/
 
 ### Works
 - [ ] setup Walgreens on tap-connect
