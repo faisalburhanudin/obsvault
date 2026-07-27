@@ -43,7 +43,8 @@
 	- [ ] setup tap-connect
 - [ ] Clean up remotebrowser
 	- [ ] https://github.com/corelens-engineering/demos/issues/1153
-	- [ ] https://github.com/corelens-engineering/demos/issues/1152
+		- [ ] Blocked: waiting team confirmation 
+	- [x] https://github.com/corelens-engineering/demos/issues/1152
 	- [ ] https://github.com/corelens-engineering/demos/issues/1156
 - [ ] Clean up duplicate order
 - [ ] [[Deploy remotebrowser-browserbase]]
