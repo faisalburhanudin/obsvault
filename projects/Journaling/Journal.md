@@ -6,6 +6,7 @@
 - Beli IPhone untuk mama, deadline Mei 2027
 - Beli iPhone 15 untuk istri — cek stock di iBox, tunggu launch Apple Sept buat price drop
 ## Backlog
+- [ ] Relogin claude cli
 - [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
 - [ ] Fix: ABC add buttom padding
 - [ ] Improvement: ABC add streak
@@ -27,7 +28,8 @@
 ## 2026-07-27
 
 ### Personal
-- [ ] Buat kacamata deanline 27 Jul 2026
+- [x] Buat kacamata deadline Friday
+	- [ ] pick up nanti sore
 - [ ] Unsubscribe brave vpn, deadline 31 Jul https://account.brave.com/account/
 
 ### Works
@@ -38,6 +40,7 @@
 - [ ] [[Clean up remotebrowser]]
 	- [ ] MCP
 - [ ] Clean up duplicate order
+- [ ] [[Deploy remotebrowser-browserbase]]
 
 ## 2026-07-24
 

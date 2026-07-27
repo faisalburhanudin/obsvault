@@ -1,0 +1,7 @@
+- [ ] Learn the changes
+- [ ] deployment
+	- [ ] Modify its `deploy-fly.yml` to add a new Fly app `remotebrowser-browserbaseq
+	- [ ] Get the Browserbase API key from Keeper and use it
+	- [ ] Stick to one Fly machine since there's in-state memory in this Browserbase backend (https://github.com/remotebrowser/remotebrowser/pull/1413)
+	- [ ] After it's working, create another `connect-browserbase` , i.e. our CoreLens connector utilizing the above Browserbase-powered Remote Browser.
+	- [ ] Add the above to the hourly test in our test manager.
