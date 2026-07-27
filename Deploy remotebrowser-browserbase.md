@@ -1,4 +1,4 @@
-- [ ] Learn the changes
+- [x] Learn the changes
 - [ ] deployment
 	- [ ] Modify its `deploy-fly.yml` to add a new Fly app `remotebrowser-browserbaseq
 	- [ ] Get the Browserbase API key from Keeper and use it

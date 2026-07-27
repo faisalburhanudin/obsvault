@@ -33,6 +33,8 @@
 - [ ] Unsubscribe brave vpn, deadline 31 Jul https://account.brave.com/account/
 
 ### Works
+- [ ] API suspend and resume
+	- [ ] before destroy store in tigris
 - [ ] setup Walgreens on tap-connect
 	- [x] setup remotebrowser
 	- [ ] setup @ario/connector
