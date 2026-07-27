@@ -44,10 +44,10 @@
 - [ ] Clean up remotebrowser
 	- [ ] https://github.com/corelens-engineering/demos/issues/1153
 		- [ ] Blocked: waiting team confirmation 
-	- [x] https://github.com/corelens-engineering/demos/issues/1152
-	- [ ] https://github.com/corelens-engineering/demos/issues/1156
+	- [x] https://github.com/corelens-engineering/demos/issues/1152 
 - [ ] Clean up duplicate order
-- [ ] [[Deploy remotebrowser-browserbase]]
+- [x] [[Deploy remotebrowser-browserbase]]
+	- [ ] Add environment browserbase to test-manager
 
 ## 2026-07-24
 
