@@ -32,18 +32,19 @@
 ### Personal
 - [ ] WA mbk nur masalah lahiran
 - [x] Buat kacamata deadline Friday
-	- [ ] pick up nanti sore
+	- [x] pick up nanti sore
 - [x] Unsubscribe brave vpn, deadline 31 Jul https://account.brave.com/account/
 
 ### Works
 
 - [ ] setup Walgreens on tap-connect
 	- [x] setup remotebrowser
-	- [ ] setup @ario/connector
-	- [ ] setup tap-connect
-- [ ] Clean up remotebrowser
-	- [ ] https://github.com/corelens-engineering/demos/issues/1153
-		- [ ] Blocked: waiting team confirmation 
+	- [x] setup @ario/connector
+	- [x] setup tap-connect
+	- [ ] Tests
+- [x] Clean up remotebrowser
+	- [x] https://github.com/corelens-engineering/demos/issues/1153
+		- [x] Blocked: waiting team confirmation 
 	- [x] https://github.com/corelens-engineering/demos/issues/1152 
 - [ ] Clean up duplicate order
 - [x] [[Deploy remotebrowser-browserbase]]
