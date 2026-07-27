@@ -23,24 +23,28 @@
 - [ ] Try herdr on mac
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
+- [ ] API suspend and resume
+- [ ] before destroy store in tigris
 
 
 ## 2026-07-27
 
 ### Personal
+- [ ] WA mbk nur masalah lahiran
 - [x] Buat kacamata deadline Friday
 	- [ ] pick up nanti sore
-- [ ] Unsubscribe brave vpn, deadline 31 Jul https://account.brave.com/account/
+- [x] Unsubscribe brave vpn, deadline 31 Jul https://account.brave.com/account/
 
 ### Works
-- [ ] API suspend and resume
-	- [ ] before destroy store in tigris
+
 - [ ] setup Walgreens on tap-connect
 	- [x] setup remotebrowser
 	- [ ] setup @ario/connector
 	- [ ] setup tap-connect
-- [ ] [[Clean up remotebrowser]]
-	- [ ] MCP
+- [ ] Clean up remotebrowser
+	- [ ] https://github.com/corelens-engineering/demos/issues/1153
+	- [ ] https://github.com/corelens-engineering/demos/issues/1152
+	- [ ] https://github.com/corelens-engineering/demos/issues/1156
 - [ ] Clean up duplicate order
 - [ ] [[Deploy remotebrowser-browserbase]]
 
