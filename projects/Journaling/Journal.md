@@ -6,7 +6,6 @@
 - Beli IPhone untuk mama, deadline Mei 2027
 - Beli iPhone 15 untuk istri — cek stock di iBox, tunggu launch Apple Sept buat price drop
 ## Backlog
-- [ ] Relogin claude cli
 - [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
 - [ ] Fix: ABC add buttom padding
 - [ ] Improvement: ABC add streak
@@ -27,28 +26,36 @@
 - [ ] before destroy store in tigris
 
 
-## 2026-07-27
+## 2026-07-28
 
 ### Personal
 - [ ] WA mbk nur masalah lahiran
+- [x] Relogin claude cli
+
+### Works
+- [ ] setup Walgreens on tap-connect
+	- [ ] Tests
+		- [ ] Fix image icon
+- [ ] Clean up duplicate order
+- [ ] Add environment browserbase to test-manager
+
+## 2026-07-27
+
+### Personal
 - [x] Buat kacamata deadline Friday
 	- [x] pick up nanti sore
 - [x] Unsubscribe brave vpn, deadline 31 Jul https://account.brave.com/account/
 
 ### Works
 
-- [ ] setup Walgreens on tap-connect
-	- [x] setup remotebrowser
-	- [x] setup @ario/connector
-	- [x] setup tap-connect
-	- [ ] Tests
+- [x] setup remotebrowser
+- [x] setup @ario/connector
+- [x] setup tap-connect
 - [x] Clean up remotebrowser
 	- [x] https://github.com/corelens-engineering/demos/issues/1153
 		- [x] Blocked: waiting team confirmation 
 	- [x] https://github.com/corelens-engineering/demos/issues/1152 
-- [ ] Clean up duplicate order
 - [x] [[Deploy remotebrowser-browserbase]]
-	- [ ] Add environment browserbase to test-manager
 
 ## 2026-07-24
 
