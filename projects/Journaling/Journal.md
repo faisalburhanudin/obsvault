@@ -30,12 +30,8 @@
 
 ### Personal
 - [ ] WA mbk nur masalah lahiran
-- [x] Relogin claude cli
 
 ### Works
-- [ ] setup Walgreens on tap-connect
-	- [ ] Tests
-		- [ ] Fix image icon
 - [ ] Clean up duplicate order
 - [ ] Add environment browserbase to test-manager
 
@@ -45,9 +41,10 @@
 - [x] Buat kacamata deadline Friday
 	- [x] pick up nanti sore
 - [x] Unsubscribe brave vpn, deadline 31 Jul https://account.brave.com/account/
+- [x] Relogin claude cli
 
 ### Works
-
+- [x] setup Walgreens on tap-connect
 - [x] setup remotebrowser
 - [x] setup @ario/connector
 - [x] setup tap-connect
