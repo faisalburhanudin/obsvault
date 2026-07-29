@@ -23,8 +23,8 @@
 - [ ] [[Ideas]]
 - [ ] API suspend and resume
 - [ ] before destroy store in tigris
-- [ ] Try inbox zero
-	- [ ] Need to setup DNS verification using tailscale
+- [x] Try inbox zero
+	- [x] Need to setup DNS verification using tailscale
 - [ ] Learn worktree can it
 
 
@@ -35,10 +35,12 @@
 ### Works
 - [ ] Clean up duplicate order
 - [x] Hide from selector first https://github.com/corelens-engineering/demos/pull/1176
-- [ ] Add environment browserbase to test-manager
+- [x] Add environment browserbase to test-manager https://github.com/corelens-engineering/fly-cron-manager/pull/20
+	- [ ] deploy (waiting PR to be merged)
 - [ ] Check is catpcha log receive any value
-- [ ] Check logo broken
+- [x] Check logo broken https://github.com/corelens-engineering/demos/pull/1199
 - [x] fix unittest failed https://github.com/corelens-engineering/demos/pull/1198
+- [ ] fix fly multiple image in return reminder
 
 ## 2026-07-28
 
