@@ -23,18 +23,22 @@
 - [ ] [[Ideas]]
 - [ ] API suspend and resume
 - [ ] before destroy store in tigris
+- [ ] Try inbox zero
+	- [ ] Need to setup DNS verification using tailscale
+- [ ] Learn worktree can it
 
 
 ## 2026-07-29
 
 ### Personal
-- [ ] WA mbk nur masalah lahiran
-- [ ] Try inbox zero
-
+- [x] WA mbk nur masalah lahiran
 ### Works
 - [ ] Clean up duplicate order
+- [x] Hide from selector first https://github.com/corelens-engineering/demos/pull/1176
 - [ ] Add environment browserbase to test-manager
 - [ ] Check is catpcha log receive any value
+- [ ] Check logo broken
+- [x] fix unittest failed https://github.com/corelens-engineering/demos/pull/1198
 
 ## 2026-07-28
 
