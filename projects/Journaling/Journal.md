@@ -29,6 +29,7 @@
 
 ### Personal
 - [ ] WA mbk nur masalah lahiran
+- [ ] Try inbox zero
 
 ### Works
 - [ ] Clean up duplicate order
