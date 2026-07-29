@@ -38,9 +38,11 @@
 - [x] Add environment browserbase to test-manager https://github.com/corelens-engineering/fly-cron-manager/pull/20
 	- [ ] deploy (waiting PR to be merged)
 - [ ] Check is catpcha log receive any value
+	- [ ] not deployed yet
 - [x] Check logo broken https://github.com/corelens-engineering/demos/pull/1199
 - [x] fix unittest failed https://github.com/corelens-engineering/demos/pull/1198
-- [ ] fix fly multiple image in return reminder
+- [x] fix fly multiple image in return reminder
+- [ ] re-test tap-connect Walgreens
 
 ## 2026-07-28
 
