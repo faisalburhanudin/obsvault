@@ -33,6 +33,7 @@
 ### Works
 - [ ] Clean up duplicate order
 - [ ] Add environment browserbase to test-manager
+- [ ] Check is catpcha log receive any value
 
 ## 2026-07-28
 
