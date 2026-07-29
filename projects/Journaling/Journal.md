@@ -3,8 +3,7 @@
 - [[Dana Darurat]] — not started · after debt
 - [[Planning THR]] — not started
 - [[Qurban]] — not started · 4/7 share, 16jt
-- Beli IPhone untuk mama, deadline Mei 2027
-- Beli iPhone 15 untuk istri — cek stock di iBox, tunggu launch Apple Sept buat price drop
+- Beli IPhone untuk istri, deadline Mei 2027
 ## Backlog
 - [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
 - [ ] Fix: ABC add buttom padding
@@ -26,7 +25,7 @@
 - [ ] before destroy store in tigris
 
 
-## 2026-07-28
+## 2026-07-29
 
 ### Personal
 - [ ] WA mbk nur masalah lahiran
@@ -34,6 +33,8 @@
 ### Works
 - [ ] Clean up duplicate order
 - [ ] Add environment browserbase to test-manager
+
+## 2026-07-28
 
 ## 2026-07-27
 
