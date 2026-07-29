@@ -33,10 +33,11 @@
 ### Personal
 - [x] WA mbk nur masalah lahiran
 ### Works
-- [ ] Clean up duplicate order
+- [x] Clean up duplicate order
 - [x] Hide from selector first https://github.com/corelens-engineering/demos/pull/1176
 - [x] Add environment browserbase to test-manager https://github.com/corelens-engineering/fly-cron-manager/pull/20
-	- [ ] deploy (waiting PR to be merged)
+	- [x] deploy (waiting PR to be merged)
+	  ![[Pasted image 20260729191243.png]]
 - [ ] Check is catpcha log receive any value
 	- [ ] not deployed yet
 - [x] Check logo broken https://github.com/corelens-engineering/demos/pull/1199
