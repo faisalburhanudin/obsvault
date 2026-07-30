@@ -32,15 +32,23 @@
 
 ### Works
 - [ ] Check is catpcha log receive any value
-	- [x] not deployed yet
 - [ ] re-test tap-connect Walgreens
-- [ ] Build cloak-browser
+- [x] Build cloak-browser
 	- [x] Setup VM for build
 		- [x] Pop OS (not working, UI glitch)
 		- [x] Debian
 	- [x] Build cloak-browser
-		- [ ] Test it
-	- [ ] Upgrade the chromium version to latest
+		- [x] Test it
+	- [x] Upgrade the chromium version to latest
+		- [x] It's not possible chromium binary is proprieatry
+- [ ] Recording
+	- [ ] notify remote-browser-pro untuk fetch recording
+	- [ ] ENV: if tigris exist store there
+		- [ ] always store to tigris
+		- [ ] identifier browser-id & session id
+		- [ ] folder like
+	- [ ] chrome-live missing dari trace
+		- [ ] not happen on API call
 
 ## 2026-07-29
 
