@@ -28,6 +28,20 @@
 - [ ] Learn worktree can it
 
 
+## 2026-07-30
+
+### Works
+- [ ] Check is catpcha log receive any value
+	- [x] not deployed yet
+- [ ] re-test tap-connect Walgreens
+- [ ] Build cloak-browser
+	- [x] Setup VM for build
+		- [x] Pop OS (not working, UI glitch)
+		- [x] Debian
+	- [x] Build cloak-browser
+		- [ ] Test it
+	- [ ] Upgrade the chromium version to latest
+
 ## 2026-07-29
 
 ### Personal
@@ -38,12 +52,9 @@
 - [x] Add environment browserbase to test-manager https://github.com/corelens-engineering/fly-cron-manager/pull/20
 	- [x] deploy (waiting PR to be merged)
 	  ![[Pasted image 20260729191243.png]]
-- [ ] Check is catpcha log receive any value
-	- [ ] not deployed yet
 - [x] Check logo broken https://github.com/corelens-engineering/demos/pull/1199
 - [x] fix unittest failed https://github.com/corelens-engineering/demos/pull/1198
 - [x] fix fly multiple image in return reminder
-- [ ] re-test tap-connect Walgreens
 
 ## 2026-07-28
 
