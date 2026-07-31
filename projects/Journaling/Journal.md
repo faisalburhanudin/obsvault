@@ -32,8 +32,12 @@
 
 ### Personal
 - [ ] Re-think personal backlog — which items really matter
+- [ ] Potong rambut
+- [ ] Masukin sedotan + kabel data ke mobil
 
 ### Works
+- [ ] fix: traceparent on chrome-live
+- [ ] Task from faisal
 - [ ] Check is catpcha log receive any value
 - [ ] re-test tap-connect Walgreens
 - [ ] Recording: download video when the CDP closed
@@ -41,8 +45,7 @@
 		- [ ] always store to tigris
 		- [ ] identifier browser-id & session id
 		- [ ] folder like
-- [ ] fix: traceparent on chrome-live
-- [ ] Task from faisal
+
 
 ## 2026-07-30
 
