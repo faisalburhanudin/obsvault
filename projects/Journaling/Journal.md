@@ -49,6 +49,9 @@
 	- result![[Pasted image 20260731142402.png]]
 
 - [ ] Recording: download video when the CDP closed
+	- [ ] PR: chrome-live https://github.com/remotebrowser/chrome-live/pull/32
+	- [ ] PR: flyfleet 
+	- [ ] PR: remotebrowser
 	- [ ] ENV: if tigris exist store there
 		- [ ] always store to tigris
 		- [ ] identifier browser-id & session id
