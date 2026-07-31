@@ -4,6 +4,8 @@
 - [[Planning THR]] — not started
 - [[Qurban]] — not started · 4/7 share, 16jt
 - Beli IPhone untuk istri, deadline Mei 2027
+
+## Focus
 ## Backlog
 - [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
 - [ ] Fix: ABC add buttom padding
@@ -34,23 +36,29 @@
 - [ ] Re-think personal backlog — which items really matter
 - [ ] Potong rambut
 - [ ] Masukin sedotan + kabel data ke mobil
+- [ ] Try worktree
 
 ### Works
-- [ ] fix: traceparent on chrome-live
-	- [ ] update PR desc
-		- [ ] side quest better approach?
-	- [ ] deploy to fly dev
-	- [ ] 
+- [x] fix: traceparent on chrome-live
+	- [x] update PR desc
+	- [x] deploy to fly dev
+	- [x] run local remotebrowser that pointed to flyfleet.flycast
+	- [x] run manual.py
 - [x] clean-up PR in flyfleet pull request
 - [ ] Task from faisal
+	- [ ] blocked by: locate the test
 - [x] Check is catpcha log receive any value
 	- result![[Pasted image 20260731142402.png]]
-- [ ] re-test tap-connect Walgreens
+
 - [ ] Recording: download video when the CDP closed
 	- [ ] ENV: if tigris exist store there
 		- [ ] always store to tigris
 		- [ ] identifier browser-id & session id
 		- [ ] folder like
+- [ ] .dockerignore file for flyfleet
+- [ ] re-test tap-connect Walgreens
+- [ ] follow yuxi regarding purchase in Walgreens
+- [ ] tracing to daytona
 
 
 ## 2026-07-30
