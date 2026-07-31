@@ -4,8 +4,6 @@
 - [[Planning THR]] — not started
 - [[Qurban]] — not started · 4/7 share, 16jt
 - Beli IPhone untuk istri, deadline Mei 2027
-
-## Focus
 ## Backlog
 - [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
 - [ ] Fix: ABC add buttom padding
@@ -45,8 +43,8 @@
 	- [x] run local remotebrowser that pointed to flyfleet.flycast
 	- [x] run manual.py
 - [x] clean-up PR in flyfleet pull request
-- [ ] Task from faisal
-	- [ ] blocked by: locate the test
+- [x] Task from faisal
+	- [x] blocked by: locate the test
 - [x] Check is catpcha log receive any value
 	- result![[Pasted image 20260731142402.png]]
 
