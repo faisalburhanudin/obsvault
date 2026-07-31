@@ -28,11 +28,25 @@
 - [ ] Learn worktree can it
 
 
-## 2026-07-30
+## 2026-07-31
+
+### Personal
+- [ ] Re-think personal backlog — which items really matter
 
 ### Works
 - [ ] Check is catpcha log receive any value
 - [ ] re-test tap-connect Walgreens
+- [ ] Recording: download video when the CDP closed
+	- [ ] ENV: if tigris exist store there
+		- [ ] always store to tigris
+		- [ ] identifier browser-id & session id
+		- [ ] folder like
+- [ ] fix: traceparent on chrome-live
+- [ ] Task from faisal
+
+## 2026-07-30
+
+### Works
 - [x] Build cloak-browser
 	- [x] Setup VM for build
 		- [x] Pop OS (not working, UI glitch)
@@ -41,14 +55,6 @@
 		- [x] Test it
 	- [x] Upgrade the chromium version to latest
 		- [x] It's not possible chromium binary is proprieatry
-- [ ] Recording
-	- [ ] notify remote-browser-pro untuk fetch recording
-	- [ ] ENV: if tigris exist store there
-		- [ ] always store to tigris
-		- [ ] identifier browser-id & session id
-		- [ ] folder like
-	- [ ] chrome-live missing dari trace
-		- [ ] not happen on API call
 
 ## 2026-07-29
 
