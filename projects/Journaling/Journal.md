@@ -37,8 +37,14 @@
 
 ### Works
 - [ ] fix: traceparent on chrome-live
+	- [ ] update PR desc
+		- [ ] side quest better approach?
+	- [ ] deploy to fly dev
+	- [ ] 
+- [x] clean-up PR in flyfleet pull request
 - [ ] Task from faisal
-- [ ] Check is catpcha log receive any value
+- [x] Check is catpcha log receive any value
+	- result![[Pasted image 20260731142402.png]]
 - [ ] re-test tap-connect Walgreens
 - [ ] Recording: download video when the CDP closed
 	- [ ] ENV: if tigris exist store there
