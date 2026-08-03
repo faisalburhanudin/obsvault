@@ -28,13 +28,27 @@
 - [ ] Learn worktree can it
 
 
-## 2026-07-31
+## 2026-08-03
 
 ### Personal
-- [ ] Re-think personal backlog — which items really matter
-- [ ] Potong rambut
 - [ ] Masukin sedotan + kabel data ke mobil
 - [ ] Try worktree
+
+### Works
+- [ ] Recording: download video when the CDP closed
+	- [ ] PR: chrome-live https://github.com/remotebrowser/chrome-live/pull/32
+	- [ ] PR: flyfleet 
+	- [ ] PR: remotebrowser
+	- [ ] ENV: if tigris exist store there
+		- [ ] always store to tigris
+		- [ ] identifier browser-id & session id
+		- [ ] folder like
+- [ ] .dockerignore file for flyfleet
+- [ ] re-test tap-connect Walgreens
+- [x] follow yuxi regarding purchase in Walgreens
+
+
+## 2026-07-31
 
 ### Works
 - [x] fix: traceparent on chrome-live
@@ -46,19 +60,6 @@
 - [x] Task from faisal
 - [x] Check is catpcha log receive any value
 	- result![[Pasted image 20260731142402.png]]
-
-- [ ] Recording: download video when the CDP closed
-	- [ ] PR: chrome-live https://github.com/remotebrowser/chrome-live/pull/32
-	- [ ] PR: flyfleet 
-	- [ ] PR: remotebrowser
-	- [ ] ENV: if tigris exist store there
-		- [ ] always store to tigris
-		- [ ] identifier browser-id & session id
-		- [ ] folder like
-- [ ] .dockerignore file for flyfleet
-- [ ] re-test tap-connect Walgreens
-- [ ] follow yuxi regarding purchase in Walgreens
-- [ ] tracing to daytona
 
 
 ## 2026-07-30
