@@ -36,19 +36,20 @@
 
 ### Works
 - [x] Scale down mcp-getgather-dev-ssd
-- [ ] Recording: download video when the CDP closed
+- [x] Recording: download video when the CDP closed
 	- [x] PR: chrome-live https://github.com/remotebrowser/chrome-live/pull/32
 	- [x] PR: flyfleet https://github.com/corelens-engineering/flyfleet/pull/166
-	- [ ] PR: remotebrowser
-	- [ ] ENV: if tigris exist store there
+	- [x] PR: remotebrowser
+	- [x] ENV: if tigris exist store there
 		- [x] always store to tigris
 		- [x] identifier browser-id & session id
 		- [x] folder like
 - [ ] .dockerignore file for flyfleet
-- [ ] re-test tap-connect Walgreens
 - [x] follow yuxi regarding purchase in Walgreens
 - [ ] start & pause browser
-- [ ] 
+- [ ] evaluate browserbase
+	- [ ] speed and reliability
+	- [ ] cost
 
 
 ## 2026-07-31
