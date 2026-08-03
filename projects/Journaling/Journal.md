@@ -38,7 +38,7 @@
 - [x] Scale down mcp-getgather-dev-ssd
 - [ ] Recording: download video when the CDP closed
 	- [x] PR: chrome-live https://github.com/remotebrowser/chrome-live/pull/32
-	- [ ] PR: flyfleet 
+	- [x] PR: flyfleet https://github.com/corelens-engineering/flyfleet/pull/166
 	- [ ] PR: remotebrowser
 	- [ ] ENV: if tigris exist store there
 		- [ ] always store to tigris
@@ -47,6 +47,8 @@
 - [ ] .dockerignore file for flyfleet
 - [ ] re-test tap-connect Walgreens
 - [x] follow yuxi regarding purchase in Walgreens
+- [ ] start & pause browser
+- [ ] 
 
 
 ## 2026-07-31
