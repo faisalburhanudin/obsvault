@@ -41,9 +41,9 @@
 	- [x] PR: flyfleet https://github.com/corelens-engineering/flyfleet/pull/166
 	- [ ] PR: remotebrowser
 	- [ ] ENV: if tigris exist store there
-		- [ ] always store to tigris
-		- [ ] identifier browser-id & session id
-		- [ ] folder like
+		- [x] always store to tigris
+		- [x] identifier browser-id & session id
+		- [x] folder like
 - [ ] .dockerignore file for flyfleet
 - [ ] re-test tap-connect Walgreens
 - [x] follow yuxi regarding purchase in Walgreens
