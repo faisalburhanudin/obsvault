@@ -35,8 +35,9 @@
 - [ ] Try worktree
 
 ### Works
+- [x] Scale down mcp-getgather-dev-ssd
 - [ ] Recording: download video when the CDP closed
-	- [ ] PR: chrome-live https://github.com/remotebrowser/chrome-live/pull/32
+	- [x] PR: chrome-live https://github.com/remotebrowser/chrome-live/pull/32
 	- [ ] PR: flyfleet 
 	- [ ] PR: remotebrowser
 	- [ ] ENV: if tigris exist store there
