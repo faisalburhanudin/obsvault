@@ -44,7 +44,6 @@
 	- [x] run manual.py
 - [x] clean-up PR in flyfleet pull request
 - [x] Task from faisal
-	- [x] blocked by: locate the test
 - [x] Check is catpcha log receive any value
 	- result![[Pasted image 20260731142402.png]]
 
