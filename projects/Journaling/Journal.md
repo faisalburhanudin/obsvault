@@ -36,7 +36,7 @@
 
 ### Works
 - [x] dpage for Charu Walgreens
-- [ ] . @ file for flyfleet
+- [x] .dockerignore file for flyfleet
 - [ ] start & pause browser
 - [ ] evaluate browserbase
 	- [x] speed and reliability
