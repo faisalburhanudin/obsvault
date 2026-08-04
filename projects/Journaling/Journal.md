@@ -28,11 +28,21 @@
 - [ ] Learn worktree can it
 
 
-## 2026-08-03
+## 2026-08-04
 
 ### Personal
 - [ ] Masukin sedotan + kabel data ke mobil
 - [ ] Try worktree
+
+### Works
+- [ ] .dockerignore file for flyfleet
+- [ ] start & pause browser
+- [ ] evaluate browserbase
+	- [x] speed and reliability
+	- [ ] cost
+
+
+## 2026-08-03
 
 ### Works
 - [x] Scale down mcp-getgather-dev-ssd
@@ -44,12 +54,7 @@
 		- [x] always store to tigris
 		- [x] identifier browser-id & session id
 		- [x] folder like
-- [ ] .dockerignore file for flyfleet
 - [x] follow yuxi regarding purchase in Walgreens
-- [ ] start & pause browser
-- [ ] evaluate browserbase
-	- [ ] speed and reliability
-	- [ ] cost
 
 
 ## 2026-07-31
