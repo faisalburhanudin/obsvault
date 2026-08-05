@@ -5,34 +5,34 @@
 - [[Qurban]] — not started · 4/7 share, 16jt
 - Beli IPhone untuk istri, deadline Mei 2027
 ## Backlog
-- [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
 - [ ] Fix: ABC add buttom padding
 - [ ] Improvement: ABC add streak
-- [ ] Buy LED Strip too extend now it just 5 meter
-- [ ] fix: lampu 17an
-	- [x] blocked: waiting for sparepart
-	- [ ] blocked by instalasi listrik
 - [ ] [[Ganti no HP]]
 - [ ] Dashcam
 - [ ] beli mainan 17an
 - [ ] LED strip housing
 - [ ] setup n8n vm
 	- [ ] setup email cleaner
-- [ ] Try herdr on mac
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
 - [ ] API suspend and resume
-- [ ] before destroy store in tigris
-- [x] Try inbox zero
-	- [x] Need to setup DNS verification using tailscale
 - [ ] Learn worktree can it
 
 
-## 2026-08-04
+## 2026-08-05
 
 ### Personal
-- [ ] Masukin sedotan + kabel data ke mobil
+- [ ] Masukin sedotan
 - [ ] Try worktree
+- [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
+
+### Works
+- [ ] Share to team, regarding the cost
+- [ ] Share to team regarding reliability
+- [ ] Tool to create dpage for share
+
+
+## 2026-08-04
 
 ### Works
 - [x] dpage for Charu Walgreens
@@ -40,10 +40,6 @@
 - [x] [[start & pause browser browserbase]]
 	- [x] Turns out suspend/resume on Browserbase isn't straightforward. Our browser_id is currently just the Browserbase session ID, and that ID isn't durable — releasing a session is terminal, and there's no API to revive it. We can restore the state via Browserbase Contexts (cookies, localStorage, auth), but that always comes back as a new session with a new ID, so the original browser_id can't be resumed as-is.
 	- [x] Workaround would be to stop using the Browserbase session ID as our browser_id and mint our own stable ID, mapping it to the current session via Browserbase's session metadata. Doable, but worth flagging that it's a rebuild rather than a true suspend — open tabs, current URL, and in-page state are lost; only credentials survive. flyfleet already has real suspend/resume, so that backend is the cheap one to wire up first.
-
-- [ ] evaluate browserbase
-	- [x] speed and reliability
-	- [ ] cost
 
 
 ## 2026-08-03
