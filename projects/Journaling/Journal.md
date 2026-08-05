@@ -30,6 +30,8 @@
 - [x] Share to team, regarding the cost
 - [x] Share to team regarding reliability
 - [ ] Tool to create dpage for share
+- [ ] Change recording PR
+- [ ] Remove unused secret in sentry
 
 
 ## 2026-08-04
