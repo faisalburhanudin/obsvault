@@ -27,7 +27,7 @@
 - [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
 
 ### Works
-- [ ] Share to team, regarding the cost
+- [x] Share to team, regarding the cost
 - [x] Share to team regarding reliability
 - [ ] Tool to create dpage for share
 
