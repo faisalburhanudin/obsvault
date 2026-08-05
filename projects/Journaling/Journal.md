@@ -37,9 +37,9 @@
 ### Works
 - [x] dpage for Charu Walgreens
 - [x] .dockerignore file for flyfleet
-- [ ] [[start & pause browser browserbase]]
-	- [ ] Turns out suspend/resume on Browserbase isn't straightforward. Our browser_id is currently just the Browserbase session ID, and that ID isn't durable — releasing a session is terminal, and there's no API to revive it. We can restore the state via Browserbase Contexts (cookies, localStorage, auth), but that always comes back as a new session with a new ID, so the original browser_id can't be resumed as-is.
-	- [ ] Workaround would be to stop using the Browserbase session ID as our browser_id and mint our own stable ID, mapping it to the current session via Browserbase's session metadata. Doable, but worth flagging that it's a rebuild rather than a true suspend — open tabs, current URL, and in-page state are lost; only credentials survive. flyfleet already has real suspend/resume, so that backend is the cheap one to wire up first.
+- [x] [[start & pause browser browserbase]]
+	- [x] Turns out suspend/resume on Browserbase isn't straightforward. Our browser_id is currently just the Browserbase session ID, and that ID isn't durable — releasing a session is terminal, and there's no API to revive it. We can restore the state via Browserbase Contexts (cookies, localStorage, auth), but that always comes back as a new session with a new ID, so the original browser_id can't be resumed as-is.
+	- [x] Workaround would be to stop using the Browserbase session ID as our browser_id and mint our own stable ID, mapping it to the current session via Browserbase's session metadata. Doable, but worth flagging that it's a rebuild rather than a true suspend — open tabs, current URL, and in-page state are lost; only credentials survive. flyfleet already has real suspend/resume, so that backend is the cheap one to wire up first.
 
 - [ ] evaluate browserbase
 	- [x] speed and reliability
