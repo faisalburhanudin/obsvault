@@ -28,7 +28,7 @@
 
 ### Works
 - [ ] Share to team, regarding the cost
-- [ ] Share to team regarding reliability
+- [x] Share to team regarding reliability
 - [ ] Tool to create dpage for share
 
 
