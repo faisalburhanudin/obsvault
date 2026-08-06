@@ -34,9 +34,10 @@
 - [ ] Remove unused secret in sentry
 - [ ] mock tap-connect
 	- [x] tap-connect-flyfleet
-		- [ ] test manager
-	- [ ] tap-connect-browserbase
-	- [ ] tap-connect-daytona
+		- [x] test manager
+	- [x] tap-connect-browserbase
+	- [x] tap-connect-daytona
+	- [ ] Cron every 10 minute
 
 
 ## 2026-08-05
