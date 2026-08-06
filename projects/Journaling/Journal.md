@@ -32,6 +32,10 @@
 	- [ ] flyfleet: create proxy
 	- [ ] remotebrowser: hit api
 - [ ] Remove unused secret in sentry
+- [ ] mock tap-connect
+	- [ ] tap-connect-fly
+	- [ ] tap-connect-browserbase
+	- [ ] tap-connect-daytona
 
 
 ## 2026-08-05
