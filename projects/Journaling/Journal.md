@@ -33,7 +33,8 @@
 	- [ ] remotebrowser: hit api
 - [ ] Remove unused secret in sentry
 - [ ] mock tap-connect
-	- [ ] tap-connect-fly
+	- [x] tap-connect-flyfleet
+		- [ ] test manager
 	- [ ] tap-connect-browserbase
 	- [ ] tap-connect-daytona
 
