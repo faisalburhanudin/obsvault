@@ -19,7 +19,7 @@
 - [ ] Learn worktree can it
 
 
-## 2026-08-05
+## 2026-08-06
 
 ### Personal
 - [ ] Masukin sedotan
@@ -27,11 +27,19 @@
 - [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
 
 ### Works
+- [ ] Change recording PR
+	- [ ] chrome-live: store recording here
+	- [ ] flyfleet: create proxy
+	- [ ] remotebrowser: hit api
+- [ ] Remove unused secret in sentry
+
+
+## 2026-08-05
+
+### Works
 - [x] Share to team, regarding the cost
 - [x] Share to team regarding reliability
 - [ ] Tool to create dpage for share
-- [ ] Change recording PR
-- [ ] Remove unused secret in sentry
 
 
 ## 2026-08-04
