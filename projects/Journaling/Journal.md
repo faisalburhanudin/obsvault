@@ -32,12 +32,15 @@
 	- [ ] flyfleet: create proxy
 	- [ ] remotebrowser: hit api
 - [ ] Remove unused secret in sentry
+- [ ] [[refactor browser-trace]]
+	- [ ] [[why?]]
+	- [ ] 
 - [ ] mock tap-connect
 	- [x] tap-connect-flyfleet
 		- [x] test manager
 	- [x] tap-connect-browserbase
 	- [x] tap-connect-daytona
-	- [ ] Cron every 10 minute
+	- [ ] Cron every 15 minute
 
 
 ## 2026-08-05
