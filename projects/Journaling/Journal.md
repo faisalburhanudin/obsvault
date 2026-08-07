@@ -17,9 +17,10 @@
 - [ ] [[Ideas]]
 - [ ] API suspend and resume
 - [ ] Learn worktree can it
+- [ ] Tool to create dpage for share
 
 
-## 2026-08-06
+## 2026-08-07
 
 ### Personal
 - [ ] Masukin sedotan
@@ -35,12 +36,19 @@
 - [ ] [[refactor browser-trace]]
 	- [ ] [[why?]]
 	- [ ] 
-- [ ] mock tap-connect
+- [ ] create dpage for Charu — 22:00
+- [ ] fix browserbase issue test manager
+
+
+## 2026-08-06
+
+### Works
+- [x] mock tap-connect
 	- [x] tap-connect-flyfleet
 		- [x] test manager
 	- [x] tap-connect-browserbase
 	- [x] tap-connect-daytona
-	- [ ] Cron every 15 minute
+	- [x] Cron every 15 minute
 
 
 ## 2026-08-05
@@ -48,7 +56,6 @@
 ### Works
 - [x] Share to team, regarding the cost
 - [x] Share to team regarding reliability
-- [ ] Tool to create dpage for share
 
 
 ## 2026-08-04
