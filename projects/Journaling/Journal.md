@@ -37,7 +37,9 @@
 	- [ ] [[why?]]
 	- [ ] 
 - [ ] create dpage for Charu — 22:00
-- [x] fix browserbase issue test manager
+- [x] fix browserbase issue test manager:
+	- [x] staggering
+- [x] create DB
 
 
 ## 2026-08-06
