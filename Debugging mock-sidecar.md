@@ -1,0 +1,3 @@
+- [ ] flyfleet
+	- [ ] use flyfleet.flycast instead of flyfleet-dev.flycast
+		- [ ] move it to org remote-browser

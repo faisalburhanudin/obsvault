@@ -18,8 +18,20 @@
 - [ ] API suspend and resume
 - [ ] Learn worktree can it
 - [ ] Tool to create dpage for share
+- [ ] Change recording PR
+- [ ] Remove unused secret in sentry
+## 2026-08-10
 
+### Personal
+- [ ] Masukin sedotan
+- [ ] Try worktree
+- [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
+- [ ] Beli kado lahiran
+- [ ] Beli selang hydroponic
 
+### Works
+- [ ] create dpage for Charu — 22:00
+- [ ] [[Debugging mock-sidecar]]
 ## 2026-08-07
 
 ### Personal
