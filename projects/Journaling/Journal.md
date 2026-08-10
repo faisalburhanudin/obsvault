@@ -32,6 +32,8 @@
 ### Works
 - [ ] create dpage for Charu — 22:00
 - [ ] [[Debugging mock-sidecar]]
+- [ ] mock-amazon
+	- [ ] Add to doppler
 ## 2026-08-07
 
 ### Personal
