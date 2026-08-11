@@ -24,9 +24,9 @@
 ## 2026-08-11
 - [ ] test-manager daytona
 - [ ] test-manager browserbase
-- [ ] support disable proxy for client
 - [ ] check chrome-live PR
 - [ ] create dpage for Charu
+- [ ] support disable proxy for client
 ## 2026-08-10
 
 ### Personal
