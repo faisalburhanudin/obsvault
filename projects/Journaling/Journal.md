@@ -25,13 +25,11 @@
 - [ ] test-manager daytona
 - [ ] test-manager browserbase
 - [ ] support disable proxy for client
+- [ ] check chrome-live PR
 - [ ] create dpage for Charu
 ## 2026-08-10
 
 ### Personal
-- [ ] Try worktree
-- [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
-- [ ] Beli kado lahiran
 - [x] Beli selang hydroponic
 
 ### Works
