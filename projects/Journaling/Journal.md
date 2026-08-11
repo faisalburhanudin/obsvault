@@ -27,6 +27,7 @@
 - [ ] check chrome-live PR
 - [ ] create dpage for Charu
 - [ ] support disable proxy for client
+- [ ] Load average 
 ## 2026-08-10
 
 ### Personal
