@@ -20,20 +20,22 @@
 - [ ] Tool to create dpage for share
 - [ ] Change recording PR
 - [ ] Remove unused secret in sentry
+- [ ] Masukin sedotan
+## 2026-08-11
+- [ ] test-manager daytona
+- [ ] test-manager browserbase
+- [ ] support disable proxy for client
+- [ ] create dpage for Charu
 ## 2026-08-10
 
 ### Personal
-- [ ] Masukin sedotan
 - [ ] Try worktree
 - [ ] bikin instalasi listrik diluar untuk hydroponic and lampu 17an
 - [ ] Beli kado lahiran
-- [ ] Beli selang hydroponic
+- [x] Beli selang hydroponic
 
 ### Works
-- [ ] create dpage for Charu — 22:00
-- [ ] [[Debugging mock-sidecar]]
-- [ ] mock-amazon
-	- [ ] Add to doppler
+- [x] [[Debugging mock-sidecar]]
 ## 2026-08-07
 
 ### Personal
