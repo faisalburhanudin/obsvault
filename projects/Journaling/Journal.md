@@ -23,8 +23,10 @@
 - [ ] Masukin sedotan
 ## 2026-08-13
 - [x] Daytona test
-- [ ] Browserbase test
+- [x] Browserbase test
 - [ ] Create PR to backstage
+- [ ] https://github.com/remotebrowser/remotebrowser/pull/1440 
+	- [ ] handle pattern upload
 ## 2026-08-11
 - [ ] test-manager daytona
 - [ ] test-manager browserbase
