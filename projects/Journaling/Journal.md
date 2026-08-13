@@ -24,9 +24,10 @@
 ## 2026-08-13
 - [x] Daytona test
 - [x] Browserbase test
+- [ ] Check CI
 - [ ] Create PR to backstage
-- [ ] https://github.com/remotebrowser/remotebrowser/pull/1440 
-	- [ ] handle pattern upload
+- [x] https://github.com/remotebrowser/remotebrowser/pull/1440 
+	- [x] handle pattern upload
 ## 2026-08-11
 - [ ] test-manager daytona
 - [ ] test-manager browserbase
