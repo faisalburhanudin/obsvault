@@ -21,6 +21,10 @@
 - [ ] Change recording PR
 - [ ] Remove unused secret in sentry
 - [ ] Masukin sedotan
+## 2026-08-13
+- [x] Daytona test
+- [ ] Browserbase test
+- [ ] Create PR to backstage
 ## 2026-08-11
 - [ ] test-manager daytona
 - [ ] test-manager browserbase
