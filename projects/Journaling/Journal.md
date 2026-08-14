@@ -23,7 +23,11 @@
 - [ ] Masukin sedotan
 
 ## 2026-08-14
-[[Clean-up test-manager]]
+- [x] [[Clean-up test-manager]]
+- [ ] fly-cron-manager
+	- [ ] https://github.com/corelens-engineering/fly-cron-manager/pull/23
+	- [ ] https://github.com/corelens-engineering/fly-cron-manager/pull/22
+	- [ ] https://github.com/corelens-engineering/fly-cron-manager/pull/26
 ## 2026-08-13
 - [x] Daytona test
 - [x] Browserbase test
