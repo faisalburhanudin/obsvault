@@ -21,6 +21,9 @@
 - [ ] Change recording PR
 - [ ] Remove unused secret in sentry
 - [ ] Masukin sedotan
+
+## 2026-08-14
+[[Clean-up test-manager]]
 ## 2026-08-13
 - [x] Daytona test
 - [x] Browserbase test
