@@ -21,6 +21,31 @@
 - [ ] Change recording PR
 - [ ] Remove unused secret in sentry
 - [ ] Masukin sedotan
+## 2026-08-16
+- [x] Clean up test manager
+	- [x] https://github.com/corelens-engineering/fly-cron-manager/pull/26
+	- [x] https://github.com/corelens-engineering/fly-cron-manager/pull/23
+	- [x] https://github.com/corelens-engineering/fly-cron-manager/pull/22
+- [ ] PR improvement from remotebrowser to backstage
+	- [x] https://github.com/remotebrowser/remotebrowser/pull/1440
+	- [ ] https://github.com/remotebrowser/remotebrowser/pull/1441
+	- [ ] https://github.com/remotebrowser/remotebrowser/pull/1437
+	- [ ] https://github.com/remotebrowser/remotebrowser/pull/1438
+    
+- Update performance metric flyfleet vs browserbase vs daytona
+    
+- Continue on recording
+    
+- Decomission grabbit GCE
+    
+- Clean up test manager ?
+    
+- Check [https://github.com/remotebrowser/remotebrowser/pull/1445/changes](https://github.com/remotebrowser/remotebrowser/pull/1445/changes) proper fix
+    
+- Merge sidecar deployment to main branch?
+    
+
+**
 
 ## 2026-08-14
 - [x] [[Clean-up test-manager]]
