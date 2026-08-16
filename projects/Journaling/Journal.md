@@ -21,31 +21,30 @@
 - [ ] Change recording PR
 - [ ] Remove unused secret in sentry
 - [ ] Masukin sedotan
+- [ ] remove linter nvim
 ## 2026-08-16
+### Personal
+- [ ] Worksheet for Elsha
+
+### Work
 - [x] Clean up test manager
 	- [x] https://github.com/corelens-engineering/fly-cron-manager/pull/26
 	- [x] https://github.com/corelens-engineering/fly-cron-manager/pull/23
 	- [x] https://github.com/corelens-engineering/fly-cron-manager/pull/22
-- [ ] PR improvement from remotebrowser to backstage
+- [x] PR improvement from remotebrowser to backstage
 	- [x] https://github.com/remotebrowser/remotebrowser/pull/1440
-	- [ ] https://github.com/remotebrowser/remotebrowser/pull/1441
-	- [ ] https://github.com/remotebrowser/remotebrowser/pull/1437
-	- [ ] https://github.com/remotebrowser/remotebrowser/pull/1438
-    
-- Update performance metric flyfleet vs browserbase vs daytona
-    
-- Continue on recording
-    
-- Decomission grabbit GCE
-    
-- Clean up test manager ?
-    
-- Check [https://github.com/remotebrowser/remotebrowser/pull/1445/changes](https://github.com/remotebrowser/remotebrowser/pull/1445/changes) proper fix
-    
+	- [x] https://github.com/remotebrowser/remotebrowser/pull/1441
+	- [x] https://github.com/remotebrowser/remotebrowser/pull/1437
+		- [x] Not need
+	- [x] https://github.com/remotebrowser/remotebrowser/pull/1438
+		- [x] Not needed
+- [x] Update performance metric flyfleet vs browserbase vs daytona
+	- [x] https://heyario.slack.com/archives/C049DGC1D2M/p1786893530219869?thread_ts=1785910195.601229&cid=C049DGC1D2M
+- [ ] Decomission grabbit GCE
+- [ ] Check [https://github.com/remotebrowser/remotebrowser/pull/1445/changes](https://github.com/remotebrowser/remotebrowser/pull/1445/changes) proper fix
 - Merge sidecar deployment to main branch?
+- - Continue on recording
     
-
-**
 
 ## 2026-08-14
 - [x] [[Clean-up test-manager]]
