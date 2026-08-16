@@ -41,7 +41,8 @@
 - [x] Update performance metric flyfleet vs browserbase vs daytona
 	- [x] https://heyario.slack.com/archives/C049DGC1D2M/p1786893530219869?thread_ts=1785910195.601229&cid=C049DGC1D2M
 - [x] Decomission grabbit GCE
-- [ ] Check [https://github.com/remotebrowser/remotebrowser/pull/1445/changes](https://github.com/remotebrowser/remotebrowser/pull/1445/changes) proper fix
+- [x] Check [https://github.com/remotebrowser/remotebrowser/pull/1445/changes](https://github.com/remotebrowser/remotebrowser/pull/1445/changes) proper fix
+	- [x] https://github.com/remotebrowser/remotebrowser/pull/1454
 - [ ] Merge sidecar deployment to main branch?
 - [ ]  Continue on recording
     
