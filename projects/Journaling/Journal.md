@@ -23,8 +23,15 @@
 - [ ] Masukin sedotan
 - [ ] remove linter nvim
 ## 2026-08-16
+- [ ] Recording
+	- [ ] Chrome-live
+	- [ ] flyfleet
+	- [ ] remotebrowser
+		- [ ] daytona
+- [ ] Simplify CI
+## 2026-08-16
 ### Personal
-- [ ] Worksheet for Elsha
+- [x] Worksheet for Elsha
 
 ### Work
 - [x] Clean up test manager
@@ -43,7 +50,6 @@
 - [x] Decomission grabbit GCE
 - [x] Check [https://github.com/remotebrowser/remotebrowser/pull/1445/changes](https://github.com/remotebrowser/remotebrowser/pull/1445/changes) proper fix
 	- [x] https://github.com/remotebrowser/remotebrowser/pull/1454
-- [ ] Merge sidecar deployment to main branch?
 - [ ]  Continue on recording
     
 
