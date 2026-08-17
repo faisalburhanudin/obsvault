@@ -28,9 +28,11 @@
 	- [ ] flyfleet
 	- [ ] remotebrowser
 		- [ ] daytona
-- [ ] Simplify CI
-	- [ ] Consolidate CI
-	- [ ] Using doppler for browserbase and daytona
+- [x] Simplify CI
+	- [x] Consolidate CI
+	- [x] Using doppler for browserbase and daytona
+- [x] Fix daytona backend
+	- [x] https://github.com/remotebrowser/remotebrowser/pull/1456
 ## 2026-08-16
 ### Personal
 - [x] Worksheet for Elsha
