@@ -23,9 +23,9 @@
 - [ ] Masukin sedotan
 - [ ] remove linter nvim
 ## 2026-08-16
-- [ ] Recording
-	- [ ] Chrome-live
-		- [ ] fix: 5s
+- [x] Recording
+	- [x] Chrome-live
+		- [x] fix: 5s
 	- [ ] flyfleet
 	- [ ] remotebrowser
 		- [ ] daytona
