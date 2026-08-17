@@ -29,6 +29,8 @@
 	- [ ] remotebrowser
 		- [ ] daytona
 - [ ] Simplify CI
+	- [ ] Consolidate CI
+	- [ ] Using doppler for browserbase and daytona
 ## 2026-08-16
 ### Personal
 - [x] Worksheet for Elsha
