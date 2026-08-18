@@ -3,7 +3,8 @@
 - [[Dana Darurat]] — not started · after debt
 - [[Planning THR]] — not started
 - [[Qurban]] — not started · 4/7 share, 16jt
-- Beli IPhone untuk istri, deadline Mei 2027
+- Balikin uang asuransi
+- Balikin uang pajak
 ## Backlog
 - [ ] Fix: ABC add buttom padding
 - [ ] Improvement: ABC add streak

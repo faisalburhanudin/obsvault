@@ -16,6 +16,10 @@
 		- ![[Pasted image 20260818140445.png]]
 	- **Conclussion**
 		- there is drift but not enough signal
+- Partial hblock?
+- Empty hblock
+- Found issue about DNS failed
+	- 
 ---
 # find machine that can't block ads
 
