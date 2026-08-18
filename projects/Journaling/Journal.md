@@ -22,6 +22,20 @@
 - [ ] Remove unused secret in sentry
 - [ ] Masukin sedotan
 - [ ] remove linter nvim
+
+## 2026-08-18
+- Check browserbase
+	- sekarang pakai logfire
+	- Streaming log
+		- log apakah ini?
+		- compare sama browserbase
+		- check log daytona
+			- Log
+			- Trace
+			- Log untuk
+	- Dia bisa screenrecording
+	- Make it scalable
+- Block analytics, harusnya di tiny proxy tapi sekarang lolos
 ## 2026-08-16
 - [x] Recording
 	- [x] Chrome-live
