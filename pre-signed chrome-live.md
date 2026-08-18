@@ -167,8 +167,3 @@ suspended machines linger for a while.
 
 **Do not** trigger chrome-live's `publish.yml` via `workflow_dispatch` to test — it pushes
 `:latest` to `keep-chrome-live` (prod), `-dev`, and `-ci`. It normally runs on `main` only.
-
-## Things Claude cannot do in this environment
-
-The permission classifier blocks `fly secrets set`/`import` and `gh pr edit`/`push` in some
-modes. Expect to run secret writes and PR edits yourself when asked.
