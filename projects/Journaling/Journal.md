@@ -40,9 +40,12 @@ Discussion
 - Block analytics, harusnya di tiny proxy tapi sekarang lolos
 - Best of N cloud providers
 ### Persona
-- [ ] Ruby rainbow worksheet
+- [x] Ruby rainbow worksheet
 ### Works
-- [ ] [[pre-signed chrome-live]]
+- [x] [[pre-signed chrome-live]]
+- [ ] [[Chromelive recording -> semua ads muncul]]
+- [ ] flyfleet pass signed-url
+- [ ] Research log stream browserbase & browser steel
 ## 2026-08-16
 - [x] Recording
 	- [x] Chrome-live
