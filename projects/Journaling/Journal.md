@@ -44,7 +44,7 @@ Discussion
 - [x] Ruby rainbow worksheet
 ### Works
 - [x] [[pre-signed chrome-live]]
-- [ ] [[Chromelive recording -> semua ads muncul]]
+- [x] [[Chromelive recording -> semua ads muncul]]
 - [ ] flyfleet pass signed-url
 - [ ] Research log stream browserbase & browser steel
 ## 2026-08-16
