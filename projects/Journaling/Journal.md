@@ -24,6 +24,8 @@
 - [ ] remove linter nvim
 
 ## 2026-08-18
+
+Discussion
 - Check browserbase
 	- sekarang pakai logfire
 	- Streaming log
@@ -36,6 +38,11 @@
 	- Dia bisa screenrecording
 	- Make it scalable
 - Block analytics, harusnya di tiny proxy tapi sekarang lolos
+- Best of N cloud providers
+### Persona
+- [ ] Ruby rainbow worksheet
+### Works
+- [ ] [[pre-signed chrome-live]]
 ## 2026-08-16
 - [x] Recording
 	- [x] Chrome-live
