@@ -25,17 +25,21 @@
 - [ ] remove linter nvim
 ## 2026-08-19
 ### Personal
-- [ ] Disable Herdr vim
+- [x] Disable Herdr vim
+	- [x] it's not herdr it zsh
 
 ### Work
-- [ ] Check CI https://github.com/remotebrowser/chrome-live/actions/runs/32204475671
-	- [ ] re-trigger image build
-- [ ] fix mock database
+- [x] Check CI https://github.com/remotebrowser/chrome-live/actions/runs/32204475671
+	- [x] re-trigger image build
+- [x] fix mock database
 	- [x] DB secret
 		- [x] browserbase
 		- [x] daytona
 		- [x] flyfleet
-	- [ ] Clean data
+	- [x] Clean data
+- [ ] Proxy flyfleet
+- [ ] Tigris remotebrowser
+- [ ] 
 ## 2026-08-18
 
 Discussion
