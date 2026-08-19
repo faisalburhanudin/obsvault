@@ -36,9 +36,10 @@
 		- [x] flyfleet
 	- [x] Clean data
 - [x] Using one secret for database CI
-- [ ] Proxy flyfleet
+- [x] Proxy flyfleet
 - [ ] Tigris remotebrowser
-- [ ] 
+- [ ] Streaming log from chrome-live
+	- [ ] research
 ## 2026-08-18
 
 Discussion
