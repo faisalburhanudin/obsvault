@@ -29,14 +29,13 @@
 	- [x] it's not herdr it zsh
 
 ### Work
-- [x] Check CI https://github.com/remotebrowser/chrome-live/actions/runs/32204475671
-	- [x] re-trigger image build
 - [x] fix mock database
 	- [x] DB secret
 		- [x] browserbase
 		- [x] daytona
 		- [x] flyfleet
 	- [x] Clean data
+- [x] Using one secret for database CI
 - [ ] Proxy flyfleet
 - [ ] Tigris remotebrowser
 - [ ] 
