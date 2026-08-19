@@ -23,7 +23,19 @@
 - [ ] Remove unused secret in sentry
 - [ ] Masukin sedotan
 - [ ] remove linter nvim
+## 2026-08-19
+### Personal
+- [ ] Disable Herdr vim
 
+### Work
+- [ ] Check CI https://github.com/remotebrowser/chrome-live/actions/runs/32204475671
+	- [ ] re-trigger image build
+- [ ] fix mock database
+	- [x] DB secret
+		- [x] browserbase
+		- [x] daytona
+		- [x] flyfleet
+	- [ ] Clean data
 ## 2026-08-18
 
 Discussion
