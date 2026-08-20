@@ -22,8 +22,15 @@
 - [ ] Check monthly 
 ---
 - [ ] Remote browser pre-signed generator
+- [ ] Handle something_error to auto-reload 
+- [ ] Internal tools to create and manage browser
 - [ ] Check 
 	- [ ] patch_cdp_message prefixes every result.targetId on the way out but only un-prefixes Target.getTargetInfo on the way in, so any client that round-trips a target ID into Target.attachToTarget, Target.closeTarget, Target.activateTarget, or Page.navigate-by-target hits exactly the error you just saw. src/ip.py:90-111 does that same createTarget → attach → close sequence and only works because it connects straight to the machine rather than through the proxy. Stripping the prefix for the whole Target.* family on the client→remote path would make the proxy transparent
+- [ ] Check recording for
+	- [ ] browserbase
+	- [ ] daytona
+
+- [ ] Can we make daytona faster than browserbase?
 ## 2026-08-19
 ### Personal
 - [x] Disable Herdr vim
