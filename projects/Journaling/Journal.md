@@ -23,6 +23,10 @@
 - [ ] Remove unused secret in sentry
 - [ ] Masukin sedotan
 - [ ] remove linter nvim
+## 2026-08-20
+- [ ] Disable formater
+	- [ ] revise neovim workflow in AI workflow
+- [ ] 
 ## 2026-08-19
 ### Personal
 - [x] Disable Herdr vim
@@ -38,8 +42,8 @@
 - [x] Using one secret for database CI
 - [x] Proxy flyfleet
 - [ ] Tigris remotebrowser
-- [ ] Streaming log from chrome-live
-	- [ ] research
+- [x] Streaming log from chrome-live
+	- [x] research
 - [ ] Finding
 	- [ ] Worth noting for your flyfleet branch, separately from this test: patch_cdp_message prefixes every result.targetId on the way out but only un-prefixes Target.getTargetInfo on the way in, so any client that round-trips a target ID into Target.attachToTarget, Target.closeTarget, Target.activateTarget, or Page.navigate-by-target hits exactly the error you just saw. src/ip.py:90-111 does that same createTarget → attach → close sequence and only works because it connects straight to the machine rather than through the proxy. Stripping the prefix for the whole Target.* family on the client→remote path would make the proxy transparent — happy to write that patch if you want it, though it's your repo's call.
 ## 2026-08-18
