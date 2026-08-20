@@ -17,12 +17,15 @@
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
 ## 2026-08-20
-- [ ] Disable formater
-	- [ ] revise neovim workflow in AI workflow
-- [ ] Check monthly 
+- [x] Disable formater
+	- [x] revise neovim workflow in AI workflow
+- [x] Check monthly 
+- [ ] Breakdown lunasin hutang
 ---
-- [ ] Remote browser pre-signed generator
-- [ ] Handle something_error to auto-reload 
+- [x] Remote browser pre-signed generator
+	- [x] https://github.com/remotebrowser/remotebrowser/pull/1462
+- [x] Handle something_error to auto-reload 
+	- [x] https://github.com/remotebrowser/remotebrowser/pull/1461
 - [ ] Internal tools to create and manage browser
 - [ ] Check 
 	- [ ] patch_cdp_message prefixes every result.targetId on the way out but only un-prefixes Target.getTargetInfo on the way in, so any client that round-trips a target ID into Target.attachToTarget, Target.closeTarget, Target.activateTarget, or Page.navigate-by-target hits exactly the error you just saw. src/ip.py:90-111 does that same createTarget → attach → close sequence and only works because it connects straight to the machine rather than through the proxy. Stripping the prefix for the whole Target.* family on the client→remote path would make the proxy transparent
