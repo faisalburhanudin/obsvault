@@ -6,20 +6,21 @@
 - Balikin uang asuransi
 - Balikin uang pajak
 ## Backlog
-- [ ] Fix: ABC add buttom padding
-- [ ] Improvement: ABC add streak
 - [ ] [[Ganti no HP]]
 - [ ] Dashcam
-- [ ] beli mainan 17an
 - [ ] LED strip housing
 - [ ] setup n8n vm
 	- [ ] setup email cleaner
+- [ ] using gmail skill to clean email
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
 
 ## 2026-08-21
 - [x] Cost analysis daytona
-- [ ] Fix Daytona self-hosted
+- [ ] Find root cause daytona
+- [x] Fix Daytona self-hosted
+- [ ] Update
+	- [ ] https://github.com/remotebrowser/chrome-live/pull/43
 ## 2026-08-20
 - [x] Disable formater
 	- [x] revise neovim workflow in AI workflow
