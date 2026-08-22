@@ -1,4 +1,4 @@
-Status: not started · mulai setelah [[Lunasi Hutang]] beres
+Status: not started · mulai setelah [[Hutang KPR]] beres
 
 Target: dana darurat 1 bulan pengeluaran.
 

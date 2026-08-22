@@ -1,5 +1,5 @@
 ## Goals
-- [[Lunasi Hutang]] — started · prioritas #1, saving goal nunggu ini
+- [[Hutang KPR]] — started · prioritas #1, saving goal nunggu ini
 - [[Dana Darurat]] — not started · after debt
 - [[Planning THR]] — not started
 - [[Qurban]] — not started · 4/7 share, 16jt
