@@ -16,6 +16,8 @@
 - [ ] [[Ideas]]
 
 ## 2026-08-21
+- [ ] Hitung hutang
+---
 - [x] Cost analysis daytona
 - [ ] Find root cause daytona
 - [x] Fix Daytona self-hosted
