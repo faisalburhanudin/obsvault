@@ -26,6 +26,7 @@ Worksheet
 ---
 - [ ] Daytona
 	- [ ] Not remotebrowser process.exec
+	- [ ] [[dwfwe]]
 - [ ] Upgrade SDK to use TTL
 	- [ ] Yes—current Daytona SDK supports an absolute sandbox lifetime via set_ttl(minutes):
 	
