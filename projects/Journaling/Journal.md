@@ -15,7 +15,15 @@
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
 
-## 2026-08-24
+## 2026-08-25
+Worksheet
+- [ ] Phony alphabet
+- [ ] Number cheatsheet
+- [ ] Mana yang berbeda
+- [ ] Puzzle
+	- [ ] Kategorikan
+- [ ] Tracing Basic Shapes
+- [ ] 
 
 ## 2026-08-21
 - [ ] Hitung hutang
