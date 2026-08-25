@@ -23,7 +23,13 @@ Worksheet
 - [ ] Puzzle
 	- [ ] Kategorikan
 - [ ] Tracing Basic Shapes
-- [ ] 
+---
+- [ ] Daytona
+	- [ ] Not remotebrowser process.exec
+- [ ] Upgrade SDK to use TTL
+	- [ ] Yes—current Daytona SDK supports an absolute sandbox lifetime via set_ttl(minutes):
+	
+	  await sandbox.set_ttl(60)
 
 ## 2026-08-21
 - [ ] Hitung hutang
