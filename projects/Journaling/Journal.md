@@ -18,8 +18,11 @@
 - [x] feat: disable last_activity_timestamp for daytona https://github.com/remotebrowser/remotebrowser/pull/1467
 - [x] fix: race between browser deletion and browser resurection https://github.com/remotebrowser/remotebrowser/pull/1468
 - [x] feat: make CDP websocket ping internal a backend decision https://github.com/remotebrowser/remotebrowser/pull/1469
-- [ ] Bring remote browser fix to daytona fixes
-	- [ ] There is no last_activity_timestamp
+- [x] Bring remote browser fix to daytona fixes
+	- [x] 1467: There is no last_activity_timestamp
+	- [x] 1468: There's no way to attach to an existing browser id
+	- [x] 1469: https://github.com/remotebrowser/daytona-fleet/pull/7
+- [x] daytona-fleet: nix https://github.com/remotebrowser/daytona-fleet/pull/6
 - [ ] Ansible secret
 - [ ] Ansible Podman Fleet
 ## 2026-08-25
