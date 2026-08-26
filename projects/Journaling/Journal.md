@@ -15,7 +15,10 @@
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
 ## 2026-08-26
-- [ ] feat: disable last_activity_timestamp for daytona https://github.com/remotebrowser/remotebrowser/pull/1467
+- [x] feat: disable last_activity_timestamp for daytona https://github.com/remotebrowser/remotebrowser/pull/1467
+- [x] fix: race between browser deletion and browser resurection https://github.com/remotebrowser/remotebrowser/pull/1468
+- [x] feat: make CDP websocket ping internal a backend decision https://github.com/remotebrowser/remotebrowser/pull/1469
+- [ ] Bring remote browser fix to daytona fixes
 - [ ] 
 ## 2026-08-25
 Worksheet
