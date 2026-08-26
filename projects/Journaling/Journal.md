@@ -14,7 +14,9 @@
 - [ ] using gmail skill to clean email
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
-
+## 2026-08-26
+- [ ] feat: disable last_activity_timestamp for daytona https://github.com/remotebrowser/remotebrowser/pull/1467
+- [ ] 
 ## 2026-08-25
 Worksheet
 - [ ] Phony alphabet
