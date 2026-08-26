@@ -19,7 +19,9 @@
 - [x] fix: race between browser deletion and browser resurection https://github.com/remotebrowser/remotebrowser/pull/1468
 - [x] feat: make CDP websocket ping internal a backend decision https://github.com/remotebrowser/remotebrowser/pull/1469
 - [ ] Bring remote browser fix to daytona fixes
-- [ ] 
+	- [ ] There is no last_activity_timestamp
+- [ ] Ansible secret
+- [ ] Ansible Podman Fleet
 ## 2026-08-25
 Worksheet
 - [ ] Phony alphabet
