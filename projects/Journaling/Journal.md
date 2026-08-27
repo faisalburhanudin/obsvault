@@ -16,6 +16,7 @@
 - [ ] [[Ideas]]
 ## 2026-08-27
 - [ ] Check caller last_activity_timestamp (time boxed)
+	- [ ] [[last_activity_result]]
 - [ ] Check resource needed for the ffmpeg joins
 - [ ] Clean up doppler
 - [ ] How does the surf communicate, is it a sidecar like ours.

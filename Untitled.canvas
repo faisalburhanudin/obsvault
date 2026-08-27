@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"ca8b36f22d953d52","x":-520,"y":-240,"width":645,"height":60,"type":"text","text":"backstage  cdp.py:44 `client.get(f{base}/api/v1/browsers/{browser_id}\")`"},
+		{"id":"99dcf49290c05d05","x":-520,"y":-35,"width":645,"height":50,"type":"text","text":"router.py:290 `return await backend.get_browser(...)`"},
+		{"id":"7c85eac60413de47","x":-520,"y":60,"width":645,"height":60,"type":"text","text":"daytona_browsers.py::209 `return await self._get_info(sandbox)`"},
+		{"id":"e5950fe0ad42c0ac","x":-322,"y":-140,"width":250,"height":60,"type":"text","text":"Remotebrowser"},
+		{"id":"d953111a2e68b5eb","x":-577,"y":180,"width":760,"height":60,"type":"text","text":"- _get_info `\"last_activity_timestamp\": await self._get_last_activity(sandbox)`"},
+		{"id":"e243bd7df9d6cac5","x":-519,"y":300,"width":645,"height":200,"type":"text","text":"_get_last_activity \n```\nawait sandbox.process.exec(\n                                 \"cp /home/user/chrome-profile/Default/History /tmp/... && sqlite3 ...\"\n                               )\n```"}
+	],
+	"edges":[
+		{"id":"045f48f26954a9a0","fromNode":"ca8b36f22d953d52","fromSide":"bottom","toNode":"e5950fe0ad42c0ac","toSide":"top"},
+		{"id":"faaaa7901ccbf186","fromNode":"e5950fe0ad42c0ac","fromSide":"bottom","toNode":"99dcf49290c05d05","toSide":"top"},
+		{"id":"df9af7104ad56465","fromNode":"99dcf49290c05d05","fromSide":"bottom","toNode":"7c85eac60413de47","toSide":"top"},
+		{"id":"df5dddf05a975529","fromNode":"7c85eac60413de47","fromSide":"bottom","toNode":"d953111a2e68b5eb","toSide":"top"},
+		{"id":"04a82f773d04b3c4","fromNode":"d953111a2e68b5eb","fromSide":"bottom","toNode":"e243bd7df9d6cac5","toSide":"top"}
+	]
+}
