@@ -19,7 +19,7 @@
 - [ ] Check resource needed for the ffmpeg joins
 - [ ] Clean up doppler
 - [ ] How does the surf communicate, is it a sidecar like ours.
-
+- [ ] Update PR nix
 ## 2026-08-26
 - [x] feat: disable last_activity_timestamp for daytona https://github.com/remotebrowser/remotebrowser/pull/1467
 - [x] fix: race between browser deletion and browser resurection https://github.com/remotebrowser/remotebrowser/pull/1468
