@@ -19,10 +19,16 @@
 ---
 - [ ] cpu-limit
 	- [ ] [[test-prompt]]
-- [ ] Figure out who invoked /api/v1/browsers/{browser_id} too frequently
-- [ ] Investigate how surf communicate with the client
-- [ ] check PR
+- [x] Figure out who invoked /api/v1/browsers/{browser_id} too frequently
+- [x] Investigate how surf communicate with the client
+	- [ ] Create report
+- [x] check PR
+	- [x] add python and uv for flake nix
 - [ ] debugging daytona
+- [ ] debugging ws leaks 
+	- [ ] [[prompt-ws-leaks]]
+- [ ] investigate https://github.com/remotebrowser/daytona-fleet/pull/7#issuecomment-5434198825
+- [ ] 
 ## 2026-08-27
 - [x] Check caller last_activity_timestamp (time boxed)
 	- [x] [[last_activity_result]]
