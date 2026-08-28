@@ -17,8 +17,9 @@
 ## 2026-08-28
 - [ ] migrate memory to obsidian
 ---
-- [ ] cpu-limit
-	- [ ] [[test-prompt]]
+- [x] cpu-limit
+	- [x] [[test-prompt]]
+	- [x] https://heyario.slack.com/archives/C049DGC1D2M/p1787921979110099?thread_ts=1787883485.187339&cid=C049DGC1D2M
 - [x] Figure out who invoked /api/v1/browsers/{browser_id} too frequently
 - [x] Investigate how surf communicate with the client
 	- [ ] Create report
@@ -28,7 +29,8 @@
 - [ ] debugging ws leaks 
 	- [ ] [[prompt-ws-leaks]]
 - [ ] investigate https://github.com/remotebrowser/daytona-fleet/pull/7#issuecomment-5434198825
-- [ ] 
+- [ ] using cgroup
+- [ ] baca PR faisal
 ## 2026-08-27
 - [x] Check caller last_activity_timestamp (time boxed)
 	- [x] [[last_activity_result]]
