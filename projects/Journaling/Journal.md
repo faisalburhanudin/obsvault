@@ -15,10 +15,14 @@
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
 ## 2026-08-28
+- [ ] migrate memory to obsidian
+---
 - [ ] cpu-limit
 	- [ ] [[test-prompt]]
 - [ ] Figure out who invoked /api/v1/browsers/{browser_id} too frequently
 - [ ] Investigate how surf communicate with the client
+- [ ] check PR
+- [ ] debugging daytona
 ## 2026-08-27
 - [x] Check caller last_activity_timestamp (time boxed)
 	- [x] [[last_activity_result]]
