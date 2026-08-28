@@ -17,8 +17,10 @@
 ## 2026-08-27
 - [x] Check caller last_activity_timestamp (time boxed)
 	- [x] [[last_activity_result]]
-- [ ] Check resource needed for the ffmpeg joins
-- [ ] Clean up doppler
+- [x] Check resource needed for the ffmpeg joins
+- [x] Ansible podman-fleet
+	- [ ] private repo
+	- [ ] tailscale oauth for podman-fleet
 - [ ] How does the surf communicate, is it a sidecar like ours.
 - [ ] Update PR nix
 ## 2026-08-26
