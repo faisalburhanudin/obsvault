@@ -28,6 +28,7 @@
 - [ ] debugging daytona
 - [ ] debugging ws leaks 
 	- [ ] [[prompt-ws-leaks]]
+		- [ ] ![[Pasted image 20260831033428.png]]![[Pasted image 20260831032905.png]]
 - [ ] investigate https://github.com/remotebrowser/daytona-fleet/pull/7#issuecomment-5434198825
 - [ ] using cgroup
 - [ ] baca PR faisal
