@@ -1,7 +1,9 @@
+## TODO
+- [ ] Schema View
+## 2026-08-29
+- [ ] Result View
 ## 2026-08-28
-- [ ] Layout Sidebar + Editor
-- [ ] SQL Editor
-- [ ] 
+- [x] Workspace View
 ## 2026-08-27
 - [x] Add CodeEdit deps
 - [x] Fix Code_Sign
