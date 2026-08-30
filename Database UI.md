@@ -1,4 +1,5 @@
 ## 2026-08-28
+- [ ] Layout Sidebar + Editor
 - [ ] SQL Editor
 - [ ] 
 ## 2026-08-27
