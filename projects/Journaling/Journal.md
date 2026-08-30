@@ -7,7 +7,7 @@
 - Balikin uang pajak
 ## Backlog
 - [ ] [[Ganti no HP]]
-- [ ] Dashcam
+- [x] Dashcam
 - [ ] LED strip housing
 - [ ] setup n8n vm
 	- [ ] setup email cleaner
