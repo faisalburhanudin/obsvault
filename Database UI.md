@@ -1,6 +1,9 @@
 ## TODO
 - [ ] Schema View
+- [ ] Core Types
 ## 2026-08-29
+- [ ] Make core packages
+- [x] Fix sanbox
 - [x] Result View
 - [x] Claude.md
 ## 2026-08-28

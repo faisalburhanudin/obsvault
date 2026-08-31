@@ -15,7 +15,7 @@
 ## 2026-06-29
 - [ ] migrate memory to obsidian
 ---
-- [ ] Set doppler token 
+- [ ] Set doppler token
 - [ ] tail format
 - [ ] check cgroup
 - [ ] just use 2 core
@@ -38,6 +38,7 @@
 - [ ] audit backstage 
 - [ ] bikin client surf
 - [ ] liat https://gistpreview.github.io/?5c989ce00c0f9ca381b9a66da07602fd/migration-checklist.html 
+- [ ] logfire podman-fleet
 ## 2026-08-28
 ---
 - [x] cpu-limit
