@@ -1,7 +1,8 @@
 ## TODO
 - [ ] Schema View
 ## 2026-08-29
-- [ ] Result View
+- [x] Result View
+- [x] Claude.md
 ## 2026-08-28
 - [x] Workspace View
 ## 2026-08-27

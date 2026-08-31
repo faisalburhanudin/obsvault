@@ -1,12 +1,7 @@
 {
 	"nodes":[
 		{"id":"29f77e01c15d02dc","type":"file","file":"Database UI.md","x":-920,"y":-680,"width":400,"height":200},
-		{"id":"50fe315a6bb97dad","type":"file","file":"projects/Journaling/Journal.md","x":-440,"y":-680,"width":700,"height":260},
-		{"id":"45e2e9b0cee884af","x":-510,"y":-180,"width":70,"height":60,"type":"text","text":"Surf"},
-		{"id":"1c0f908a343069e7","type":"text","text":"Chromium","x":-535,"y":-60,"width":120,"height":60}
+		{"id":"50fe315a6bb97dad","type":"file","file":"projects/Journaling/Journal.md","x":-440,"y":-680,"width":700,"height":260}
 	],
-	"edges":[
-		{"id":"2abfddbd08485ae8","fromNode":"45e2e9b0cee884af","fromSide":"bottom","toNode":"1c0f908a343069e7","toSide":"top"},
-		{"id":"99bbe088513dc2ce","fromNode":"1c0f908a343069e7","fromSide":"top","toNode":"45e2e9b0cee884af","toSide":"bottom"}
-	]
+	"edges":[]
 }
