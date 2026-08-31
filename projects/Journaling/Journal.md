@@ -14,6 +14,9 @@
 - [ ] using gmail skill to clean email
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
+
+## 2026-06-29
+- [ ] Set doppler token 
 ## 2026-08-28
 - [ ] migrate memory to obsidian
 ---
