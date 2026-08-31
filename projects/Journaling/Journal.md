@@ -17,6 +17,7 @@
 ---
 - [x] Fix: CI fleet-gateway
 - [ ] deploy to prod fleet-gateway
+	- [ ] missing browserbase-fleet, flyfleet, daytona-fleet; org remote-browsers has only flyfleet
 - [x] tail format
 - [x] check cgroup
 - [ ] continue debug
