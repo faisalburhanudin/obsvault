@@ -16,10 +16,11 @@
 - [ ] migrate memory to obsidian
 ---
 - [x] Fix: CI fleet-gateway
-	- [ ] deploy to prod
-- [ ] tail format
-- [ ] check cgroup
+- [ ] deploy to prod fleet-gateway
+- [x] tail format
+- [x] check cgroup
 - [ ] continue debug
+- [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473
 - [ ] just use 2 core
 - [ ] remotebrowser masih pakai screenshot dari CDP
 	- [ ] 170px1000px thumbnails
@@ -41,7 +42,7 @@
 - [ ] bikin client surf
 - [ ] liat https://gistpreview.github.io/?5c989ce00c0f9ca381b9a66da07602fd/migration-checklist.html 
 - [ ] logfire podman-fleet
-- [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473
+- [ ] 
 ## 2026-08-28
 ---
 - [x] cpu-limit
