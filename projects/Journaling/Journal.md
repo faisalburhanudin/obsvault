@@ -15,7 +15,7 @@
 ## 2026-06-29
 - [ ] migrate memory to obsidian
 ---
-- [ ] Set doppler token
+- [ ] Fix: CI fleet-gateway
 - [ ] tail format
 - [ ] check cgroup
 - [ ] just use 2 core

@@ -2,7 +2,8 @@
 - [ ] Schema View
 - [ ] Core Types
 ## 2026-08-29
-- [ ] Make core packages
+- [x] add postgres-nio
+- [x] Make core packages
 - [x] Fix sanbox
 - [x] Result View
 - [x] Claude.md
