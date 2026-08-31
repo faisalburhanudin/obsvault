@@ -19,6 +19,28 @@
 - [ ] Set doppler token 
 ## 2026-08-28
 - [ ] migrate memory to obsidian
+- [ ] tail format
+- [ ] check cgroup
+- [ ] just use 2 core
+- [ ] remotebrowser masih pakai screenshot dari CDP
+	- [ ] 170px1000px thumbnails
+	- [ ] CDP jalan terus
+	- [ ] browser-trace
+		- [ ] cache thumbnails
+		- [ ] ndak perlu screenshot utama
+		- [ ] crop
+	- [ ] api untuk download video
+	- [ ] browser-base ada logger
+- [ ] cobain remotebrowser-next
+- [ ] meet-up driven
+- [ ] public vs private network
+- [ ] dulu pakai GCE
+- [ ] fleet gateway tidak boleh dipakai public
+- [ ] flycast apakah tidak load balance?
+	- [ ] cost and pros
+- [ ] audit backstage 
+- [ ] bikin client surf
+- [ ] liat https://gistpreview.github.io/?5c989ce00c0f9ca381b9a66da07602fd/migration-checklist.html 
 ---
 - [x] cpu-limit
 	- [x] [[test-prompt]]
