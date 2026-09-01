@@ -16,11 +16,12 @@
 - [ ] migrate memory to obsidian
 ---
 - [x] Fix: CI fleet-gateway
-- [ ] deploy to prod fleet-gateway
+- [x] deploy to prod fleet-gateway
 	- [ ] missing browserbase-fleet, flyfleet, daytona-fleet; org remote-browsers has only flyfleet
 - [x] tail format
 - [x] check cgroup
 - [ ] continue debug
+	- [x] https://github.com/remotebrowser/remotebrowser/pull/1474
 - [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473
 - [ ] just use 2 core
 - [ ] remotebrowser masih pakai screenshot dari CDP
