@@ -1,6 +1,10 @@
-
-Wishlist
-
-- Kabel data A to C
-- Kabel data C to C
-- Charging station
+[[Ganti no HP]]
+- [ ] LED strip housing
+- [ ] setup n8n vm
+	- [ ] setup email cleaner
+- [ ] Snaplet alternative
+---
+## Database UI
+- [ ] Schema View
+- [ ] Core Types
+---

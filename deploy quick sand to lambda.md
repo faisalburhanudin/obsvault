@@ -1,0 +1,4 @@
+- [x] Create VM
+- [ ] Install tailscale
+- [ ] Enable SSH tailscale for the VM
+- [ ] check repo quicksand what it's needed

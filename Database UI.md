@@ -1,6 +1,5 @@
-## TODO
-- [ ] Schema View
-- [ ] Core Types
+## 2026-09-01
+
 ## 2026-08-29
 - [x] add postgres-nio
 - [x] Make core packages

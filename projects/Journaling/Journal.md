@@ -1,30 +1,28 @@
-## Goals
-- [[Hutang KPR]] — started · prioritas #1, saving goal nunggu ini
-- [[Dana Darurat]] — not started · after debt
-- [[Planning THR]] — not started
-- [[Qurban]] — not started · 4/7 share, 16jt
-- Balikin uang asuransi 8jt
-## Backlog
-- [ ] [[Ganti no HP]]
-- [ ] LED strip housing
-- [ ] setup n8n vm
-	- [ ] setup email cleaner
-- [ ] Snaplet alternative
-- [ ] [[Ideas]]
-## 2026-07-01
-- [ ] merge fly deployment into single fleet-gateway
 
-## 2026-06-29
+## 2026-09-01
 - [ ] migrate memory to obsidian
+---
+- [x] merge fly deployment into single fleet-gateway
+- [ ] [[deploy quick sand to lambda]]
+- [ ] Limit ffmpeg by using 1 thread and make deployment using minimum 2 cores
+- [ ] Browser-trace thumbnails
+	- [ ] small thumbnail
+	- [ ] cache thumbnail
+- [ ] Browser-trace download video
+- [ ] Research private network in tailscale
+- [ ] continue debugging DNS
+- [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473
+- [ ] audit backstage
+- [ ] bikin client surf
+- [ ] liat https://gistpreview.github.io/?5c989ce00c0f9ca381b9a66da07602fd/migration-checklist.html 
+- [ ] logfire podman-fleet
+## 2026-06-29
 ---
 - [x] Fix: CI fleet-gateway
 - [x] deploy to prod fleet-gateway
-	- [ ] missing browserbase-fleet, flyfleet, daytona-fleet; org remote-browsers has only flyfleet
 - [x] tail format
 - [x] check cgroup
-- [ ] continue debug
-	- [x] https://github.com/remotebrowser/remotebrowser/pull/1474
-- [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473
+
 - [ ] just use 2 core
 - [ ] remotebrowser masih pakai screenshot dari CDP
 	- [ ] 170px1000px thumbnails

@@ -1,7 +1,9 @@
 {
 	"nodes":[
 		{"id":"29f77e01c15d02dc","type":"file","file":"Database UI.md","x":-920,"y":-680,"width":400,"height":200},
-		{"id":"50fe315a6bb97dad","type":"file","file":"projects/Journaling/Journal.md","x":-440,"y":-680,"width":700,"height":260}
+		{"id":"50fe315a6bb97dad","type":"file","file":"projects/Journaling/Journal.md","x":-440,"y":-680,"width":700,"height":260},
+		{"id":"af33d0304688d23e","x":-440,"y":-1120,"width":400,"height":400,"type":"file","file":"Financial Goals.md"},
+		{"id":"9ab9287fd754d6a7","x":-920,"y":-1120,"width":400,"height":400,"type":"file","file":"projects/Journaling/Backlog.md"}
 	],
 	"edges":[]
 }
