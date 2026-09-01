@@ -6,6 +6,7 @@
 	- [x] 32GiB RAM 8 vCPU 100GiB
 	- [x] CPU host
 	- [x] Enable nested-virt
+	- [ ] Tailscale ACL for dokku
 - [ ] Adjust repo
-	- [ ] qemu deps
-	- [ ] Dockerfile
+	- [x] qemu deps
+	- [x] Dockerfile
