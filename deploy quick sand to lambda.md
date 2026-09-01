@@ -2,10 +2,10 @@
 - [x] Install tailscale
 - [x] Enable SSH tailscale for the VM
 - [x] check repo quicksand what it's needed
-- [ ] Adjust machine spec
-	- [ ] 32GiB RAM 8 vCPU 100GiB
-	- [ ] CPU host
-	- [ ] Enable nested-virt
+- [x] Adjust machine spec
+	- [x] 32GiB RAM 8 vCPU 100GiB
+	- [x] CPU host
+	- [x] Enable nested-virt
 - [ ] Adjust repo
 	- [ ] qemu deps
 	- [ ] Dockerfile

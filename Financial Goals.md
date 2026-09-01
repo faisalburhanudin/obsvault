@@ -1,5 +1,5 @@
-- [[Hutang KPR]] — started · prioritas #1, saving goal nunggu ini
-- [[Dana Darurat]] — not started · after debt
+- [[Hutang KPR]]
+- [[Dana Darurat]]
 - [[Planning THR]] — not started
 - [[Qurban]] — not started · 4/7 share, 16jt
 - Balikin uang asuransi 8jt
