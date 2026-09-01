@@ -8,6 +8,7 @@
 	- [x] https://github.com/remotebrowser/chrome-live/pull/45
 	- [ ] check fleet who spawn the chrome for the spec
 - [ ] Browser-trace thumbnails
+	- [ ] https://github.com/remotebrowser/chrome-live/pull/46
 	- [ ] small thumbnail
 	- [ ] cache thumbnail
 - [ ] Browser-trace download video
