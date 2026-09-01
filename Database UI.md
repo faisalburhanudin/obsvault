@@ -1,4 +1,5 @@
 ## 2026-09-01
+- [ ] fix: Link Core to app target
 
 ## 2026-08-29
 - [x] add postgres-nio

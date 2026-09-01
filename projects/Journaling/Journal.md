@@ -5,6 +5,8 @@
 - [x] merge fly deployment into single fleet-gateway
 - [ ] [[deploy quick sand to lambda]]
 - [ ] Limit ffmpeg by using 1 thread and make deployment using minimum 2 cores
+	- [x] https://github.com/remotebrowser/chrome-live/pull/45
+	- [ ] check fleet who spawn the chrome for the spec
 - [ ] Browser-trace thumbnails
 	- [ ] small thumbnail
 	- [ ] cache thumbnail
