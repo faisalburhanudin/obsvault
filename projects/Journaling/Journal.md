@@ -11,6 +11,8 @@
 	- [ ] setup email cleaner
 - [ ] Snaplet alternative
 - [ ] [[Ideas]]
+## 2026-07-01
+- [ ] merge fly deployment into single fleet-gateway
 
 ## 2026-06-29
 - [ ] migrate memory to obsidian
