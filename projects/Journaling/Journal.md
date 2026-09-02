@@ -1,4 +1,5 @@
-
+## 2026-09-02
+- [ ] daytona-fleet dan browserbase-fleet CI deployment
 ## 2026-09-01
 - [ ] migrate memory to obsidian
 ---

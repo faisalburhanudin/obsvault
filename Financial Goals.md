@@ -1,5 +1,6 @@
+- Balikin uang asuransi - 8jt
+- Hutang CC
+- [[Dana Darurat]] - 60jt
+- [[Planning THR]] - 9jt
+- [[Qurban]] - 4jt
 - [[Hutang KPR]]
-- [[Dana Darurat]]
-- [[Planning THR]] — not started
-- [[Qurban]] — not started · 4/7 share, 16jt
-- Balikin uang asuransi 8jt
