@@ -13,6 +13,12 @@
 	- [ ] https://github.com/remotebrowser/chrome-live/pull/46
 	- [ ] small thumbnail
 	- [ ] cache thumbnail
+- [ ] Check CI data-portrait
+- [ ] Data-portrait
+	- [ ] README stale
+	- [ ] make sure reflective
+- [ ] Quicksand
+	- [ ] 
 - [ ] daytona-fleet dan browserbase-fleet CI deployment
 - [ ] Browser-trace download video
 - [ ] Research private network in tailscale
