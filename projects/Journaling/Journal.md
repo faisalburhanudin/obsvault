@@ -5,7 +5,8 @@
 ---
 
 
-- [ ] [[deploy quick sand to lambda]]
+- [x] [[deploy quick sand to lambda]]
+	- [ ] Deliver PR changes
 - [x] Check fleet who spawn the chrome for the spec
 	- [x] https://github.com/corelens-engineering/flyfleet/pull/194
 - [ ] Browser-trace thumbnails
