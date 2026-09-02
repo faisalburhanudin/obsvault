@@ -6,13 +6,11 @@
 
 
 - [x] [[deploy quick sand to lambda]]
-	- [ ] Deliver PR changes
+	- [x] https://github.com/remotebrowser/quicksand-fleet/pull/2
 - [x] Check fleet who spawn the chrome for the spec
 	- [x] https://github.com/corelens-engineering/flyfleet/pull/194
-- [ ] Browser-trace thumbnails
-	- [ ] https://github.com/remotebrowser/chrome-live/pull/46
-	- [ ] small thumbnail
-	- [ ] cache thumbnail
+- [x] Browser-trace thumbnails
+	- [x] https://github.com/remotebrowser/chrome-live/pull/47
 - [x] Check CI data-portrait
 	- [x] https://github.com/remotebrowser/data-portrait/pull/185
 - [ ] daytona-fleet dan browserbase-fleet CI deployment
