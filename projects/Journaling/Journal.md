@@ -1,15 +1,18 @@
 ## 2026-09-02
 - [ ] migrate memory to obsidian
-- [ ] Claude simple plain english for non-native speaker
+- [x] Claude simple plain english for non-native speaker
+- [ ] https://www.youtube.com/watch?v=3MP8D-mdheA
 ---
 
-- [ ] daytona-fleet dan browserbase-fleet CI deployment
+
 - [ ] [[deploy quick sand to lambda]]
-- [ ] Check fleet who spawn the chrome for the spec
+- [x] Check fleet who spawn the chrome for the spec
+	- [x] https://github.com/corelens-engineering/flyfleet/pull/194
 - [ ] Browser-trace thumbnails
 	- [ ] https://github.com/remotebrowser/chrome-live/pull/46
 	- [ ] small thumbnail
 	- [ ] cache thumbnail
+- [ ] daytona-fleet dan browserbase-fleet CI deployment
 - [ ] Browser-trace download video
 - [ ] Research private network in tailscale
 - [ ] continue debugging DNS

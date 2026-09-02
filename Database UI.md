@@ -1,8 +1,7 @@
 ## 2026-09-01
-- [ ] 
+- [x] session core and credentials core
 ## 2026-09-01
 - [x] fix: Link Core to app target
-
 ## 2026-08-29
 - [x] add postgres-nio
 - [x] Make core packages
