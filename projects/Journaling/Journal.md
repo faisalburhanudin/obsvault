@@ -1,13 +1,11 @@
 ## 2026-09-02
-- [ ] daytona-fleet dan browserbase-fleet CI deployment
-## 2026-09-01
 - [ ] migrate memory to obsidian
+- [ ] Claude simple plain english for non-native speaker
 ---
-- [x] merge fly deployment into single fleet-gateway
+
+- [ ] daytona-fleet dan browserbase-fleet CI deployment
 - [ ] [[deploy quick sand to lambda]]
-- [ ] Limit ffmpeg by using 1 thread and make deployment using minimum 2 cores
-	- [x] https://github.com/remotebrowser/chrome-live/pull/45
-	- [ ] check fleet who spawn the chrome for the spec
+- [ ] Check fleet who spawn the chrome for the spec
 - [ ] Browser-trace thumbnails
 	- [ ] https://github.com/remotebrowser/chrome-live/pull/46
 	- [ ] small thumbnail
@@ -20,6 +18,12 @@
 - [ ] bikin client surf
 - [ ] liat https://gistpreview.github.io/?5c989ce00c0f9ca381b9a66da07602fd/migration-checklist.html 
 - [ ] logfire podman-fleet
+## 2026-09-01
+---
+- [x] merge fly deployment into single fleet-gateway
+- [x] Limit ffmpeg by using 1 thread and make deployment using minimum 2 cores
+	- [x] https://github.com/remotebrowser/chrome-live/pull/45
+
 ## 2026-06-29
 ---
 - [x] Fix: CI fleet-gateway
