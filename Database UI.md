@@ -1,5 +1,5 @@
 ## 2026-09-03
-- [ ] New connection UI integration
+- [x] New connection UI integration
 ## 2026-09-02
 - [x] session core and credentials core
 ## 2026-09-01
