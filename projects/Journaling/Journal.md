@@ -1,9 +1,10 @@
 ## 2026-09-03
-- [ ] migrate memory to obsidian
+- [x] migrate memory to obsidian
 ---
-- [ ] Fix doppler flyfleet
+- [x] Fix doppler flyfleet
 - [ ] Setup CI lambda-quicksand-fleet
-- [ ] daytona-fleet dan browserbase-fleet CI deployment
+- [ ] daytona-fleet CI deployment
+- [ ] browserbase-fleet CI deployment
 - [ ] Browser-trace download video
 - [ ] Research private network in tailscale
 - [ ] continue debugging DNS
