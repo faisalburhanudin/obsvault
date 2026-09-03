@@ -2,9 +2,10 @@
 - [x] migrate memory to obsidian
 ---
 - [x] Fix doppler flyfleet
-- [ ] Setup CI lambda-quicksand-fleet
+- [x] Setup CI lambda-quicksand-fleet https://github.com/remotebrowser/quicksand-fleet/pull/10
 - [x] daytona-fleet CI deployment https://github.com/remotebrowser/daytona-fleet/pull/9
 - [x] browserbase-fleet CI deployment https://github.com/remotebrowser/browserbase-fleet/pull/11
+- [ ] 
 - [ ] Browser-trace download video
 - [ ] CI for podman-fleet
 - [ ] fix cloakbrowser-dep
