@@ -3,9 +3,11 @@
 ---
 - [x] Fix doppler flyfleet
 - [ ] Setup CI lambda-quicksand-fleet
-- [ ] daytona-fleet CI deployment
-- [ ] browserbase-fleet CI deployment
+- [x] daytona-fleet CI deployment https://github.com/remotebrowser/daytona-fleet/pull/9
+- [x] browserbase-fleet CI deployment https://github.com/remotebrowser/browserbase-fleet/pull/11
 - [ ] Browser-trace download video
+- [ ] CI for podman-fleet
+- [ ] fix cloakbrowser-dep
 - [ ] Research private network in tailscale
 - [ ] continue debugging DNS
 - [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473

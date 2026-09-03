@@ -45,6 +45,10 @@ Shared across all projects. Grouped by the repo the memory came from.
 - [live-view + recording initiative](live-view-recording-initiative.md) — HTTP service so one CDP screencast feeds recording+live view; task sequence + Tier-C/CapSolver decision; see docs/live-view-recording-research.md
 - [liveview POC](liveview-poc.md) — built & verified chromium Docker POC: liveview.py aiohttp on :9223 (live view WS + recordings), poc/Dockerfile; signal-forwarding & podman-mac gotchas
 
+## remotebrowser/quicksand-fleet
+
+- [drive_hackernews.py script](quicksand-fleet-drive-hackernews-script.md) — throwaway CDP-bridge smoke script (launch → Hacker News → scroll → terminate), stored here instead of in the repo
+
 ## corelens-engineering/demos and gather-engineering/demos
 
 - [grabbit ↔ remotebrowser cross-org routing](grabbit-remotebrowsers-cross-org-routing.md) — grabbit (org yuxi-yao) can't reach remotebrowser's Flycast (org remote-browsers); must use Tailscale
