@@ -1,7 +1,20 @@
-## 2026-09-02
+## 2026-09-03
 - [ ] migrate memory to obsidian
+---
+- [ ] Fix doppler flyfleet
+- [ ] Setup CI lambda-quicksand-fleet
+- [ ] daytona-fleet dan browserbase-fleet CI deployment
+- [ ] Browser-trace download video
+- [ ] Research private network in tailscale
+- [ ] continue debugging DNS
+- [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473
+- [ ] audit backstage
+- [ ] bikin client surf
+- [ ] liat https://gistpreview.github.io/?5c989ce00c0f9ca381b9a66da07602fd/migration-checklist.html 
+- [ ] logfire podman-fleet
+## 2026-09-02
 - [x] Claude simple plain english for non-native speaker
-- [ ] https://www.youtube.com/watch?v=3MP8D-mdheA
+- [x] https://www.youtube.com/watch?v=3MP8D-mdheA
 ---
 
 
@@ -13,15 +26,7 @@
 	- [x] https://github.com/remotebrowser/chrome-live/pull/47
 - [x] Check CI data-portrait
 	- [x] https://github.com/remotebrowser/data-portrait/pull/185
-- [ ] daytona-fleet dan browserbase-fleet CI deployment
-- [ ] Browser-trace download video
-- [ ] Research private network in tailscale
-- [ ] continue debugging DNS
-- [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473
-- [ ] audit backstage
-- [ ] bikin client surf
-- [ ] liat https://gistpreview.github.io/?5c989ce00c0f9ca381b9a66da07602fd/migration-checklist.html 
-- [ ] logfire podman-fleet
+
 ## 2026-09-01
 ---
 - [x] merge fly deployment into single fleet-gateway
