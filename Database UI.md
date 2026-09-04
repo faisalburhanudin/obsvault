@@ -1,5 +1,6 @@
 ## 2026-09-04
-- [ ] Store connection
+- [x] Store connection
+- [x] Separate theme
 ## 2026-09-03
 - [x] New connection UI integration
 ## 2026-09-02

@@ -1,7 +1,10 @@
 ## 2026-09-04
 - [x] Bayar SPP
 ---
-- [ ] Research private network in tailscale
+- [ ] fleet-gateway 8 core
+	- [ ] podman-fleet
+- [ ]
+- [[Research private network in tailscale]]
 - [ ] Browser-trace download video
 - [ ] CI for podman-fleet
 - [ ] fix cloakbrowser-dep
