@@ -1,3 +1,5 @@
+## 2026-09-04
+- [ ] Bayar SPP
 ## 2026-09-03
 - [x] migrate memory to obsidian
 ---
@@ -5,7 +7,7 @@
 - [x] Setup CI lambda-quicksand-fleet https://github.com/remotebrowser/quicksand-fleet/pull/10
 - [x] daytona-fleet CI deployment https://github.com/remotebrowser/daytona-fleet/pull/9
 - [x] browserbase-fleet CI deployment https://github.com/remotebrowser/browserbase-fleet/pull/11
-- [ ] 
+- [x] fix chrome-live
 - [ ] Browser-trace download video
 - [ ] CI for podman-fleet
 - [ ] fix cloakbrowser-dep
