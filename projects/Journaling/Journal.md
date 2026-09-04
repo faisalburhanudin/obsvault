@@ -1,5 +1,16 @@
 ## 2026-09-04
-- [ ] Bayar SPP
+- [x] Bayar SPP
+---
+- [ ] Research private network in tailscale
+- [ ] Browser-trace download video
+- [ ] CI for podman-fleet
+- [ ] fix cloakbrowser-dep
+- [ ] continue debugging DNS
+- [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473
+- [ ] audit backstage
+- [ ] bikin client surf
+- [ ] liat https://gistpreview.github.io/?5c989ce00c0f9ca381b9a66da07602fd/migration-checklist.html 
+- [ ] logfire podman-fleet
 ## 2026-09-03
 - [x] migrate memory to obsidian
 ---
@@ -8,16 +19,6 @@
 - [x] daytona-fleet CI deployment https://github.com/remotebrowser/daytona-fleet/pull/9
 - [x] browserbase-fleet CI deployment https://github.com/remotebrowser/browserbase-fleet/pull/11
 - [x] fix chrome-live
-- [ ] Browser-trace download video
-- [ ] CI for podman-fleet
-- [ ] fix cloakbrowser-dep
-- [ ] Research private network in tailscale
-- [ ] continue debugging DNS
-- [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473
-- [ ] audit backstage
-- [ ] bikin client surf
-- [ ] liat https://gistpreview.github.io/?5c989ce00c0f9ca381b9a66da07602fd/migration-checklist.html 
-- [ ] logfire podman-fleet
 ## 2026-09-02
 - [x] Claude simple plain english for non-native speaker
 - [x] https://www.youtube.com/watch?v=3MP8D-mdheA
