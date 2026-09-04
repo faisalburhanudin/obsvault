@@ -3,8 +3,8 @@
 ---
 - [ ] fleet-gateway 8 core
 	- [ ] podman-fleet
-- [ ]
-- [[Research private network in tailscale]]
+
+- [ ] [[Research private network in tailscale]]
 - [ ] Browser-trace download video
 - [ ] CI for podman-fleet
 - [ ] fix cloakbrowser-dep
