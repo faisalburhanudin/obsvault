@@ -1,9 +1,7 @@
 ## 2026-09-04
 - [x] Bayar SPP
 ---
-- [ ] fleet-gateway 8 core
-	- [ ] podman-fleet
-
+- [ ] [[fleet-gateway 8 core GCE]]
 - [ ] [[Research private network in tailscale]]
 - [ ] Browser-trace download video
 - [ ] CI for podman-fleet
