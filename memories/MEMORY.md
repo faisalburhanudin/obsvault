@@ -26,8 +26,9 @@ Shared across all projects. Grouped by the repo the memory came from.
 - [Live view keeps sandboxes alive](live-view-dashboard-keeps-sandboxes-alive.md) — open dashboard blocks auto-stop; the idle-gate's own exec counts as activity
 - [Logfire read token not in Doppler](logfire-read-token-not-in-doppler.md) — Doppler only has write tokens; create a read token in the Logfire UI for query-API scripts
 - [DELETE 404s on live sandboxes](daytona-delete-404-on-live-sandbox.md) — tap-connect sweeps a shared reservation table with no fleet predicate; either deployment reaps the other's browsers
-- [Daytona auto-stop never fires](daytona-auto-stop-never-fires.md) — 15-min idle stop does not fire on abandoned sandboxes; the probe that would explain it is dark since 2026-08-25
+- [Daytona auto-stop never fires](daytona-auto-stop-never-fires.md) — 15-min idle stop does not fire on abandoned sandboxes; cause found 2026-09-07, the leaked CDP relay's 60s ping
 - [Local CDP leak test setup](local-cdp-leak-test-setup.md) — instrument the client side in browser.py, not the relay; .env CHROMEFLEET_URL cannot be unset via env var
+- [CDP websocket leak findings](cdp-websocket-leak-findings.md) — a leaked relay socket pings Daytona every 60s and keeps the sandbox alive; three Logfire signatures to spot it
 
 ## remotebrowser/chrome-live and mcp-getgather/chrome-live
 
