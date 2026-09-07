@@ -1,8 +1,11 @@
 ## 2026-09-04
 - [x] Bayar SPP
 ---
+- [ ] fix fleet-gateway-prd fly
+	- [x] issue: ts secret for CAPITALIZW
+	- [x] issue 2: it use auth-key and it's expired
 - [ ] [[fleet-gateway 8 core GCE]]
-- [ ] [[Research private network in tailscale]]
+- [x] [[Research private network in tailscale]]
 - [ ] Browser-trace download video
 - [ ] CI for podman-fleet
 - [ ] fix cloakbrowser-dep

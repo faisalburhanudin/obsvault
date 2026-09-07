@@ -1,3 +1,2 @@
-- [ ] create instance
-- [ ] Install tailscale
-- [ ] Enable SSH tailscale for the VM
+- [x] create instance
+- [x] Install tailscale
