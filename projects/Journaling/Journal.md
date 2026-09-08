@@ -1,13 +1,11 @@
 ## 2026-09-08
 - [x] Deploy podman, daytona & browserbase upstream to GCE
 	- [ ] CI
-- [ ] Create test manager for fleet-gateway
 - [x] Alert fly
 	- [x] Not supported need self-hosted grafana
-- [ ] Browser-trace download video
+- [ ] attach browser id to sandbox
 - [ ] CI fleet-gateway
 - [ ] CI for podman-fleet
-- [ ] fix cloakbrowser-dep
 - [ ] continue debugging DNS
 - [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473
 - [ ] audit backstage
