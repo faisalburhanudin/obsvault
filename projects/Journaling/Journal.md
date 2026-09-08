@@ -1,11 +1,8 @@
-## 2026-09-04
-- [x] Bayar SPP
----
-- [x] fix fleet-gateway-prd fly
-	- [x] issue: ts secret for CAPITALIZW
-	- [x] issue 2: it use auth-key and it's expired
-- [x] [[fleet-gateway 8 core GCE]]
-- [x] [[Research private network in tailscale]]
+## 2026-09-08
+- [ ] Deploy podman, daytona & browserbase upstream to GCE
+- [ ] Create test manager for fleet-gateway
+- [ ] Alert fly
+- [ ] deploy all to GCE
 - [ ] Browser-trace download video
 - [ ] CI fleet-gateway
 - [ ] CI for podman-fleet
@@ -16,6 +13,14 @@
 - [ ] bikin client surf
 - [ ] liat https://gistpreview.github.io/?5c989ce00c0f9ca381b9a66da07602fd/migration-checklist.html 
 - [ ] logfire podman-fleet
+## 2026-09-04
+- [x] Bayar SPP
+---
+- [x] fix fleet-gateway-prd fly
+	- [x] issue: ts secret for CAPITALIZW
+	- [x] issue 2: it use auth-key and it's expired
+- [x] [[fleet-gateway 8 core GCE]]
+- [x] [[Research private network in tailscale]]
 ## 2026-09-03
 - [x] migrate memory to obsidian
 ---
@@ -365,7 +370,6 @@ Discussion
 - [x] fix unittest failed https://github.com/corelens-engineering/demos/pull/1198
 - [x] fix fly multiple image in return reminder
 
-## 2026-07-28
 
 ## 2026-07-27
 

@@ -11,6 +11,7 @@ Shared across all projects. Grouped by the repo the memory came from.
 - [Confirm before dangerous actions](confirm-before-dangerous-actions.md) — ask before creating GCE instances or any cost-incurring/destructive action
 - [Confirm before DB commands](feedback_confirm_before_db_commands.md) — prod DB needs confirmation first; local DB fine to run freely
 - [Never read .env directly](never-read-dotenv-use-censored-script.md) — inspect secrets only via a value-censoring script
+- [MagicDNS fails under browser DoH](magicdns-fails-under-browser-doh.md) — *.ts.net works in curl but not the browser: turn off "Use secure DNS"
 
 ## remotebrowser/remotebrowser
 
@@ -29,6 +30,10 @@ Shared across all projects. Grouped by the repo the memory came from.
 - [Daytona auto-stop never fires](daytona-auto-stop-never-fires.md) — 15-min idle stop does not fire on abandoned sandboxes; cause found 2026-09-07, the leaked CDP relay's 60s ping
 - [Local CDP leak test setup](local-cdp-leak-test-setup.md) — instrument the client side in browser.py, not the relay; .env CHROMEFLEET_URL cannot be unset via env var
 - [CDP websocket leak findings](cdp-websocket-leak-findings.md) — a leaked relay socket pings Daytona every 60s and keeps the sandbox alive; three Logfire signatures to spot it
+
+## remotebrowser/fleet-gateway
+
+- [Dokku app serves itself on the tailnet](dokku-tailnet-app-serves-itself.md) — container runs its own tailscaled + `tailscale serve`; disable Dokku domains, name the node per app with TS_HOSTNAME
 
 ## remotebrowser/chrome-live and mcp-getgather/chrome-live
 
