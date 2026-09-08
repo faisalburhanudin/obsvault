@@ -1,8 +1,9 @@
 ## 2026-09-08
-- [ ] Deploy podman, daytona & browserbase upstream to GCE
+- [x] Deploy podman, daytona & browserbase upstream to GCE
+	- [ ] CI
 - [ ] Create test manager for fleet-gateway
-- [ ] Alert fly
-- [ ] deploy all to GCE
+- [x] Alert fly
+	- [x] Not supported need self-hosted grafana
 - [ ] Browser-trace download video
 - [ ] CI fleet-gateway
 - [ ] CI for podman-fleet
