@@ -1,5 +1,7 @@
 ## 2026-09-09
-- [ ] AB-Mix
+- [x] AB-Mix
+- [x] Uang mainan
+- [ ] Kasih AB Mix ke tanaman bawah TV
 ---
 - [x] Simplify test manager
 	- [x] development & production
