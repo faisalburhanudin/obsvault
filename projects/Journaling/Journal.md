@@ -1,5 +1,8 @@
 ## 2026-09-09
 - [ ] AB-Mix
+---
+- [ ] Simplify test manager
+- [ ] 
 ## 2026-09-08
 - [x] Deploy podman, daytona & browserbase upstream to GCE
 	- [ ] CI
