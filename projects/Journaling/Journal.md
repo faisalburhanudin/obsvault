@@ -1,8 +1,11 @@
 ## 2026-09-09
 - [ ] AB-Mix
 ---
-- [ ] Simplify test manager
-- [ ] 
+- [x] Simplify test manager
+	- [x] development & production
+	- [ ] rename the test
+- [x] Assign port for each fleet
+- [ ] Doppler re-organize
 ## 2026-09-08
 - [x] Deploy podman, daytona & browserbase upstream to GCE
 	- [ ] CI

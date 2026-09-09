@@ -9,6 +9,7 @@ Shared across all projects. Grouped by the repo the memory came from.
 - [No co-author](feedback_no_coauthor.md) — do not add Co-Authored-By lines in commits
 - [Deploy-first working style](working_style_deploy_first.md) — ships rough POCs day one, iterates daily, over upfront polish
 - [Confirm before dangerous actions](confirm-before-dangerous-actions.md) — ask before creating GCE instances or any cost-incurring/destructive action
+- [No UI automation on the laptop](no-ui-automation-on-faisal-laptop.md) — never use osascript/screencapture to drive the Mac GUI; ask the user to open things
 - [Confirm before DB commands](feedback_confirm_before_db_commands.md) — prod DB needs confirmation first; local DB fine to run freely
 - [Never read .env directly](never-read-dotenv-use-censored-script.md) — inspect secrets only via a value-censoring script
 - [MagicDNS fails under browser DoH](magicdns-fails-under-browser-doh.md) — *.ts.net works in curl but not the browser: turn off "Use secure DNS"
