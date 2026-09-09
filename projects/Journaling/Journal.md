@@ -1,13 +1,19 @@
 ## 2026-09-09
 - [x] AB-Mix
 - [x] Uang mainan
-- [ ] Kasih AB Mix ke tanaman bawah TV
+- [x] Kasih AB Mix ke tanaman bawah TV
+	- [x] dikuras aja
 ---
 - [x] Simplify test manager
 	- [x] development & production
 	- [ ] rename the test
 - [x] Assign port for each fleet
-- [ ] Doppler re-organize
+- [x] Doppler re-organize
+	- [x] https://heyario.slack.com/archives/C049DGC1D2M/p1788953828778879
+- [ ] [https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) 
+- [ ] CI for all GCE stack (podman, daytona, browserbase, fleet-gateway)
+- [ ] Client Surf
+- [ ] Logfire podman-fleet
 ## 2026-09-08
 - [x] Deploy podman, daytona & browserbase upstream to GCE
 	- [ ] CI
