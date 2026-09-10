@@ -80,3 +80,8 @@ Shared across all projects. Grouped by the repo the memory came from.
 
 - [Tigris report debugging](tigris-report-debugging.md) — pull historical test reports from Tigris (creds via fly-secret manager app; zip size = pass/fail)
 - [SMS OTP outage Jul 2026](sms-otp-outage-jul2026.md) — two problems: Amazon OTP never retrievable (config bug) + real SMS-gateway outage from ~2026-07-18
+
+## infra / kuma host
+
+- [uptime-kuma host](uptime-kuma-host.md) — Docker on kuma/100.91.247.83:3001; no REST API for monitors, writes are Socket.IO only
+- [Reach Fly 6PN from Docker](reach-fly-6pn-from-docker.md) — needs BOTH `tailscale set --accept-routes` and Docker `ipv6`+`ip6tables`; tailscale-router-* nodes advertise the fdaa /48s

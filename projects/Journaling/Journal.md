@@ -1,6 +1,16 @@
 ## 2026-09-10
-- [ ] Merge flyfleet
-- [ ] Deploy and configure uptime kuma
+- [x] Deploy and configure uptime kuma
+	- [x] backstage
+	- [x] connect
+	- [x] insight
+	- [x] fleet-gateway
+	- [x] browerbase-fleet
+	- [x] flyfleet
+	- [x] daytona-fleet
+	- [x] quicksand-fleet
+	- [x] podman-fleet
+	- [x] metabase
+- [ ] `headline-hub` and `page-turner` pointing
 - [ ] CI for all GCE stack (podman, daytona, browserbase, fleet-gateway)
 - [ ] Client Surf
 - [ ] Logfire podman-fleet
