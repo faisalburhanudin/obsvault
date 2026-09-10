@@ -10,8 +10,8 @@
 	- [x] quicksand-fleet
 	- [x] podman-fleet
 	- [x] metabase
-- [ ] `headline-hub` and `page-turner` pointing
-- [ ] migrate secret backstage
+- [x] `headline-hub` and `page-turner` pointing
+- [x] migrate secret backstage
 - [ ] CI for all GCE stack (podman, daytona, browserbase, fleet-gateway)
 - [ ] Client Surf
 - [ ] Logfire podman-fleet
