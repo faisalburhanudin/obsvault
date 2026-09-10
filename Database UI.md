@@ -1,3 +1,5 @@
+## 2026-09-19
+- [x] Gallery View
 ## 2026-09-04
 - [x] Store connection
 - [x] Separate theme

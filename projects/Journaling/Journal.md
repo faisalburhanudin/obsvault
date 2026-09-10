@@ -1,3 +1,9 @@
+## 2026-09-10
+- [ ] Merge flyfleet
+- [ ] Deploy and configure uptime kuma
+- [ ] CI for all GCE stack (podman, daytona, browserbase, fleet-gateway)
+- [ ] Client Surf
+- [ ] Logfire podman-fleet
 ## 2026-09-09
 - [x] AB-Mix
 - [x] Uang mainan
