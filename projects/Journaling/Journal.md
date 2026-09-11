@@ -2,9 +2,12 @@
 - [x] Remove corelens-backstage secret from demos
 - [x] Move alert to `#infra-alert
 - [x] Is it possible to health check based on logfire?
-- [ ] remove prefix backstage
-- [ ] update test result
-- [ ] CI for all GCE stack (podman, daytona, browserbase, fleet-gateway)
+- [x] remove prefix backstage
+- [ ] CI for all GCE stack
+	- [ ] podman
+	- [ ] daytona
+	- [ ] browserbase
+	- [ ] fleet-gateway
 - [ ] Client Surf
 ## 2026-09-10
 - [x] Deploy and configure uptime kuma
