@@ -1,3 +1,7 @@
+## 2026-09-11
+- [x] Remove corelens-backstage secret from demos
+- [ ] 
+
 ## 2026-09-10
 - [x] Deploy and configure uptime kuma
 	- [x] backstage
