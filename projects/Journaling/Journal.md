@@ -4,7 +4,7 @@
 - [x] Is it possible to health check based on logfire?
 - [x] remove prefix backstage
 - [ ] CI for all GCE stack
-	- [ ] podman
+	- [x] podman
 	- [ ] daytona
 	- [ ] browserbase
 	- [ ] fleet-gateway
