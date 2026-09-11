@@ -1,7 +1,7 @@
 ## 2026-09-11
 - [x] Remove corelens-backstage secret from demos
 - [x] Move alert to `#infra-alert
-- [ ] Is it possible to health check based on logfire?
+- [x] Is it possible to health check based on logfire?
 - [ ] remove prefix backstage
 - [ ] update test result
 - [ ] CI for all GCE stack (podman, daytona, browserbase, fleet-gateway)
