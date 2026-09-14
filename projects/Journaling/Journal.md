@@ -1,17 +1,16 @@
 ## 2026-09-14
 - [x] https://github.com/remotebrowser/fleet-gateway/pull/22
-- [x] Client Surf
+- [ ] Client Surf
+- [ ] logfire podman
 ## 2026-09-11
 - [x] Remove corelens-backstage secret from demos
 - [x] Move alert to `#infra-alert
 - [x] Is it possible to health check based on logfire?
 - [x] remove prefix backstage
-- [ ] CI for all GCE stack
+- [x] CI for all GCE stack
 	- [x] podman
 	- [x] daytona
 	- [x] browserbase
-	- [ ] fleet-gateway
-- [ ] Client Surf
 ## 2026-09-10
 - [x] Deploy and configure uptime kuma
 	- [x] backstage
@@ -26,9 +25,7 @@
 	- [x] metabase
 - [x] `headline-hub` and `page-turner` pointing
 - [x] migrate secret backstage
-- [ ] CI for all GCE stack (podman, daytona, browserbase, fleet-gateway)
-- [ ] Client Surf
-- [ ] Logfire podman-fleet
+- [x] CI for all GCE stack (podman, daytona, browserbase, fleet-gateway)
 ## 2026-09-09
 - [x] AB-Mix
 - [x] Uang mainan
@@ -41,24 +38,10 @@
 - [x] Assign port for each fleet
 - [x] Doppler re-organize
 	- [x] https://heyario.slack.com/archives/C049DGC1D2M/p1788953828778879
-- [ ] [https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) 
-- [ ] CI for all GCE stack (podman, daytona, browserbase, fleet-gateway)
-- [ ] Client Surf
-- [ ] Logfire podman-fleet
 ## 2026-09-08
 - [x] Deploy podman, daytona & browserbase upstream to GCE
-	- [ ] CI
 - [x] Alert fly
 	- [x] Not supported need self-hosted grafana
-- [ ] attach browser id to sandbox
-- [ ] CI fleet-gateway
-- [ ] CI for podman-fleet
-- [ ] continue debugging DNS
-- [ ] porting to backstage? https://github.com/remotebrowser/remotebrowser/pull/1473
-- [ ] audit backstage
-- [ ] bikin client surf
-- [ ] liat https://gistpreview.github.io/?5c989ce00c0f9ca381b9a66da07602fd/migration-checklist.html 
-- [ ] logfire podman-fleet
 ## 2026-09-04
 - [x] Bayar SPP
 ---
