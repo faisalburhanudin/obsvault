@@ -85,3 +85,8 @@ Shared across all projects. Grouped by the repo the memory came from.
 
 - [uptime-kuma host](uptime-kuma-host.md) — Docker on kuma/100.91.247.83:3001; no REST API for monitors, writes are Socket.IO only
 - [Reach Fly 6PN from Docker](reach-fly-6pn-from-docker.md) — needs BOTH `tailscale set --accept-routes` and Docker `ipv6`+`ip6tables`; tailscale-router-* nodes advertise the fdaa /48s
+
+## terrascope
+
+- [Homelab deploy](terrascope-homelab-deploy.md) — real COGs and API live on 100.122.215.60; ~/terrascope is an rsync target with traps
+- [LOD 0 review API](terrascope-lod0-review-api.md) — flagged footprints become cases; judge them from the crop, never from metrics alone
