@@ -2,9 +2,10 @@
 - [ ] Continue claude --resume 84684dae-900e-41fd-8b76-495717f3ab12
 ---
 - [x] https://github.com/remotebrowser/fleet-gateway/pull/22
-- [ ] Explore remote browser pro
-- [ ] Client Surf
-- [ ] logfire podman
+- [x] Explore remote browser pro
+	- [x] add log
+- [ ] Client Surft
+
 ## 2026-09-11
 - [x] Remove corelens-backstage secret from demos
 - [x] Move alert to `#infra-alert
