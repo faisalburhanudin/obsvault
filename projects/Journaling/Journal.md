@@ -1,3 +1,6 @@
+## 2026-09-14
+- [x] https://github.com/remotebrowser/fleet-gateway/pull/22
+- [x] Client Surf
 ## 2026-09-11
 - [x] Remove corelens-backstage secret from demos
 - [x] Move alert to `#infra-alert
@@ -6,7 +9,7 @@
 - [ ] CI for all GCE stack
 	- [x] podman
 	- [x] daytona
-	- [ ] browserbase
+	- [x] browserbase
 	- [ ] fleet-gateway
 - [ ] Client Surf
 ## 2026-09-10
