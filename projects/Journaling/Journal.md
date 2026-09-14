@@ -5,7 +5,7 @@
 - [x] remove prefix backstage
 - [ ] CI for all GCE stack
 	- [x] podman
-	- [ ] daytona
+	- [x] daytona
 	- [ ] browserbase
 	- [ ] fleet-gateway
 - [ ] Client Surf
