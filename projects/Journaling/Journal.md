@@ -1,5 +1,6 @@
 ## 2026-09-14
 - [x] https://github.com/remotebrowser/fleet-gateway/pull/22
+- [ ] Explore remote browser pro
 - [ ] Client Surf
 - [ ] logfire podman
 ## 2026-09-11
