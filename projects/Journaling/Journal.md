@@ -6,10 +6,14 @@
 - [x] Disabled Fly monitoring in Kuma
 - [x] dokku config:set podman-fleet MAX_BROWSERS=6
 - [x] Remove browserbase from upstream URL
-- [ ] Disable CI browserbase GCE
+- [x] remove unused instance in GCE
 - [ ] Backstage GCE deployment
 	- [x] Waiting Juang response
-	- [ ] Deploy from local
+	- [x] Deploy from local
+	- [x] Fix tailscale required https://github.com/corelens-engineering/corelens-backstage/pull/55
+	- [ ] CI
+- [ ] Perf test fleet-gateway GCE
+- [ ] Fix live fleet-gateway
 - [ ] Estimate/predict the monthly operating costs
 	- [ ] Waiting perf-test
 - [ ] Decomission/demote the corresponding Fly apps
