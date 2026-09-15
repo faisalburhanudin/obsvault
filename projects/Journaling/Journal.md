@@ -1,3 +1,19 @@
+## 2026-09-15
+- [ ] Re-architecture pipeline
+- [ ] Download Lidar data
+---
+- [x] Disabled Fly monitoring in Kuma
+- [ ] Backstage GCE deployment
+	- [ ] Waiting Juang response
+- [ ] Estimate/predict the monthly operating costs
+	- [ ] Waiting perf-test
+- [ ] Decomission/demote the corresponding Fly apps
+	- [ ] Waiting GCE deployment
+- [ ] Setup hermes with Next Browser
+- [ ] 
+- [ ] Podman Fleet on Lambda
+- [ ] Check architecture and breakdown jobs
+
 ## 2026-09-14
 ---
 - [x] https://github.com/remotebrowser/fleet-gateway/pull/22
