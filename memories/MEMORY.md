@@ -34,7 +34,7 @@ Shared across all projects. Grouped by the repo the memory came from.
 
 ## remotebrowser/fleet-gateway
 
-- [Concurrency ceiling is 5-7](fleet-gateway-concurrency-ceiling.md) — unguarded httpx call in proxy.py returns a bare 500 under load; host resources are fine
+- [Concurrency ceiling ~15](fleet-gateway-concurrency-ceiling.md) — was 5-7 until daytona-fleet got uvicorn workers; host binds past 15, and proxy.py still turns timeouts into bare 500s
 - [Dokku app serves itself on the tailnet](dokku-tailnet-app-serves-itself.md) — container runs its own tailscaled + `tailscale serve`; disable Dokku domains, name the node per app with TS_HOSTNAME
 
 ## remotebrowser/chrome-live and mcp-getgather/chrome-live

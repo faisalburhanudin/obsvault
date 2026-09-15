@@ -6,6 +6,7 @@
 - [x] dokku config:set podman-fleet MAX_BROWSERS=6
 - [x] Remove browserbase from upstream URL
 - [x] remove unused instance in GCE
+- [ ] Remove `#TEST` daytona-fleet deploy gce
 - [ ] Backstage GCE deployment
 	- [x] Waiting Juang response
 	- [x] Deploy from local

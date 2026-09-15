@@ -1,35 +1,41 @@
 ---
 name: fleet-gateway-concurrency-ceiling
-description: fleet-gateway fails between 5 and 7 concurrent jobs; cause is an unguarded httpx call in proxy.py, not host resources
+description: Concurrency ceiling for the backstage->gateway->daytona chain; was 5-7, now ~15 after daytona-fleet got uvicorn workers
 metadata:
   type: project
 ---
 
 Benchmarked 2026-09-15 with the test-manager schedule "connect amazon mock
-backstage" (ladder 1,3,5,7 — stop on first failure). 1/3/5 all passed clean;
-**n=7 failed** (job 45858). So the ceiling sits between 5 and 7 concurrent.
+backstage" (ladder, stop on first failure). Measure resources per batch — Logfire
+has **no system metrics** for these services, only `http.*`/`db.*`, so CPU and
+memory must be sampled live off the host.
 
-**Why:** `fleetgateway/proxy.py::_send_to_upstream` has no try/except. Every
-other upstream call in that repo catches `httpx.TimeoutException` /
-`TransportError` (`race_launch._attempt_launch`, `fanout_probe_browser.probe`,
-`fanout_list_browsers.list_one`) — this one does not. On the routing-table
-cache-hit path a slow owner raises `ReadTimeout` (REQUEST_TIMEOUT_SECONDS =
-10.0) straight through FastAPI, so uvicorn returns a bare **500**. backstage
-turns that into a 502, the sign-in retries, and the job dies with
-"Browser connection lost".
+| config | n=7 | n=10 | n=15 |
+|---|---|---|---|
+| 1 uvicorn worker | 7/7 | 10/10 cold, 1-9/10 warm | not reached |
+| 4 workers (PR #11) | — | 10/10 | 14/15 |
 
-Two things make it worse: the gateway runs a **single uvicorn worker**, so CDP
-WebSocket bridging and the REST API share one event loop (REST latency went
-0.49s idle -> 3.77s avg / 21.45s max at n=7); and `flyfleet.flycast` in
-`UPSTREAM_URLS` never resolves, so every fanout pays a dead upstream. Fix that
-with the literal IPv6 — see [[reach-fly-6pn-from-docker]].
+**What actually limited it:** `daytona-fleet` ran a single uvicorn worker, so one
+asyncio loop pinned at ~100% of one core while the host sat 76-99% idle
+(`vmstat`). A starved loop misses `CDP_WS_OPEN_TIMEOUT = 3.0`, retries burn
+`CDP_CONNECT_BUDGET = 25.0`, and fleet-gateway quits at its own 10s
+`REQUEST_TIMEOUT_SECONDS`. With `--workers 4` it reaches 355% CPU and the ceiling
+moves to ~15.
 
-**Not the cause:** host resources. The `fleet` box has 8 vCPU / 31 GB (21 GB
-free), containers run with *no* cpu/memory limits, 0 restarts, no OOM kills,
-gateway at 104 MiB / 0.28% CPU. Don't re-investigate that.
+**Still unfixed:** `fleet-gateway/fleetgateway/proxy.py::_send_to_upstream` has no
+try/except, unlike every other upstream call in that repo, so an upstream timeout
+becomes a bare 500 instead of a retryable 503. Workers hid it; they did not fix it.
 
-Caller-side evidence is in Logfire [[logfire-project-remote-browser-dev]] under
-`service_name='backstage'`; the gateway's own `/api/v1/browsers/*` server spans
-are **not** exported, so the 500 is only visible in `docker logs`.
+**Order of limits now:** at n=15 the host itself binds — load1 hit 47 on 8 cores
+and memory 21.5 GB of 31 GB. Past 15 needs hardware, not code. Memory was never a
+factor below that.
 
-Test-manager timestamps are WIB (UTC+7) — subtract 7h to match Logfire.
+**Warm vs cold matters.** Leaked relay sockets (see
+[[cdp-websocket-leak-findings]]) leave daytona-fleet at ~20% CPU and 40-60 open
+Daytona sockets. They drain in ~5 min idle. Warm n=10 gave 1/10 and 9/10 on
+identical config; cold gave 10/10. Always drain before comparing runs.
+
+Test-manager timestamps are WIB (UTC+7); subtract 7h for Logfire. The hourly cron
+at `50 * * * *` adds a stray job if a batch overlaps it. Gateway-side 500s are
+only in `docker logs` — the gateway exports no server spans. See
+[[reach-fly-6pn-from-docker]] for the flyfleet upstream.
