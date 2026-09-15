@@ -11,14 +11,19 @@
 	- [x] Deploy from local
 	- [x] Fix tailscale required https://github.com/corelens-engineering/corelens-backstage/pull/55
 	- [ ] CI
-	- [ ] [[fix why dead fleet still got called]]
+- [x] Stop browserbase-fleet in GCE
+- [x] disable test https://test-manager.pitta-pound.ts.net/schedules/fleet-browserbase
 - [ ] Perf test fleet-gateway GCE
 	- [x] get secret
 	- [x] deploy secret
 	- [x] setup logfire using dev env
 	- [ ] perf test
-		- [ ] fix flyfleet.flycast
+		- [x] fix flyfleet.flycast
 	- [ ] rollback logfire to production
+	- [ ] [[fix why dead fleet still got called]]
+	- [ ] So flyfleet is fast to accept a launch but slow to answer about the browser right afterwards — plausibly the Fly machine is still coming up. It wins the race precisely because it answers the POST quickly, then fails the follow-up.
+	- [ ] [[fix daytona pegged]]
+	- [ ] Clean sandbox if any https://app.daytona.io/dashboard/sandboxes
 - [ ] Read this https://heyario.slack.com/archives/C0AG7EDJSEM/p1789457912911809?thread_ts=1789456898.051449&cid=C0AG7EDJSEM
 - [ ] CI to GCE https://heyario.slack.com/archives/D08TDAMHR2N/p1789459092894379
 - [ ] Fix live fleet-gateway
