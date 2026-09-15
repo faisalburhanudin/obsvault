@@ -44,3 +44,19 @@ Trap: `fixed-cidr-v6` must be valid hex — dockerd refuses to start and crash-l
 on something like `fd00:d0ck:...` (`k` is not hex).
 
 Applied on the `kuma` host (100.91.247.83) — see [[uptime-kuma-host]].
+
+Also already applied on the **`fleet`** GCE host (`gcloud compute ssh --zone
+us-central1-c fleet --project bluewizard`), as of 2026-09-15: `RouteAll: true`,
+daemon.json has `fd00:d0c:1::/64`, forwarding on, container bridge v6 works.
+
+**3. DNS is a third, separate thing.** `*.flycast` names never resolve outside
+Fly, no matter how good the routing is. Use the literal IPv6 in config:
+
+| app | org | private ingress IPv6 |
+|---|---|---|
+| flyfleet | remote-browsers | `fdaa:40:80eb:0:1::2` |
+| flyfleet-dev | remote-browsers-dev | `fdaa:40:8b11:0:1::297d` |
+
+Get them with `fly ips list -a <app>`. Verify from the container, not the host —
+a user-defined docker network (e.g. `fleet-net`) can report `v6=invalid IP`
+while the default `bridge` has v6. See [[fleet-gateway-concurrency-ceiling]].

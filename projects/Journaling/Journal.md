@@ -1,7 +1,6 @@
 ## 2026-09-15
 - [ ] Re-architecture pipeline
-- [ ] Download Lidar data
-	- [x] On going
+- [x] Download Lidar data
 ---
 - [x] Disabled Fly monitoring in Kuma
 - [x] dokku config:set podman-fleet MAX_BROWSERS=6
@@ -12,7 +11,16 @@
 	- [x] Deploy from local
 	- [x] Fix tailscale required https://github.com/corelens-engineering/corelens-backstage/pull/55
 	- [ ] CI
+	- [ ] [[fix why dead fleet still got called]]
 - [ ] Perf test fleet-gateway GCE
+	- [x] get secret
+	- [x] deploy secret
+	- [x] setup logfire using dev env
+	- [ ] perf test
+		- [ ] fix flyfleet.flycast
+	- [ ] rollback logfire to production
+- [ ] Read this https://heyario.slack.com/archives/C0AG7EDJSEM/p1789457912911809?thread_ts=1789456898.051449&cid=C0AG7EDJSEM
+- [ ] CI to GCE https://heyario.slack.com/archives/D08TDAMHR2N/p1789459092894379
 - [ ] Fix live fleet-gateway
 - [ ] Estimate/predict the monthly operating costs
 	- [ ] Waiting perf-test
