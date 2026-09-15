@@ -1,9 +1,10 @@
 ## 2026-09-14
-- [ ] Continue claude --resume 84684dae-900e-41fd-8b76-495717f3ab12
 ---
 - [x] https://github.com/remotebrowser/fleet-gateway/pull/22
 - [x] Explore remote browser pro
 	- [x] add log
+- [ ] https://github.com/corelens-engineering/remote-browser-tests/pull/70
+- [ ] use cloak in quicksand-
 - [ ] Client Surft
 
 ## 2026-09-11
