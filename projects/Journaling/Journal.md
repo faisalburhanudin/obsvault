@@ -1,17 +1,27 @@
 ## 2026-09-15
 - [ ] Re-architecture pipeline
 - [ ] Download Lidar data
+	- [x] On going
 ---
 - [x] Disabled Fly monitoring in Kuma
+- [x] dokku config:set podman-fleet MAX_BROWSERS=6
+- [x] Remove browserbase from upstream URL
+- [ ] Disable CI browserbase GCE
 - [ ] Backstage GCE deployment
-	- [ ] Waiting Juang response
+	- [x] Waiting Juang response
+	- [ ] Deploy from local
 - [ ] Estimate/predict the monthly operating costs
 	- [ ] Waiting perf-test
 - [ ] Decomission/demote the corresponding Fly apps
 	- [ ] Waiting GCE deployment
-- [ ] Setup hermes with Next Browser
-- [ ] 
+- [x] Setup hermes with Next Browser
+	- [x] use next browser
 - [ ] Podman Fleet on Lambda
+	- [ ] Deployment already exist
+	- [ ] Check total capacity
+	- [ ] Check CI
+	- [ ] Check Capacitiy
+- [ ] Podman Fleet on GCE check capacity
 - [ ] Check architecture and breakdown jobs
 
 ## 2026-09-14
