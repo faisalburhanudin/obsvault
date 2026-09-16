@@ -6,7 +6,7 @@
 - [x] dokku config:set podman-fleet MAX_BROWSERS=6
 - [x] Remove browserbase from upstream URL
 - [x] remove unused instance in GCE
-- [ ] Remove `#TEST` daytona-fleet deploy gce
+- [x] Remove `#TEST` daytona-fleet deploy gce
 - [ ] Backstage GCE deployment
 	- [x] Waiting Juang response
 	- [x] Deploy from local
@@ -20,6 +20,7 @@
 	- [x] setup logfire using dev env
 	- [ ] perf test
 		- [x] fix flyfleet.flycast
+		- [x] worker daytona https://github.com/remotebrowser/daytona-fleet/pull/11
 	- [ ] rollback logfire to production
 	- [ ] [[fix why dead fleet still got called]]
 	- [ ] So flyfleet is fast to accept a launch but slow to answer about the browser right afterwards — plausibly the Fly machine is still coming up. It wins the race precisely because it answers the POST quickly, then fails the follow-up.
