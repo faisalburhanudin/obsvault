@@ -4,10 +4,12 @@
 		- [x] pointing to upstream
 		- [x] test manager
 		- [x] kuma
+	- [ ] [[Optimize Gateway]]
 	- [ ] pointing backstage to gateway
 	- [ ] smoke test
 	- [ ] perf-test
 		- [ ] count how many browser is used
+- [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
 ## 2026-09-15
 - [ ] Re-architecture pipeline
 - [x] Download Lidar data
