@@ -10,6 +10,7 @@
 	- [ ] perf-test
 		- [ ] count how many browser is used
 - [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
+- [ ] fly dev for connector CI
 ## 2026-09-15
 - [ ] Re-architecture pipeline
 - [x] Download Lidar data
