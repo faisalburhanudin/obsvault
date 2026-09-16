@@ -1,3 +1,13 @@
+## 2026-09-16
+- [ ] Production gateway
+	- [ ] Enable browserbase-gce again
+		- [x] pointing to upstream
+		- [x] test manager
+		- [x] kuma
+	- [ ] pointing backstage to gateway
+	- [ ] smoke test
+	- [ ] perf-test
+		- [ ] count how many browser is used
 ## 2026-09-15
 - [ ] Re-architecture pipeline
 - [x] Download Lidar data
