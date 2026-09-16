@@ -1,4 +1,8 @@
 ## 2026-09-16
+- [ ] Download all GIS data
+- [ ] clean up structure
+---
+
 - [ ] Production gateway
 	- [ ] Enable browserbase-gce again
 		- [x] pointing to upstream
