@@ -3,15 +3,16 @@
 - [ ] LOD 2
 - [ ] Hand Label
 ---
- - [ ] CI for connect to GCE and other
+ - [x] CI for connect to GCE and other
 	 - [x] https://github.com/corelens-engineering/connector/pull/14
 	 - [x] https://github.com/corelens-engineering/connector/pull/15
-	 - [ ] fly dev for connector CI
+	 - [x] fly dev for connector CI https://github.com/corelens-engineering/connector/pull/16
  - [x] CI backstage to GCE https://github.com/corelens-engineering/corelens-backstage/pull/69
- - [ ] Check why podman fleet not dropped
- - [ ] Continue perf-test fleet-gateway (time boxed)
-	 - [ ] count how many browser is used
- - [ ] CI for connect, backstage
+ - [x] Check why podman fleet not dropped
+ - [x] Continue perf-test fleet-gateway (time boxed)
+	 - [x] count how many browser is used
+ - [ ] switch connector to fleet-gateway
+ - [ ] auto clean up podman
  - [ ] Estimate/predict the monthly operating costs
  - [ ] migrate secret connect from demos
  - [ ] remove prefix connect from demos
