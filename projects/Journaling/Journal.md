@@ -4,15 +4,17 @@
 - [ ] Hand Label
 ---
  - [ ] CI for connect to GCE and other
-	 - [ ] https://github.com/corelens-engineering/connector/pull/14
-	 - [ ] https://github.com/corelens-engineering/connector/pull/15
+	 - [x] https://github.com/corelens-engineering/connector/pull/14
+	 - [x] https://github.com/corelens-engineering/connector/pull/15
 	 - [ ] fly dev for connector CI
- - [ ] CI backstage to GCE
+ - [x] CI backstage to GCE https://github.com/corelens-engineering/corelens-backstage/pull/69
  - [ ] Check why podman fleet not dropped
  - [ ] Continue perf-test fleet-gateway (time boxed)
 	 - [ ] count how many browser is used
  - [ ] CI for connect, backstage
  - [ ] Estimate/predict the monthly operating costs
+ - [ ] migrate secret connect from demos
+ - [ ] remove prefix connect from demos
  - [ ] Setup new podman-fleet
  - [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
  - [ ] Fix live fleet-gateway when clicked on GCe it wrong host

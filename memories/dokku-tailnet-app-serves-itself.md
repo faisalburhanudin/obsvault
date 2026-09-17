@@ -9,6 +9,12 @@ Settled 2026-09-07 on the GCE VM `fleet` (`gcloud compute ssh fleet
 --project=bluewizard --zone=us-central1-c`), tailnet `pitta-pound.ts.net`.
 Reuse this shape for the next apps.
 
+**Scope:** this is the fleet-gateway shape, NOT how every app on `fleet` works.
+`daytona-fleet` and `backstage` do the opposite — no tailscaled in the
+container; the host is the tailnet node and Dokku's nginx serves each app on its
+own host port under the vhost `fleet.pitta-pound.ts.net` (daytona-fleet `:8600`,
+backstage `:3011`). Check `dokku ports:report <app>` before assuming either one.
+
 The app exposes itself, not Dokku's nginx. `start.sh` starts `tailscaled
 --tun=userspace-networking`, runs `tailscale up --hostname="$TS_HOSTNAME"`,
 then `tailscale serve --bg http://127.0.0.1:$PORT`, and binds uvicorn to
