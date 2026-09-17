@@ -13,6 +13,7 @@
 	 - [x] count how many browser is used
  - [ ] deploy connector to GCE
  - [x] switch connector to fleet-gateway
+ - [ ] tailscale for CI
  - [ ] auto clean up podman
  - [ ] Estimate/predict the monthly operating costs
  - [ ] migrate secret connect from demos
