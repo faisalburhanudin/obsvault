@@ -1,6 +1,7 @@
 ## 2026-09-16
 - [ ] Download all GIS data
-- [ ] clean up structure
+- [x] clean up structure
+- [ ] hand label
 ---
 
 - [ ] Production gateway
