@@ -1,23 +1,35 @@
-## 2026-09-16
+## 2026-09-17
 - [ ] Download all GIS data
+- [ ] LOD 2
+- [ ] Hand Label
+---
+ - [ ] CI for connect to GCE and other
+	 - [ ] https://github.com/corelens-engineering/connector/pull/14
+	 - [ ] https://github.com/corelens-engineering/connector/pull/15
+	 - [ ] fly dev for connector CI
+ - [ ] CI backstage to GCE
+ - [ ] Check why podman fleet not dropped
+ - [ ] Continue perf-test fleet-gateway (time boxed)
+	 - [ ] count how many browser is used
+ - [ ] CI for connect, backstage
+ - [ ] Estimate/predict the monthly operating costs
+ - [ ] Setup new podman-fleet
+ - [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
+ - [ ] Fix live fleet-gateway when clicked on GCe it wrong host
+ - [ ] Decomission/demote the corresponding Fly apps
+
+## 2026-09-16
+
 - [x] clean up structure
-- [ ] hand label
 ---
 
-- [ ] Production gateway
-	- [ ] Enable browserbase-gce again
+- [x] Production gateway
+	- [x] Enable browserbase-gce again
 		- [x] pointing to upstream
 		- [x] test manager
 		- [x] kuma
-	- [ ] [[Optimize Gateway]]
-	- [ ] pointing backstage to gateway
-	- [ ] smoke test
-	- [ ] perf-test
-		- [ ] count how many browser is used
-- [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
-- [ ] fly dev for connector CI
 ## 2026-09-15
-- [ ] Re-architecture pipeline
+- [x] Re-architecture pipeline
 - [x] Download Lidar data
 ---
 - [x] Disabled Fly monitoring in Kuma
@@ -25,11 +37,11 @@
 - [x] Remove browserbase from upstream URL
 - [x] remove unused instance in GCE
 - [x] Remove `#TEST` daytona-fleet deploy gce
-- [ ] Backstage GCE deployment
+- [x] Backstage GCE deployment
 	- [x] Waiting Juang response
 	- [x] Deploy from local
 	- [x] Fix tailscale required https://github.com/corelens-engineering/corelens-backstage/pull/55
-	- [ ] CI
+	- [x] CI
 - [x] Stop browserbase-fleet in GCE
 - [x] disable test https://test-manager.pitta-pound.ts.net/schedules/fleet-browserbase
 - [ ] Perf test fleet-gateway GCE
@@ -39,27 +51,13 @@
 	- [ ] perf test
 		- [x] fix flyfleet.flycast
 		- [x] worker daytona https://github.com/remotebrowser/daytona-fleet/pull/11
-	- [ ] rollback logfire to production
-	- [ ] [[fix why dead fleet still got called]]
-	- [ ] So flyfleet is fast to accept a launch but slow to answer about the browser right afterwards — plausibly the Fly machine is still coming up. It wins the race precisely because it answers the POST quickly, then fails the follow-up.
-	- [ ] [[fix daytona pegged]]
-	- [ ] Clean sandbox if any https://app.daytona.io/dashboard/sandboxes
+	- [x] So flyfleet is fast to accept a launch but slow to answer about the browser right afterwards — plausibly the Fly machine is still coming up. It wins the race precisely because it answers the POST quickly, then fails the follow-up.
+	- [x] [[fix daytona pegged]]
+	- [x] Clean sandbox if any https://app.daytona.io/dashboard/sandboxes
 - [ ] Read this https://heyario.slack.com/archives/C0AG7EDJSEM/p1789457912911809?thread_ts=1789456898.051449&cid=C0AG7EDJSEM
-- [ ] CI to GCE https://heyario.slack.com/archives/D08TDAMHR2N/p1789459092894379
-- [ ] Fix live fleet-gateway
-- [ ] Estimate/predict the monthly operating costs
-	- [ ] Waiting perf-test
-- [ ] Decomission/demote the corresponding Fly apps
-	- [ ] Waiting GCE deployment
+- [x] CI to GCE https://heyario.slack.com/archives/D08TDAMHR2N/p1789459092894379
 - [x] Setup hermes with Next Browser
 	- [x] use next browser
-- [ ] Podman Fleet on Lambda
-	- [ ] Deployment already exist
-	- [ ] Check total capacity
-	- [ ] Check CI
-	- [ ] Check Capacitiy
-- [ ] Podman Fleet on GCE check capacity
-- [ ] Check architecture and breakdown jobs
 
 ## 2026-09-14
 ---
