@@ -1,6 +1,6 @@
 ## 2026-09-17
 - [ ] Download all GIS data
-- [ ] LOD 2
+- [ ] [[LOD 2]]
 - [ ] Hand Label
 ---
  - [x] CI for connect to GCE and other
@@ -11,7 +11,8 @@
  - [x] Check why podman fleet not dropped
  - [x] Continue perf-test fleet-gateway (time boxed)
 	 - [x] count how many browser is used
- - [ ] switch connector to fleet-gateway
+ - [ ] deploy connector to GCE
+ - [x] switch connector to fleet-gateway
  - [ ] auto clean up podman
  - [ ] Estimate/predict the monthly operating costs
  - [ ] migrate secret connect from demos
