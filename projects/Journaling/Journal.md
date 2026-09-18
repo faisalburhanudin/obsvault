@@ -2,7 +2,7 @@
  - [ ] [[deploy connector to GCE]]
 	 - [ ] blocker by doppler
  - [ ] [[Create new instance for podman]]
- - [ ] migrate secret connect from demos
+ - [x] migrate secret connect from demos https://github.com/corelens-engineering/connector/pull/22
  - [ ] remove prefix connect from demos
  - [ ] auto clean up podman
  - [ ] Estimate/predict the monthly operating costs

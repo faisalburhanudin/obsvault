@@ -1,3 +1,5 @@
-- [ ] VM
+- [x] VM
 - [ ] Dokku
-- [ ] Tailscale
+- [x] Tailscale
+- [ ] Deployment
+- [ ] CI
