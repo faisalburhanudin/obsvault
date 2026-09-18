@@ -1,0 +1,4 @@
+- [ ] GCE Instance
+- [ ] Dokku
+- [ ] Tailscale
+- [ ] IP Static open port 80

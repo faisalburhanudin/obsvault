@@ -1,5 +1,5 @@
 ## 2026-09-18
- - [ ] deploy connector to GCE
+ - [ ] [[deploy connector to GCE]]
  - [ ] Create new instance for podman
  - [ ] auto clean up podman
  - [ ] Estimate/predict the monthly operating costs
