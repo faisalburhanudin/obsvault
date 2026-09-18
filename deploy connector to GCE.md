@@ -1,4 +1,6 @@
-- [ ] GCE Instance
+- [x] GCE Instance
 - [ ] Dokku
 - [ ] Tailscale
-- [ ] IP Static open port 80
+- [x] IP Static open port 80
+- [ ] Doppler
+- [ ] CI

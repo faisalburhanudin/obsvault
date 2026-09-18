@@ -1,0 +1,3 @@
+- [ ] VM
+- [ ] Dokku
+- [ ] Tailscale
