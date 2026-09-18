@@ -1,3 +1,14 @@
+## 2026-09-18
+ - [ ] deploy connector to GCE
+ - [ ] Create new instance for podman
+ - [ ] auto clean up podman
+ - [ ] Estimate/predict the monthly operating costs
+ - [ ] migrate secret connect from demos
+ - [ ] remove prefix connect from demos
+ - [ ] Setup new podman-fleet
+ - [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
+ - [ ] Fix live fleet-gateway when clicked on GCe it wrong host
+ - [ ] Decomission/demote the corresponding Fly apps
 ## 2026-09-17
 - [ ] Download all GIS data
 - [ ] [[LOD 2]]
@@ -11,18 +22,8 @@
  - [x] Check why podman fleet not dropped
  - [x] Continue perf-test fleet-gateway (time boxed)
 	 - [x] count how many browser is used
- - [ ] deploy connector to GCE
  - [x] switch connector to fleet-gateway
- - [ ] tailscale for CI
- - [ ] auto clean up podman
- - [ ] Estimate/predict the monthly operating costs
- - [ ] migrate secret connect from demos
- - [ ] remove prefix connect from demos
- - [ ] Setup new podman-fleet
- - [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
- - [ ] Fix live fleet-gateway when clicked on GCe it wrong host
- - [ ] Decomission/demote the corresponding Fly apps
-
+ - [x] tailscale for CI
 ## 2026-09-16
 
 - [x] clean up structure
