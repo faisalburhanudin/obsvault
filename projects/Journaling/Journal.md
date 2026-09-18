@@ -1,6 +1,9 @@
 ## 2026-09-18
  - [ ] [[deploy connector to GCE]]
+	 - [ ] blocker by doppler
  - [ ] [[Create new instance for podman]]
+ - [ ] migrate secret connect from demos
+ - [ ] remove prefix connect from demos
  - [ ] auto clean up podman
  - [ ] Estimate/predict the monthly operating costs
  - [ ] migrate secret connect from demos
