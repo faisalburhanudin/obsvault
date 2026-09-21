@@ -1,20 +1,20 @@
 ## 2026-09-21
 - [ ] Debugging headline-hub
-- [ ] CI fly prod connector
+- [ ] [[deploy connector to GCE]]
+- [ ] [[deploy podman-fleet to new instance]]
+- [x] CI fly prod connector
+- [ ]  remove prefix connect from demos
+- [ ] auto clean up podman
+- [ ] Estimate/predict the monthly operating costs
+- [ ] migrate secret connect from demos
+- [ ] remove prefix connect from demos
+- [ ] Setup new podman-fleet
+- [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
+- [ ] Fix live fleet-gateway when clicked on GCe it wrong host
+- [ ] Decomission/demote the corresponding Fly apps
 ## 2026-09-18
- - [ ] [[deploy connector to GCE]]
-	 - [ ] blocker by doppler
- - [ ] [[Create new instance for podman]]
+
  - [x] migrate secret connect from demos https://github.com/corelens-engineering/connector/pull/22
- - [ ] remove prefix connect from demos
- - [ ] auto clean up podman
- - [ ] Estimate/predict the monthly operating costs
- - [ ] migrate secret connect from demos
- - [ ] remove prefix connect from demos
- - [ ] Setup new podman-fleet
- - [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
- - [ ] Fix live fleet-gateway when clicked on GCe it wrong host
- - [ ] Decomission/demote the corresponding Fly apps
 ## 2026-09-17
 - [ ] Download all GIS data
 - [ ] [[LOD 2]]
