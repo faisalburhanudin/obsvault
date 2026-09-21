@@ -3,7 +3,7 @@
 - [ ] [[deploy connector to GCE]]
 - [ ] [[deploy podman-fleet to new instance]]
 - [x] CI fly prod connector
-- [ ]  remove prefix connect from demos
+- [ ] remove prefix connect from demos
 - [ ] auto clean up podman
 - [ ] Estimate/predict the monthly operating costs
 - [ ] migrate secret connect from demos
