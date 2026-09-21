@@ -1,3 +1,6 @@
+## 2026-09-21
+- [ ] Debugging headline-hub
+- [ ] CI fly prod connector
 ## 2026-09-18
  - [ ] [[deploy connector to GCE]]
 	 - [ ] blocker by doppler
