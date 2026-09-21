@@ -2,9 +2,9 @@
 - [x] Tailscale
 ---
 - [x] Dokku
-- [ ] Deployment
-- [ ] CI
-
-```
-echo 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMMqx4DVt7IXT1vAKPtCOYs+8yxZprhzt/r4JwQhrPmd faisalburhanudin@gmail.com' | dokku ssh-keys:add admin
-```
+- [x] Deployment
+- [x] CI https://github.com/remotebrowser/podman-fleet/pull/7
+- [ ] pointing it to gateway
+	- [ ] asumsi
+		- [ ] podman yg ada di lambda harus lebih dari yg GCE
+		- [ ] 
