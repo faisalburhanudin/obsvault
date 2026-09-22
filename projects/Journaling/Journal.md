@@ -4,17 +4,18 @@
 		- [x] add DNS --dns 100.100.100.100
 	- [x] new deployment
 - [x] add `dev` connector env on doppler
-- [ ] connector to GCE backstage
+- [x] connector to GCE backstage
 	- [x] remove TAP_CONNECT_REMOTEBROWSERS_URL & TAP_CONNECT_REMOTEBROWSERS_APP_KEY from doppler and .env.example https://github.com/corelens-engineering/connector/pull/30
 	- [x] pointing connector GCE to fleet GCE
 	- [x] fix can't resolve fleet inside connector
 	- [x] fix Comming Soon https://github.com/corelens-engineering/connector/pull/31
-	- [ ] [[test-manager]]
+	- [x] [[test-manager]]
 		- [x] fix: hard-coded
-		- [ ] add IP as domain
-		- [ ] tailscale serve --bg 80
-	- [ ] mock to connector GCE
-		- [ ] rollback db connector and backstage
+		- [x] tailscale serve --bg 80
+	- [x] mock to connector GCE
+		- [x] rollback db connector and backstage
+	- [ ] Domain pointing
+		- [ ] letsencrypt plugin
 - [ ] Add lambda podman-fleet to upstream
 	- [x] check is it deployed? both GCE and lambda
 	- [x] --dns 100.100.100.100
@@ -24,6 +25,7 @@
 - [ ] clean-up prefix backstage and connector
 - [ ] if there is changed in secret it should redeploy, fleet-gateway
 - [ ] One thing to consider: the --dns option is set on the Dokku host only, not in the repo or Doppler. If the app is ever rebuilt on a fresh host, it will be lost.
+- [ ] If step 1 does not come back in e.g. 10 seconds, use the secondary fleet URL (pointing to Browserbase).
 ## 2026-09-21
 - [ ] Debugging headline-hub
 - [ ] [[deploy connector to GCE]]
