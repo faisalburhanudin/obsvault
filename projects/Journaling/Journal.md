@@ -15,8 +15,15 @@
 		- [ ] tailscale serve --bg 80
 	- [ ] mock to connector GCE
 		- [ ] rollback db connector and backstage
+- [ ] Add lambda podman-fleet to upstream
+	- [x] check is it deployed? both GCE and lambda
+	- [x] --dns 100.100.100.100
+	- [ ] 
+- [ ] Remove browserbase from upstream
 - [ ] Fix metabase
 - [ ] clean-up prefix backstage and connector
+- [ ] if there is changed in secret it should redeploy, fleet-gateway
+- [ ] One thing to consider: the --dns option is set on the Dokku host only, not in the repo or Doppler. If the app is ever rebuilt on a fresh host, it will be lost.
 ## 2026-09-21
 - [ ] Debugging headline-hub
 - [ ] [[deploy connector to GCE]]
