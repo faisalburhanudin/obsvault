@@ -1,3 +1,7 @@
+## 2026-09-22
+- [ ] connector to GCE backstage
+- [ ] Fix metabase
+- [ ] clean-up prefix backstage and connector
 ## 2026-09-21
 - [ ] Debugging headline-hub
 - [ ] [[deploy connector to GCE]]
