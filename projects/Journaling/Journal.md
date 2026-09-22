@@ -9,8 +9,12 @@
 	- [x] pointing connector GCE to fleet GCE
 	- [x] fix can't resolve fleet inside connector
 	- [x] fix Comming Soon https://github.com/corelens-engineering/connector/pull/31
+	- [ ] test-manager
+		- [x] fix: hard-coded
+		- [ ] add IP as domain
+		- [ ] tailscale serve --bg 80
 	- [ ] mock to connector GCE
-		- [ ] rollback db stag connector
+		- [ ] rollback db connector and backstage
 - [ ] Fix metabase
 - [ ] clean-up prefix backstage and connector
 ## 2026-09-21
