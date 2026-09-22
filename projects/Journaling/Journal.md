@@ -5,8 +5,11 @@
 	- [x] new deployment
 - [x] add `dev` connector env on doppler
 - [ ] connector to GCE backstage
-	- [ ] fix doppler still pointing to fly
-	- [ ] fix can't resolve fleet inside connector
+	- [x] remove TAP_CONNECT_REMOTEBROWSERS_URL & TAP_CONNECT_REMOTEBROWSERS_APP_KEY from doppler and .env.example https://github.com/corelens-engineering/connector/pull/30
+	- [x] pointing connector GCE to fleet GCE
+	- [x] fix can't resolve fleet inside connector
+	- [x] fix Comming Soon https://github.com/corelens-engineering/connector/pull/31
+	- [ ] mock to connector GCE
 - [ ] Fix metabase
 - [ ] clean-up prefix backstage and connector
 ## 2026-09-21
