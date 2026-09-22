@@ -1,5 +1,12 @@
 ## 2026-09-22
+- [x] pointing connector prod `TAP_CONNECT_BACKSTAGE_URL` to backstage prod GCE
+	- [x] fix backstage can't resolve fleet
+		- [x] add DNS --dns 100.100.100.100
+	- [x] new deployment
+- [x] add `dev` connector env on doppler
 - [ ] connector to GCE backstage
+	- [ ] fix doppler still pointing to fly
+	- [ ] fix can't resolve fleet inside connector
 - [ ] Fix metabase
 - [ ] clean-up prefix backstage and connector
 ## 2026-09-21
