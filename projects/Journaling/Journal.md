@@ -10,6 +10,7 @@
 	- [x] fix can't resolve fleet inside connector
 	- [x] fix Comming Soon https://github.com/corelens-engineering/connector/pull/31
 	- [ ] mock to connector GCE
+		- [ ] rollback db stag connector
 - [ ] Fix metabase
 - [ ] clean-up prefix backstage and connector
 ## 2026-09-21
