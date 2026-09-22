@@ -2,6 +2,7 @@
 - [ ] Debugging headline-hub
 - [ ] [[deploy connector to GCE]]
 - [ ] [[deploy podman-fleet to new instance]]
+- [ ] [[improve podman-fleet]]
 - [x] CI fly prod connector
 - [ ] remove prefix connect from demos
 - [ ] auto clean up podman

@@ -7,4 +7,3 @@
 - [ ] pointing it to gateway
 	- [ ] asumsi
 		- [ ] podman yg ada di lambda harus lebih dari yg GCE
-		- [ ] 
