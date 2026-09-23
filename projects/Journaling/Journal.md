@@ -9,7 +9,7 @@
 - [ ] Fix list connectors click wrong upstream
 - [x] Deploy latest backstage to GCE
 - [x] fix: change minimal capacity to 0 https://github.com/corelens-engineering/connector/pull/34
-- [ ] fixed CI update APP_URL in doppler to https://connect.corelens.ai
+- [x] fixed CI update APP_URL in doppler to https://connect.corelens.ai
 ## 2026-09-22
 - [x] pointing connector prod `TAP_CONNECT_BACKSTAGE_URL` to backstage prod GCE
 	- [x] fix backstage can't resolve fleet
