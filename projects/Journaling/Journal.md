@@ -1,9 +1,16 @@
 ## 2026-09-23
+- [ ] Benerin tas Elsha
+- [ ] Review .shp
+
+
+
 - [x] fix: test managert
 	- [x] from IP to http://lambda-corelens-podman-fleet.pitta-pound.ts.net:8400
 - [ ] [[Current state and topology]]
 - [x] Fix: lambda podman fleet start on boot
 - [ ] Fix list connectors click wrong upstream
+- [x] Deploy latest backstage to GCE
+- [x] fix: change minimal capacity to 0 https://github.com/corelens-engineering/connector/pull/34
 ## 2026-09-22
 - [x] pointing connector prod `TAP_CONNECT_BACKSTAGE_URL` to backstage prod GCE
 	- [x] fix backstage can't resolve fleet
