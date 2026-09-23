@@ -1,3 +1,5 @@
+## 2026-09-23
+- [ ] Current state and topology
 ## 2026-09-22
 - [x] pointing connector prod `TAP_CONNECT_BACKSTAGE_URL` to backstage prod GCE
 	- [x] fix backstage can't resolve fleet
@@ -14,12 +16,11 @@
 		- [x] tailscale serve --bg 80
 	- [x] mock to connector GCE
 		- [x] rollback db connector and backstage
-	- [ ] Domain pointing
-		- [ ] letsencrypt plugin
-- [ ] Add lambda podman-fleet to upstream
+	- [x] Domain pointing
+		- [x] letsencrypt plugin
+- [x] Add lambda podman-fleet to upstream
 	- [x] check is it deployed? both GCE and lambda
 	- [x] --dns 100.100.100.100
-	- [ ] 
 - [ ] Remove browserbase from upstream
 - [ ] Fix metabase
 - [ ] clean-up prefix backstage and connector
