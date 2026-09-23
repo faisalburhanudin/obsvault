@@ -1,5 +1,9 @@
 ## 2026-09-23
+- [ ] fix: test managert
+	- [ ] from IP to http://lambda-corelens-podman-fleet.pitta-pound.ts.net:8400
 - [ ] Current state and topology
+- [ ] Auto restart lambda podman fleet
+- [ ] Fix list connectors click wrong upstream
 ## 2026-09-22
 - [x] pointing connector prod `TAP_CONNECT_BACKSTAGE_URL` to backstage prod GCE
 	- [x] fix backstage can't resolve fleet
