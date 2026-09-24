@@ -1,9 +1,11 @@
 ## 2026-09-24
-- [ ] https://heyario.slack.com/archives/C049DGC1D2M/p1790195546721749
-- [ ] https://heyario.slack.com/archives/C06DQ6G8HA5/p1790200743477099
+- [x] Pointing tap.corelens.ai to GCE
 - [x]  --dns 100.100.100.100 kuma
 - [x] https://github.com/corelens-engineering/corelens-backstage/pull/99
-- [ ] Benchmark podman-fleet lambda MAX_BROWSER=25
+- [x] Benchmark podman-fleet lambda MAX_BROWSER=25
+- [x] Kuma ignore gmail and threshold 5
+- [x] Update diagram and complete the list https://docs.google.com/document/d/1CtJvJiGEYNoZweqbM07yqpGXdwT6hZ62xFMO7_gROZA/edit?tab=t.0
+- [ ] [[fix podman-fleet]]
 ## 2026-09-23
 - [ ] Benerin tas Elsha
 - [ ] Review .shp
@@ -12,11 +14,9 @@
 	- [x] from IP to http://lambda-corelens-podman-fleet.pitta-pound.ts.net:8400
 - [x] [[Current state and topology]]
 - [x] Fix: lambda podman fleet start on boot
-- [ ] Fix list connectors click wrong upstream
 - [x] Deploy latest backstage to GCE
 - [x] fix: change minimal capacity to 0 https://github.com/corelens-engineering/connector/pull/34
 - [x] fixed CI update APP_URL in doppler to https://connect.corelens.ai
-- [ ] 
 ## 2026-09-22
 - [x] pointing connector prod `TAP_CONNECT_BACKSTAGE_URL` to backstage prod GCE
 	- [x] fix backstage can't resolve fleet
