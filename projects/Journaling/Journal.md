@@ -1,8 +1,9 @@
 ## 2026-09-24
 - [ ] https://heyario.slack.com/archives/C049DGC1D2M/p1790195546721749
 - [ ] https://heyario.slack.com/archives/C06DQ6G8HA5/p1790200743477099
-- [ ]  --dns 100.100.100.100 kuma
-- [ ] https://docs.cloud.google.com/sdk/docs/install-sdk
+- [x]  --dns 100.100.100.100 kuma
+- [x] https://github.com/corelens-engineering/corelens-backstage/pull/99
+- [ ] Benchmark podman-fleet lambda MAX_BROWSER=25
 ## 2026-09-23
 - [ ] Benerin tas Elsha
 - [ ] Review .shp
