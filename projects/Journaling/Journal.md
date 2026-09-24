@@ -1,3 +1,7 @@
+## 2026-09-24
+- [ ] https://heyario.slack.com/archives/C049DGC1D2M/p1790195546721749
+- [ ] https://heyario.slack.com/archives/C06DQ6G8HA5/p1790200743477099
+- [ ]  --dns 100.100.100.100 kuma
 ## 2026-09-23
 - [ ] Benerin tas Elsha
 - [ ] Review .shp
@@ -10,6 +14,7 @@
 - [x] Deploy latest backstage to GCE
 - [x] fix: change minimal capacity to 0 https://github.com/corelens-engineering/connector/pull/34
 - [x] fixed CI update APP_URL in doppler to https://connect.corelens.ai
+- [ ] 
 ## 2026-09-22
 - [x] pointing connector prod `TAP_CONNECT_BACKSTAGE_URL` to backstage prod GCE
 	- [x] fix backstage can't resolve fleet
