@@ -1,3 +1,5 @@
+## 2026-09-25
+- [ ] Headline hub pattern error
 ## 2026-09-24
 - [x] Pointing tap.corelens.ai to GCE
 - [x]  --dns 100.100.100.100 kuma
@@ -5,7 +7,7 @@
 - [x] Benchmark podman-fleet lambda MAX_BROWSER=25
 - [x] Kuma ignore gmail and threshold 5
 - [x] Update diagram and complete the list https://docs.google.com/document/d/1CtJvJiGEYNoZweqbM07yqpGXdwT6hZ62xFMO7_gROZA/edit?tab=t.0
-- [ ] [[fix podman-fleet]]
+- [x] Manual clean up podman-fleet (start discussion)
 ## 2026-09-23
 - [ ] Benerin tas Elsha
 - [ ] Review .shp
