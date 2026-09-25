@@ -4,6 +4,7 @@
 ---
 - [x] podman-fleet remove IP check
 - [x] podman-fleet trace ip check
+- [x] Investigate backstage slow
 - [ ] Headline hub pattern error
 - [ ] Auto cleanup fleet gatewayma
 - [ ] Fix metabase
