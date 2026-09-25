@@ -2,6 +2,8 @@
 - [ ] Benerin tas Elsha
 - [ ] Review .shp
 ---
+- [x] podman-fleet remove IP check
+- [x] podman-fleet trace ip check
 - [ ] Headline hub pattern error
 - [ ] Auto cleanup fleet gatewayma
 - [ ] Fix metabase
