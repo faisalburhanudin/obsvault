@@ -1,5 +1,27 @@
 ## 2026-09-25
+- [ ] Benerin tas Elsha
+- [ ] Review .shp
+---
 - [ ] Headline hub pattern error
+- [ ] Auto cleanup fleet gateway
+- [ ] Fix metabase
+- [ ] clean-up prefix backstage and connector
+- [ ] if there is changed in secret it should redeploy, fleet-gateway
+- [ ] One thing to consider: the --dns option is set on the Dokku host only, not in the repo or Doppler. If the app is ever rebuilt on a fresh host, it will be lost.
+- [ ] If step 1 does not come back in e.g. 10 seconds, use the secondary fleet URL (pointing to Browserbase).
+- [ ] Debugging headline-hub
+- [ ] [[deploy connector to GCE]]
+- [ ] [[deploy podman-fleet to new instance]]
+- [ ] [[improve podman-fleet]]
+- [ ] remove prefix connect from demos
+- [ ] auto clean up podman
+- [ ] Estimate/predict the monthly operating costs
+- [ ] migrate secret connect from demos
+- [ ] remove prefix connect from demos
+- [ ] Setup new podman-fleet
+- [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
+- [ ] Fix live fleet-gateway when clicked on GCe it wrong host
+- [ ] Decomission/demote the corresponding Fly apps
 ## 2026-09-24
 - [x] Pointing tap.corelens.ai to GCE
 - [x]  --dns 100.100.100.100 kuma
@@ -9,8 +31,7 @@
 - [x] Update diagram and complete the list https://docs.google.com/document/d/1CtJvJiGEYNoZweqbM07yqpGXdwT6hZ62xFMO7_gROZA/edit?tab=t.0
 - [x] Manual clean up podman-fleet (start discussion)
 ## 2026-09-23
-- [ ] Benerin tas Elsha
-- [ ] Review .shp
+
 ---
 - [x] fix: test managert
 	- [x] from IP to http://lambda-corelens-podman-fleet.pitta-pound.ts.net:8400
@@ -40,27 +61,11 @@
 - [x] Add lambda podman-fleet to upstream
 	- [x] check is it deployed? both GCE and lambda
 	- [x] --dns 100.100.100.100
-- [ ] Remove browserbase from upstream
-- [ ] Fix metabase
-- [ ] clean-up prefix backstage and connector
-- [ ] if there is changed in secret it should redeploy, fleet-gateway
-- [ ] One thing to consider: the --dns option is set on the Dokku host only, not in the repo or Doppler. If the app is ever rebuilt on a fresh host, it will be lost.
-- [ ] If step 1 does not come back in e.g. 10 seconds, use the secondary fleet URL (pointing to Browserbase).
+
 ## 2026-09-21
-- [ ] Debugging headline-hub
-- [ ] [[deploy connector to GCE]]
-- [ ] [[deploy podman-fleet to new instance]]
-- [ ] [[improve podman-fleet]]
+
 - [x] CI fly prod connector
-- [ ] remove prefix connect from demos
-- [ ] auto clean up podman
-- [ ] Estimate/predict the monthly operating costs
-- [ ] migrate secret connect from demos
-- [ ] remove prefix connect from demos
-- [ ] Setup new podman-fleet
-- [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
-- [ ] Fix live fleet-gateway when clicked on GCe it wrong host
-- [ ] Decomission/demote the corresponding Fly apps
+
 ## 2026-09-18
 
  - [x] migrate secret connect from demos https://github.com/corelens-engineering/connector/pull/22
