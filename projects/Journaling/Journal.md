@@ -3,7 +3,7 @@
 - [ ] Review .shp
 ---
 - [ ] Headline hub pattern error
-- [ ] Auto cleanup fleet gateway
+- [ ] Auto cleanup fleet gatewayma
 - [ ] Fix metabase
 - [ ] clean-up prefix backstage and connector
 - [ ] if there is changed in secret it should redeploy, fleet-gateway
