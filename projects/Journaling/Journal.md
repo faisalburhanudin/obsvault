@@ -11,6 +11,8 @@
 		- [ ] Fix: add port :80 previously it :8400
 		- [ ] Replace IP with MagicDNS in Doppler and Fly
 - [ ] [[ Auto cleanup fleet gateway ]]
+	- [ ] support dual schema
+	- [x] podman-fleet
 - [ ] internal dns call between GCE
 - [ ] Safeline for public facing GCE & Lambda
 - [ ] Fix metabase
