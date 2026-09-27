@@ -6,7 +6,13 @@
 - [x] podman-fleet trace ip check
 - [x] Investigate backstage slow
 - [ ] Headline hub pattern error
-- [ ] Auto cleanup fleet gatewayma
+	- [ ] https://test-manager.pitta-pound.ts.net/schedules/headline-hub%20lambda
+		- [ ] Fix: attach MagicDNS in dokku
+		- [ ] Fix: add port :80 previously it :8400
+		- [ ] Replace IP with MagicDNS in Doppler and Fly
+- [ ] [[ Auto cleanup fleet gateway ]]
+- [ ] internal dns call between GCE
+- [ ] Safeline for public facing GCE & Lambda
 - [ ] Fix metabase
 - [ ] clean-up prefix backstage and connector
 - [ ] if there is changed in secret it should redeploy, fleet-gateway
