@@ -1,3 +1,6 @@
+## 2026-09-26
+- [ ] secondary fleet
+- [ ] 
 ## 2026-09-25
 - [x] Benerin tas Elsha
 - [ ] Review .shp
