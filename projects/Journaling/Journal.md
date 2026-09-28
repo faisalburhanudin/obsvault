@@ -2,7 +2,7 @@
 - [ ] Update architecture fleet
 	- [x] primary fleet
 	- [x] secondary fleet
-	- [ ] remove browserbase from upstream
+	- [x] remove browserbase from upstream
 	- [ ] test secondary fleet working
 	- [ ] internal dns
 	- [ ] send to eng channel
