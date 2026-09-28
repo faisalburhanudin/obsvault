@@ -1,0 +1,14 @@
+To do
+- [ ] Change dev values in Doppler. Right now dev uses prod values, so a dev deploy could affect prod things. Check each one:
+  - APP_URL: set it to the dev URL.
+  - UPSTREAM_URLS: point it at the dev fleets if you have them.
+  - TS_HOSTNAME: set it to fleet-gateway-dev.
+  - FLY_API_TOKEN: OK to share if dev and prd use the same Fly org.
+  - DOKKU_*: dev doesn't use these, so you can delete them.
+- [ ] Change the workflow. In .github/workflows/deploy-fly.yml:19, change "config": "fleet_gateway" to "config": "dev_fleet_gateway".
+- [ ] Commit on a branch and open a PR. You are on main. Don't use "re-run" on the old CI run: it would use the old config name and fail again.
+- [ ] Run CI by merging the PR, or with gh workflow run deploy-fly.yml --ref <branch> if the workflow allows manual runs.
+- [ ] [ ] Check the result with gh run view <run-id> --log-failed. The "Load secrets" step should now pass. If a later step fails, it is most likely one of these:
+- [ ] Fly deploy: the app fleet-gateway-dev doesn't exist, or FLY_API_TOKEN can't access it.
+- [ ] Tailscale: TS_AUTHKEY or TS_OAUTH_SECRET is invalid for the dev hostname.
+- [ ] App startup: UPSTREAM_URLS is empty or can't be parsed.

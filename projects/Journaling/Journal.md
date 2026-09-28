@@ -15,6 +15,7 @@
 	- [x] fleet-gateway
 	- [ ] Test in dev
 	- [ ] Deployment strategy
+- [ ] [[Fix fleet gateway dev]]
 - [x] Remove browserbase option
 	- [x] ![[Pasted image 20260928125426.png]]
 	- [x] https://github.com/remotebrowser/browserbase-fleet/pull/17
