@@ -1,6 +1,12 @@
 ## 2026-09-26
-- [ ] secondary fleet
-- [ ] 
+- [ ] Update architecture fleet
+	- [x] primary fleet
+	- [x] secondary fleet
+	- [ ] remove browserbase from upstream
+	- [ ] test secondary fleet working
+	- [ ] internal dns
+	- [ ] send to eng channel
+- [ ] Fix postgres using MagicDNS just in case the machine crash and IP changed
 ## 2026-09-25
 - [x] Benerin tas Elsha
 - [ ] Review .shp
