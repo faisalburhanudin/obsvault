@@ -1,5 +1,5 @@
 ## 2026-09-25
-- [ ] Benerin tas Elsha
+- [x] Benerin tas Elsha
 - [ ] Review .shp
 ---
 - [x] podman-fleet remove IP check
@@ -7,9 +7,9 @@
 - [x] Investigate backstage slow
 - [ ] Headline hub pattern error
 	- [ ] https://test-manager.pitta-pound.ts.net/schedules/headline-hub%20lambda
-		- [ ] Fix: attach MagicDNS in dokku
-		- [ ] Fix: add port :80 previously it :8400
-		- [ ] Replace IP with MagicDNS in Doppler and Fly
+		- [x] Fix: attach MagicDNS in dokku
+		- [x] Fix: add port :80 previously it :8400
+		- [x] Replace IP with MagicDNS in Doppler and Fly
 - [ ] [[ Auto cleanup fleet gateway ]]
 	- [ ] support dual schema
 	- [x] podman-fleet
