@@ -11,31 +11,23 @@
 	- [ ] TODO: check other docker related deployment
 - [ ] Auto Cleanup Fleet Gateway
 	- [x] browserbase-fleet: https://github.com/remotebrowser/browserbase-fleet/pull/16/changes
-	- [ ] daytona-fleet
-	- [ ] fleet-gateway
+	- [x] daytona-fleet https://github.com/remotebrowser/daytona-fleet/pull/16
+	- [x] fleet-gateway
+	- [ ] Test in dev
 	- [ ] Deployment strategy
 - [x] Remove browserbase option
 	- [x] ![[Pasted image 20260928125426.png]]
 	- [x] https://github.com/remotebrowser/browserbase-fleet/pull/17
-- [ ] Remove daytona-fleet option
-	- [ ] ![[Pasted image 20260928131748.png]]
+- [x] Remove daytona-fleet option
+	- [x] ![[Pasted image 20260928131748.png]]
+	- [x] https://github.com/remotebrowser/daytona-fleet/pull/17
 - [ ] Check DEV env it should be suspendable
 - [ ] Safeline 
-- [ ] 
-## 2026-09-25
-- [x] Benerin tas Elsha
----
-- [x] podman-fleet remove IP check
-- [x] podman-fleet trace ip check
-- [x] Investigate backstage slow
-- [x] Headline hub pattern error
-	- [x] https://test-manager.pitta-pound.ts.net/schedules/headline-hub%20lambda
-		- [x] Fix: attach MagicDNS in dokku
-		- [x] Fix: add port :80 previously it :8400
-		- [x] Replace IP with MagicDNS in Doppler and Fly
-- [ ] [[ Auto cleanup fleet gateway ]]
-	- [x] support dual schema
-	- [x] podman-fleet
+- [ ] Protect main branch
+	- [ ] browserbase-fleet
+	- [ ] podman-fleet
+	- [ ] daytona-fleet
+	- [ ] fleet-gateway
 - [ ] internal dns call between GCE
 - [ ] Safeline for public facing GCE & Lambda
 - [ ] Fix metabase
@@ -56,6 +48,21 @@
 - [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
 - [ ] Fix live fleet-gateway when clicked on GCe it wrong host
 - [ ] Decomission/demote the corresponding Fly apps
+## 2026-09-25
+- [x] Benerin tas Elsha
+---
+- [x] podman-fleet remove IP check
+- [x] podman-fleet trace ip check
+- [x] Investigate backstage slow
+- [x] Headline hub pattern error
+	- [x] https://test-manager.pitta-pound.ts.net/schedules/headline-hub%20lambda
+		- [x] Fix: attach MagicDNS in dokku
+		- [x] Fix: add port :80 previously it :8400
+		- [x] Replace IP with MagicDNS in Doppler and Fly
+- [ ] [[ Auto cleanup fleet gateway ]]
+	- [x] support dual schema
+	- [x] podman-fleet
+
 ## 2026-09-24
 - [x] Pointing tap.corelens.ai to GCE
 - [x]  --dns 100.100.100.100 kuma
