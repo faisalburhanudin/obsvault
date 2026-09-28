@@ -3,24 +3,38 @@
 	- [x] primary fleet
 	- [x] secondary fleet
 	- [x] remove browserbase from upstream
+	- [ ] Blocker: 18:00
 	- [ ] test secondary fleet working
-	- [ ] internal dns
 	- [ ] send to eng channel
-- [ ] Fix postgres using MagicDNS just in case the machine crash and IP changed
+- [ ] [[Fix DNS ENOTFOUND]]
+	- [ ] Blocker running log live debug
+	- [ ] TODO: check other docker related deployment
+- [ ] Auto Cleanup Fleet Gateway
+	- [x] browserbase-fleet: https://github.com/remotebrowser/browserbase-fleet/pull/16/changes
+	- [ ] daytona-fleet
+	- [ ] fleet-gateway
+	- [ ] Deployment strategy
+- [x] Remove browserbase option
+	- [x] ![[Pasted image 20260928125426.png]]
+	- [x] https://github.com/remotebrowser/browserbase-fleet/pull/17
+- [ ] Remove daytona-fleet option
+	- [ ] ![[Pasted image 20260928131748.png]]
+- [ ] Check DEV env it should be suspendable
+- [ ] Safeline 
+- [ ] 
 ## 2026-09-25
 - [x] Benerin tas Elsha
-- [ ] Review .shp
 ---
 - [x] podman-fleet remove IP check
 - [x] podman-fleet trace ip check
 - [x] Investigate backstage slow
-- [ ] Headline hub pattern error
-	- [ ] https://test-manager.pitta-pound.ts.net/schedules/headline-hub%20lambda
+- [x] Headline hub pattern error
+	- [x] https://test-manager.pitta-pound.ts.net/schedules/headline-hub%20lambda
 		- [x] Fix: attach MagicDNS in dokku
 		- [x] Fix: add port :80 previously it :8400
 		- [x] Replace IP with MagicDNS in Doppler and Fly
 - [ ] [[ Auto cleanup fleet gateway ]]
-	- [ ] support dual schema
+	- [x] support dual schema
 	- [x] podman-fleet
 - [ ] internal dns call between GCE
 - [ ] Safeline for public facing GCE & Lambda
