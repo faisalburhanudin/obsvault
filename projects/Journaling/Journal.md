@@ -3,11 +3,11 @@
 	- [x] primary fleet
 	- [x] secondary fleet
 	- [x] remove browserbase from upstream
-	- [ ] Blocker: 18:00
-	- [ ] test secondary fleet working
+	- [x] Blocker: 18:00
+	- [x] test secondary fleet working
 	- [ ] send to eng channel
 - [ ] [[Fix DNS ENOTFOUND]]
-	- [ ] Blocker running log live debug
+	- [x] Blocker running log live debug
 	- [ ] TODO: check other docker related deployment
 - [ ] Auto Cleanup Fleet Gateway
 	- [x] browserbase-fleet: https://github.com/remotebrowser/browserbase-fleet/pull/16/changes
