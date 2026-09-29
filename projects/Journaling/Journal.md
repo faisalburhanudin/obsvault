@@ -2,7 +2,7 @@
 - [ ] Fix Page turner https://github.com/remotebrowser/page-turner/pull/47
 - [ ] Fix test manager
 - [ ] Send Eng channel upgraded Architecture secondary fleet
-- [ ] Find error ENOTFOUND on logfire
+- [ ] Find error ENOTFOUND & ENETUNREACH on logfire
 - [ ] Auto Cleanup Fleet Gateway
 - [ ] Check DEV env it should be suspendable
 - [ ] [[Fleet Gateway on dev]]
