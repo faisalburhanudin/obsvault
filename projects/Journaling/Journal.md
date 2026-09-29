@@ -4,10 +4,17 @@
 	- [x] IP change use MagicDNS
 	- [x] fly apps destroy page-turner-lambda -y && fly apps destroy page-turner-daytona -y
 	- [x] doppler environments delete daytona --project page-turner -y
-- [ ] Fix test manager
+- [ ] Fix fleet-dev test manager
 	- [x] Fix: Response change https://github.com/corelens-engineering/remote-browser-tests/pull/74
-	- [ ] 
-- [ ] Fix flyfleet format /browsers
+- [ ] Fix Lambda quicksand
+	- [x] Start at boot
+	- [ ] adjust /browsers
+- [ ] Fix flyfleet
+	- [ ] adjust /browsers
+- [ ] Fix fleet-gateway
+	- [ ] adjust /browser
+- [ ] Fix remotebrowser
+- [ ] Rename demo to production
 - [ ] Send Eng channel upgraded Architecture secondary fleet
 - [ ] Find error ENOTFOUND & ENETUNREACH on logfire
 - [ ] Auto Cleanup Fleet Gateway
