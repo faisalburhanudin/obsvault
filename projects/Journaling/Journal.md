@@ -1,54 +1,45 @@
-## 2026-09-26
-- [ ] Update architecture fleet
-	- [x] primary fleet
-	- [x] secondary fleet
-	- [x] remove browserbase from upstream
-	- [x] Blocker: 18:00
-	- [x] test secondary fleet working
-	- [ ] send to eng channel
-- [ ] [[Fix DNS ENOTFOUND]]
-	- [x] Blocker running log live debug
-	- [ ] TODO: check other docker related deployment
+## 2026-09-29
+- [ ] Fix Page turner https://github.com/remotebrowser/page-turner/pull/47
+- [ ] Fix test manager
+- [ ] Send Eng channel upgraded Architecture secondary fleet
+- [ ] Find error ENOTFOUND on logfire
 - [ ] Auto Cleanup Fleet Gateway
-	- [x] browserbase-fleet: https://github.com/remotebrowser/browserbase-fleet/pull/16/changes
-	- [x] daytona-fleet https://github.com/remotebrowser/daytona-fleet/pull/16
-	- [x] fleet-gateway
-	- [ ] Test in dev
-	- [ ] Deployment strategy
-- [ ] [[Fix fleet gateway dev]]
-- [x] Remove browserbase option
-	- [x] ![[Pasted image 20260928125426.png]]
-	- [x] https://github.com/remotebrowser/browserbase-fleet/pull/17
-- [x] Remove daytona-fleet option
-	- [x] ![[Pasted image 20260928131748.png]]
-	- [x] https://github.com/remotebrowser/daytona-fleet/pull/17
 - [ ] Check DEV env it should be suspendable
+- [ ] [[Fleet Gateway on dev]]
+- [ ] clean-up prefix backstage and connector
+- [ ] if there is changed in secret it should redeploy, fleet-gateway
 - [ ] Safeline 
 - [ ] Protect main branch
 	- [ ] browserbase-fleet
 	- [ ] podman-fleet
 	- [ ] daytona-fleet
 	- [ ] fleet-gateway
-- [ ] internal dns call between GCE
-- [ ] Safeline for public facing GCE & Lambda
-- [ ] Fix metabase
-- [ ] clean-up prefix backstage and connector
-- [ ] if there is changed in secret it should redeploy, fleet-gateway
-- [ ] One thing to consider: the --dns option is set on the Dokku host only, not in the repo or Doppler. If the app is ever rebuilt on a fresh host, it will be lost.
-- [ ] If step 1 does not come back in e.g. 10 seconds, use the secondary fleet URL (pointing to Browserbase).
-- [ ] Debugging headline-hub
-- [ ] [[deploy connector to GCE]]
-- [ ] [[deploy podman-fleet to new instance]]
-- [ ] [[improve podman-fleet]]
 - [ ] remove prefix connect from demos
-- [ ] auto clean up podman
-- [ ] Estimate/predict the monthly operating costs
-- [ ] migrate secret connect from demos
-- [ ] remove prefix connect from demos
-- [ ] Setup new podman-fleet
-- [ ] [[Fleet Gateway a redeployed upstream stays dead until the gateway restarts]]
 - [ ] Fix live fleet-gateway when clicked on GCe it wrong host
 - [ ] Decomission/demote the corresponding Fly apps
+## 2026-09-26
+- [x] Update architecture fleet
+	- [x] primary fleet
+	- [x] secondary fleet
+	- [x] remove browserbase from upstream
+	- [x] Blocker: 18:00
+	- [x] test secondary fleet working
+- [x] [[Fix DNS ENOTFOUND]]
+	- [x] Blocker running log live debug
+- [x] Auto Cleanup Fleet Gateway
+	- [x] browserbase-fleet: https://github.com/remotebrowser/browserbase-fleet/pull/16/changes
+	- [x] daytona-fleet https://github.com/remotebrowser/daytona-fleet/pull/16
+	- [x] fleet-gateway
+- [x] [[Fix fleet gateway dev]]
+- [x] Remove browserbase option
+	- [x] ![[Pasted image 20260928125426.png]]
+	- [x] https://github.com/remotebrowser/browserbase-fleet/pull/17
+- [x] Remove daytona-fleet option
+	- [x] ![[Pasted image 20260928131748.png]]
+	- [x] https://github.com/remotebrowser/daytona-fleet/pull/17
+- [x] [[deploy connector to GCE]]
+- [x] [[deploy podman-fleet to new instance]]
+- [x] [[improve podman-fleet]]
 ## 2026-09-25
 - [x] Benerin tas Elsha
 ---
