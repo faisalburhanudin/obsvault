@@ -1,20 +1,23 @@
 ## 2026-09-29
-- [ ] Fix Page turner
+- [x] Fix Page turner
 	- [x] https://github.com/remotebrowser/page-turner/pull/47
 	- [x] IP change use MagicDNS
 	- [x] fly apps destroy page-turner-lambda -y && fly apps destroy page-turner-daytona -y
 	- [x] doppler environments delete daytona --project page-turner -y
-- [ ] Fix fleet-dev test manager
+- [x] Fix fleet-dev test manager
 	- [x] Fix: Response change https://github.com/corelens-engineering/remote-browser-tests/pull/74
-- [ ] Fix Lambda quicksand
+- [x] Fix Lambda quicksand
 	- [x] Start at boot
-	- [ ] adjust /browsers
-- [ ] Fix flyfleet
-	- [ ] adjust /browsers
-- [ ] Fix fleet-gateway
-	- [ ] adjust /browser
-- [ ] Fix remotebrowser
-- [ ] Rename demo to production
+	- [x] https://github.com/remotebrowser/quicksand-fleet/pull/14
+- [x] Fix flyfleet
+	- [x] https://github.com/corelens-engineering/flyfleet/pull/202
+- [x] Fix fleet-gateway
+	- [x] fix CI dev environment
+		- [x] create new doppler for dev
+		- [x] fix TS_HOSTNAME
+	- [x] adjust /browser
+	- [x] fix test
+- [ ] Remove daytona from flyfleet
 - [ ] Send Eng channel upgraded Architecture secondary fleet
 - [ ] Find error ENOTFOUND & ENETUNREACH on logfire
 - [ ] Auto Cleanup Fleet Gateway
