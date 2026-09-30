@@ -1,3 +1,5 @@
+## 2026-09-30
+- [ ] Research map projection
 ## 2026-09-29
 - [x] Fix Page turner
 	- [x] https://github.com/remotebrowser/page-turner/pull/47
