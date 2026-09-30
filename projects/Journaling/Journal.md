@@ -1,7 +1,28 @@
 ## 2026-09-30
 - [ ] Research map projection
 ---
-- [ ] Fix CI flyfleet
+- [x] Fix CI flyfleet https://github.com/corelens-engineering/flyfleet/pull/203
+- [x] Research monitor
+	- [x] netdata
+	- [x] port 19999 on tailscale
+- [ ] Merged all PR
+- [ ] Remove daytona from flyfleet
+- [ ] Send Eng channel upgraded Architecture secondary fleet
+- [ ] Find error ENOTFOUND & ENETUNREACH on logfire
+- [ ] Auto Cleanup Fleet Gateway
+- [ ] Check DEV env it should be suspendable
+- [ ] [[Fleet Gateway on dev]]
+- [ ] clean-up prefix backstage and connector
+- [ ] if there is changed in secret it should redeploy, fleet-gateway
+- [ ] Safeline 
+- [ ] Protect main branch
+	- [ ] browserbase-fleet
+	- [ ] podman-fleet
+	- [ ] daytona-fleet
+	- [ ] fleet-gateway
+- [ ] remove prefix connect from demos
+- [ ] Fix live fleet-gateway when clicked on GCe it wrong host
+- [ ] Decomission/demote the corresponding Fly apps
 ## 2026-09-29
 - [x] Fix Page turner
 	- [x] https://github.com/remotebrowser/page-turner/pull/47
@@ -21,23 +42,6 @@
 		- [x] fix TS_HOSTNAME
 	- [x] adjust /browser
 	- [x] fix test
-- [ ] Remove daytona from flyfleet
-- [ ] Send Eng channel upgraded Architecture secondary fleet
-- [ ] Find error ENOTFOUND & ENETUNREACH on logfire
-- [ ] Auto Cleanup Fleet Gateway
-- [ ] Check DEV env it should be suspendable
-- [ ] [[Fleet Gateway on dev]]
-- [ ] clean-up prefix backstage and connector
-- [ ] if there is changed in secret it should redeploy, fleet-gateway
-- [ ] Safeline 
-- [ ] Protect main branch
-	- [ ] browserbase-fleet
-	- [ ] podman-fleet
-	- [ ] daytona-fleet
-	- [ ] fleet-gateway
-- [ ] remove prefix connect from demos
-- [ ] Fix live fleet-gateway when clicked on GCe it wrong host
-- [ ] Decomission/demote the corresponding Fly apps
 ## 2026-09-26
 - [x] Update architecture fleet
 	- [x] primary fleet
