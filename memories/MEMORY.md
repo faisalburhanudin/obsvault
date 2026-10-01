@@ -71,6 +71,10 @@ Shared across all projects. Grouped by the repo the memory came from.
 - [Inboxcart Run](project_inboxcart_run.md) — `uv run uvicorn app.main:app --port 5555` to run the app locally
 - [Backfill Under-fetch](project_backfill_underfetch.md) — paused fix+validation; pagination/terminator fix uncommitted, resultSizeEstimate unreliable, resume with oracle-vs-stored
 
+## corelens-engineering/connector
+
+- [Connector traffic off switch](connector-traffic-off-switch.md) — set `tap_connect_max_sync_capacity` to 0 (off) or 20 (on) in prod `grabbit` DB; check /health availableCapacity
+
 ## corelens-engineering/deployment
 
 - [Ansible task names are noun phrases](ansible-task-name-ensure.md) — name the end state ("Git installed"), not "Ensure …" or "Install …"; lint constrains casing and Jinja position
