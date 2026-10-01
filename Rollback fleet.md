@@ -1,0 +1,14 @@
+- Repo need rollback
+	- [x] podman-fleet
+		- [ ] Is it deployed? 
+			- [ ] http://fleet.pitta-pound.ts.net:8400/health
+			- [ ] http://lambda-corelens-podman-fleet.pitta-pound.ts.net:8400/health
+	- [x] browserbase-fleet
+		- [ ] Is it deployed? http://fleet.pitta-pound.ts.net:8601/health 
+	- [x] daytona-fleet
+		- [ ] Is it deployed? http://fleet.pitta-pound.ts.net:8600/health
+	- [x] fleet-gateway
+	- [x] flyfleet
+	- [ ] test
+	- [ ] revert dev deployment
+	- [ ] re-enable test

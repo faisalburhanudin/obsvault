@@ -1,10 +1,8 @@
-## 2026-09-30
-- [ ] Research map projection
+## 2026-10-01
+- [ ] Bayar SPP
+- [ ] Bayar Indihome
 ---
-- [x] Fix CI flyfleet https://github.com/corelens-engineering/flyfleet/pull/203
-- [x] Research monitor
-	- [x] netdata
-	- [x] port 19999 on tailscale
+- [ ] [[Rollback fleet]]
 - [ ] Merged all PR
 - [ ] Remove daytona from flyfleet
 - [ ] Send Eng channel upgraded Architecture secondary fleet
@@ -23,6 +21,13 @@
 - [ ] remove prefix connect from demos
 - [ ] Fix live fleet-gateway when clicked on GCe it wrong host
 - [ ] Decomission/demote the corresponding Fly apps
+## 2026-09-30
+- [x] Research map projection
+---
+- [x] Fix CI flyfleet https://github.com/corelens-engineering/flyfleet/pull/203
+- [x] Research monitor
+	- [x] netdata
+	- [x] port 19999 on tailscale
 ## 2026-09-29
 - [x] Fix Page turner
 	- [x] https://github.com/remotebrowser/page-turner/pull/47
