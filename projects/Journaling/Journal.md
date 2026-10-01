@@ -2,7 +2,8 @@
 - [ ] Bayar SPP
 - [ ] Bayar Indihome
 ---
-- [ ] [[Rollback fleet]]
+- [x] [[Rollback fleet]]
+- [ ] Backfilling
 - [ ] Merged all PR
 - [ ] Remove daytona from flyfleet
 - [ ] Send Eng channel upgraded Architecture secondary fleet
