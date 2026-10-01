@@ -3,7 +3,12 @@
 - [ ] Bayar Indihome
 ---
 - [x] [[Rollback fleet]]
-- [ ] Backfilling
+- [ ] purchase clean
+	- [ ] Pairing
+	- [ ] Fix null
+	- [ ] 
+	- [ ] Backfilling
+- [ ] 
 - [ ] Merged all PR
 - [ ] Remove daytona from flyfleet
 - [ ] Send Eng channel upgraded Architecture secondary fleet
