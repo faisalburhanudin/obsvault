@@ -1,3 +1,7 @@
+## 2026-10-02
+- [ ] Small Tool
+	- [ ] Las to Laz compresion
+- [ ] LOD tools https://claude.ai/artifact/DTeE4oi3TMWzpMX278AVLN?sk=JyDqFHmDYGL4BomiUbcAVA
 ## 2026-10-01
 - [ ] Bayar SPP
 - [ ] Bayar Indihome
