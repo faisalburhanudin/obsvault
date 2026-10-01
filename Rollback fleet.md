@@ -14,6 +14,7 @@
 	- [x] revert dev deployment
 		- [x] browserbase-fleet
 		- [x] daytona-fleet
-		- [x] fleet-gateway
+		- [ ] fleet-gateway
 		- [x] flyfleet-dev
 	- [ ] re-enable test
+		- [ ] 
