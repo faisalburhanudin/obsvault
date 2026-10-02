@@ -15,7 +15,6 @@
 - [ ] 
 - [ ] Merged all PR
 - [ ] Remove daytona from flyfleet
-- [ ] Send Eng channel upgraded Architecture secondary fleet
 - [ ] Find error ENOTFOUND & ENETUNREACH on logfire
 - [ ] Auto Cleanup Fleet Gateway
 - [ ] Check DEV env it should be suspendable
