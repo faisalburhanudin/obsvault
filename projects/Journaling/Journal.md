@@ -2,21 +2,22 @@
 - [ ] Small Tool
 	- [ ] Las to Laz compresion
 - [ ] LOD tools https://claude.ai/artifact/DTeE4oi3TMWzpMX278AVLN?sk=JyDqFHmDYGL4BomiUbcAVA
-## 2026-10-01
+- [ ] Can PDAL find the tree on the roof? https://claude.ai/artifact/KTjiGuCFA9HjqGcms31LqC?sk=_pHrBrGf_6XC837rwFT0qA
 - [ ] Bayar SPP
 - [ ] Bayar Indihome
 ---
+- [x] Fix: Proxmox disk (TODO: P0 for clean up more)
+- [ ] [[Re-architecture Auto Cleanup Fleet Gateway]]
+## 2026-10-01
+
+---
 - [x] [[Rollback fleet]]
-- [ ] purchase clean
-	- [ ] Pairing
-	- [ ] Fix null
-	- [ ] 
-	- [ ] Backfilling
-- [ ] 
-- [ ] Merged all PR
-- [ ] Remove daytona from flyfleet
+- [x] purchase clean
+	- [x] Pairing
+	- [x] Fix null
+	- [x] Backfilling
 - [ ] Find error ENOTFOUND & ENETUNREACH on logfire
-- [ ] Auto Cleanup Fleet Gateway
+
 - [ ] Check DEV env it should be suspendable
 - [ ] [[Fleet Gateway on dev]]
 - [ ] clean-up prefix backstage and connector
