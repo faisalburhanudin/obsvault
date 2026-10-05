@@ -7,8 +7,8 @@
 - [ ] Talamesa
 	- [ ] LOD 2
 ---
-- [ ] Find error ENOTFOUND & ENETUNREACH on logfire
-- [ ] [[Clean up proxmox]]
+- [x] Find error ENOTFOUND & ENETUNREACH on logfire
+- [x] [[Clean up proxmox]]
 - [ ] Increase disk CloudSQL
 - [ ] [[Re-architecture Auto Cleanup Fleet Gateway]]
 - [ ] Check DEV env it should be suspendable
@@ -24,6 +24,8 @@
 - [ ] remove prefix connect from demos
 - [ ] Fix live fleet-gateway when clicked on GCe it wrong host
 - [ ] Decomission/demote the corresponding Fly apps
+---
+- [ ] Chrome Live should OTEL compatible
 ## 2026-10-02
 ---
 - [x] Fix: Proxmox disk (TODO: P0 for clean up more)
