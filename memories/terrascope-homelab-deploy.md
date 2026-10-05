@@ -6,7 +6,9 @@ metadata:
 ---
 
 TerraScope's real data and running API live on the homelab, not the Mac:
-`faisal@100.122.215.60` (Ubuntu 26.04, 32 cores, no GPU, passwordless sudo).
+`faisal@100.122.215.60` (Ubuntu 26.04 WSL2 VM, 8 cores / 49 GB, passwordless sudo).
+It has an NVIDIA RTX 3090 (24 GB) through WSL2: `nvidia-smi` works, CUDA 13.1
+(checked 2026-10-05; the old "no GPU" note was wrong).
 The COGs, the SAM 3 runs under `data/lod0/`, and the serving API are all there.
 The Mac has only source and a dead partial COG.
 
