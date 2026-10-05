@@ -1,7 +1,12 @@
+## 2026-10-05
+- [ ] Talamesa
+	- [ ] Cleaning Lidar building
+	- [ ] Converter Las to Laz
+		- [ ] Why more cheap to store on s3, so when user uploaded LAS we convert it to LAZ
+	- [ ] 
+- [ ] Find error ENOTFOUND & ENETUNREACH on logfire
+
 ## 2026-10-02
-- [ ] Small Tool
-	- [ ] Las to Laz compresion
-- [ ] LOD tools https://claude.ai/artifact/DTeE4oi3TMWzpMX278AVLN?sk=JyDqFHmDYGL4BomiUbcAVA
 - [ ] Can PDAL find the tree on the roof? https://claude.ai/artifact/KTjiGuCFA9HjqGcms31LqC?sk=_pHrBrGf_6XC837rwFT0qA
 - [ ] Bayar SPP
 - [ ] Bayar Indihome
@@ -16,7 +21,7 @@
 	- [x] Pairing
 	- [x] Fix null
 	- [x] Backfilling
-- [ ] Find error ENOTFOUND & ENETUNREACH on logfire
+
 
 - [ ] Check DEV env it should be suspendable
 - [ ] [[Fleet Gateway on dev]]
