@@ -8,7 +8,7 @@
 	- [ ] LOD 2
 ---
 - [ ] Find error ENOTFOUND & ENETUNREACH on logfire
-- [ ] Clean up proxmox
+- [ ] [[Clean up proxmox]]
 - [ ] Increase disk CloudSQL
 - [ ] [[Re-architecture Auto Cleanup Fleet Gateway]]
 - [ ] Check DEV env it should be suspendable
