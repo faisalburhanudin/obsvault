@@ -97,4 +97,5 @@ Shared across all projects. Grouped by the repo the memory came from.
 - [Homelab deploy](terrascope-homelab-deploy.md) — real COGs and API live on 100.122.215.60; ~/terrascope is an rsync target with traps
 - [LOD 0 review API](terrascope-lod0-review-api.md) — flagged footprints become cases; judge them from the crop, never from metrics alone
 - [Homelab: use all 8 cores](homelab-use-all-8-cores.md) — WSL VM is 8 cores/50 GB; pin lidar jobs to 0-7, fill cores with parallel jobs under one memory cap
+- [LOD 2: look over accuracy](lod2-look-over-accuracy.md) — roofer base + Jev/vision judge for canopy + Astra look layer in a LiDAR harness
 - [gdown on homelab](gdown-on-homelab.md) — install with `pip3 --user --break-system-packages` (PEP 668/venv both blocked); no login, cookies.txt for private files, rclone for durable auth
