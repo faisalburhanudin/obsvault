@@ -1,28 +1,16 @@
 ## 2026-10-05
+- [x] Bayar SPP
+- [x] Bayar Indihome
+- [x] Balikin duit cicilan mobi
+- [x] Balikin duit DBS
+---
 - [ ] Talamesa
-	- [ ] Cleaning Lidar building
-	- [ ] Converter Las to Laz
-		- [ ] Why more cheap to store on s3, so when user uploaded LAS we convert it to LAZ
-	- [ ] 
+	- [ ] LOD 2
+---
 - [ ] Find error ENOTFOUND & ENETUNREACH on logfire
-
-## 2026-10-02
-- [ ] Can PDAL find the tree on the roof? https://claude.ai/artifact/KTjiGuCFA9HjqGcms31LqC?sk=_pHrBrGf_6XC837rwFT0qA
-- [ ] Bayar SPP
-- [ ] Bayar Indihome
----
-- [x] Fix: Proxmox disk (TODO: P0 for clean up more)
+- [ ] Clean up proxmox
+- [ ] Increase disk CloudSQL
 - [ ] [[Re-architecture Auto Cleanup Fleet Gateway]]
-## 2026-10-01
-
----
-- [x] [[Rollback fleet]]
-- [x] purchase clean
-	- [x] Pairing
-	- [x] Fix null
-	- [x] Backfilling
-
-
 - [ ] Check DEV env it should be suspendable
 - [ ] [[Fleet Gateway on dev]]
 - [ ] clean-up prefix backstage and connector
@@ -36,6 +24,17 @@
 - [ ] remove prefix connect from demos
 - [ ] Fix live fleet-gateway when clicked on GCe it wrong host
 - [ ] Decomission/demote the corresponding Fly apps
+## 2026-10-02
+---
+- [x] Fix: Proxmox disk (TODO: P0 for clean up more)
+## 2026-10-01
+
+---
+- [x] [[Rollback fleet]]
+- [x] purchase clean
+	- [x] Pairing
+	- [x] Fix null
+	- [x] Backfilling
 ## 2026-09-30
 - [x] Research map projection
 ---
