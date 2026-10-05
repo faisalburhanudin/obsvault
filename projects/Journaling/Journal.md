@@ -9,7 +9,7 @@
 ---
 - [x] Find error ENOTFOUND & ENETUNREACH on logfire
 - [x] [[Clean up proxmox]]
-- [ ] Increase disk CloudSQL
+- [x] Increase disk CloudSQL
 - [ ] [[Re-architecture Auto Cleanup Fleet Gateway]]
 - [ ] Check DEV env it should be suspendable
 - [ ] [[Fleet Gateway on dev]]
