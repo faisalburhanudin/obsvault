@@ -2,7 +2,7 @@
 ---
 - [x] [[Swap table name]]
 
-- [ ] Check why lambda-podman-fleet used a lot of disk
+- [ ] [[Enable Discard restart + fstrim]]
 - [ ] clean-up prefix backstage and connector
 - [ ] Differentiate service podman-lambda on logfire
 - [ ] OTEL chrome-live
