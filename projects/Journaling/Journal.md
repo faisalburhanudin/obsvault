@@ -1,8 +1,7 @@
 ## 2026-10-06
 ---
 - [x] [[Swap table name]]
-
-- [ ] [[Enable Discard restart + fstrim]]
+- [x] [[Enable Discard restart + fstrim]]
 - [ ] clean-up prefix backstage and connector
 - [ ] Differentiate service podman-lambda on logfire
 - [ ] OTEL chrome-live
