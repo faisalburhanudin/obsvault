@@ -1,33 +1,29 @@
 ## 2026-10-06
-- [ ] [[Swap table name]]
-## 2026-10-05
-- [x] Bayar SPP
-- [x] Bayar Indihome
-- [x] Balikin duit cicilan mobi
-- [x] Balikin duit DBS
 ---
-- [ ] Talamesa
-	- [ ] LOD 2
----
-- [x] Find error ENOTFOUND & ENETUNREACH on logfire
-- [x] [[Clean up proxmox]]
-- [x] Increase disk CloudSQL
-- [ ] [[Re-architecture Auto Cleanup Fleet Gateway]]
-- [ ] Check DEV env it should be suspendable
-- [ ] [[Fleet Gateway on dev]]
+- [x] [[Swap table name]]
+- [ ] Debug Pipe broken
+- [ ] Debug N + 1 https://heyario.slack.com/archives/C0AG7EDJSEM/p1791273728854499
+- [ ] Check why lambda-podman-fleet used a lot of disk
 - [ ] clean-up prefix backstage and connector
-- [ ] if there is changed in secret it should redeploy, fleet-gateway
+- [ ] OTEL chrome-live
 - [ ] Safeline 
 - [ ] Protect main branch
 	- [ ] browserbase-fleet
 	- [ ] podman-fleet
 	- [ ] daytona-fleet
 	- [ ] fleet-gateway
-- [ ] remove prefix connect from demos
-- [ ] Fix live fleet-gateway when clicked on GCe it wrong host
-- [ ] Decomission/demote the corresponding Fly apps
----
-- [ ] Chrome Live should OTEL compatible
+- [ ] Differentiate service podman-lambda on logfire
+## 2026-10-05
+- [x] Bayar SPP
+- [x] Bayar Indihome
+- [x] Balikin duit cicilan mobi
+- [x] Balikin duit DBS
+- [x] Find error ENOTFOUND & ENETUNREACH on logfire
+- [x] [[Clean up proxmox]]
+- [x] Increase disk CloudSQL
+- [x] [[Re-architecture Auto Cleanup Fleet Gateway]]
+- [x] Check DEV env it should be suspendable
+- [x] [[Fleet Gateway on dev]]
 ## 2026-10-02
 ---
 - [x] Fix: Proxmox disk (TODO: P0 for clean up more)
