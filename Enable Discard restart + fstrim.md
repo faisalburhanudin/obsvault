@@ -21,16 +21,16 @@
   - [x] Trim: `qm guest cmd 111 fstrim` (or `fstrim -av` inside the VM)
   - [x] Verify: `lvs pve/vm-111-disk-0`
 
-- [ ] **112 kuma** (monitoring is down during restart)
+- [x] **112 kuma** (monitoring is down during restart)
   - [x] Restart: `qm shutdown 112 && qm start 112`
   - [x] install qemu agent
   - [x] Trim: `qm guest cmd 112 fstrim` (or `fstrim -av` inside the VM)
   - [x] Verify: `lvs pve/vm-112-disk-0`
 
-- [ ] **113 lambda-corelens-podman-fleet** (stops browser sessions)
-  - [ ] Restart: `qm shutdown 113 && qm start 113`
-  - [ ] Trim: `qm guest cmd 113 fstrim`
-  - [ ] Verify: `lvs pve/vm-113-disk-0` (expect ~3%, was 54.52%)
+- [x] **113 lambda-corelens-podman-fleet** (stops browser sessions)
+  - [x] Restart: `qm shutdown 113 && qm start 113`
+  - [x] Trim: `qm guest cmd 113 fstrim`
+  - [x] Verify: `lvs pve/vm-113-disk-0` (expect ~3%, was 54.52%)
 
 ## Stopped VMs (Discard applies on next start)
 
@@ -48,13 +48,13 @@
   - [x] Trim after next start: `qm guest cmd 103 fstrim` (or `fstrim -av` inside the VM)
   - [x] Verify: `lvs pve/vm-103-disk-0`
 
-- [ ] **109 lambda-llm**
-  - [ ] Trim after next start: `qm guest cmd 109 fstrim` (or `fstrim -av` inside the VM)
-  - [ ] Verify: `lvs pve/vm-109-disk-0`
+- [x] **109 lambda-llm**
+  - [x] Trim after next start: `qm guest cmd 109 fstrim` (or `fstrim -av` inside the VM)
+  - [x] Verify: `lvs pve/vm-109-disk-0`
 
-- [ ] **9020 lambda-daytona** (qcow2 on `data`)
-  - [ ] Trim after next start: `qm guest cmd 9020 fstrim` (or `fstrim -av` inside the VM)
-  - [ ] Verify: `du -h $(pvesm path data:9020/vm-9020-disk-0
+- [x] **9020 lambda-daytona** (qcow2 on `data`)
+  - [x] Trim after next start: `qm guest cmd 9020 fstrim` (or `fstrim -av` inside the VM)
+  - [x] Verify: `du -h $(pvesm path data:9020/vm-9020-disk-0
 
 ## After all VMs
 
