@@ -1,18 +1,20 @@
 ## 2026-10-06
 ---
 - [x] [[Swap table name]]
-- [ ] Debug Pipe broken
-- [ ] Debug N + 1 https://heyario.slack.com/archives/C0AG7EDJSEM/p1791273728854499
+
 - [ ] Check why lambda-podman-fleet used a lot of disk
 - [ ] clean-up prefix backstage and connector
+- [ ] Differentiate service podman-lambda on logfire
 - [ ] OTEL chrome-live
+- [ ] Debug Pipe broken
+- [ ] Debug N + 1 https://heyario.slack.com/archives/C0AG7EDJSEM/p1791273728854499
 - [ ] Safeline 
 - [ ] Protect main branch
 	- [ ] browserbase-fleet
 	- [ ] podman-fleet
 	- [ ] daytona-fleet
 	- [ ] fleet-gateway
-- [ ] Differentiate service podman-lambda on logfire
+
 ## 2026-10-05
 - [x] Bayar SPP
 - [x] Bayar Indihome
