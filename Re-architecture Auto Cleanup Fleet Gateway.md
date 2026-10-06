@@ -5,4 +5,4 @@ It possible but consumer on fleet-gateway whould need to iterate browser one by 
 - [x] browserbase-fleet
 - [x] quicksand-fleet
 - [x] podman-fleet
-- [ ] flyfleet
+- [x] flyfleet
