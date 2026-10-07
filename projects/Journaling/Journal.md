@@ -1,12 +1,13 @@
 ## 2026-10-07
-- [ ] Check metabase always on
-- [ ] clean-up prefix backstage
-	- [ ] Done remove 45 keys dev, prd, prd_dokku
+- [x] Check metabase always on
+- [x] clean-up prefix backstage
+	- [x] Done remove 45 keys dev, prd, prd_dokku
+- [x] Checking kuma
+- [ ] Debug Pipe broken
+- [ ] Debug N + 1 https://heyario.slack.com/archives/C0AG7EDJSEM/p1791273728854499
 - [ ] connector
 - [ ] Differentiate service podman-lambda on logfire
 - [ ] OTEL chrome-live
-- [ ] Debug Pipe broken
-- [ ] Debug N + 1 https://heyario.slack.com/archives/C0AG7EDJSEM/p1791273728854499
 - [ ] Safeline 
 - [ ] Protect main branch
 	- [ ] browserbase-fleet
