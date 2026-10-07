@@ -1,21 +1,7 @@
-Argis + Sketchup 
-cityjson 
 
-
-Digitasi otomatis 
-LOD 2
-- Argis Pro otomatis
-- Multipath ndak ada diagonal
-![[Pasted image 20261007154023.png]]
-
-
-- Jangka pendek
-	- Footprint LOD 0
-	- Footprint LOD 2
-	- Harus merepresent posisi coordinate
-- Jangka panjang
-	- software berbasis cloud
 ## 2026-10-07
+- [[With GSN]]
+---
 - [x] Check metabase always on
 - [x] clean-up prefix backstage
 	- [x] Done remove 45 keys dev, prd, prd_dokku
