@@ -99,3 +99,4 @@ Shared across all projects. Grouped by the repo the memory came from.
 - [Homelab: use all 8 cores](homelab-use-all-8-cores.md) — WSL VM is 8 cores/50 GB; pin lidar jobs to 0-7, fill cores with parallel jobs under one memory cap
 - [LOD 2: look over accuracy](lod2-look-over-accuracy.md) — roofer base + Jev/vision judge for canopy + Astra look layer in a LiDAR harness
 - [gdown on homelab](gdown-on-homelab.md) — install with `pip3 --user --break-system-packages` (PEP 668/venv both blocked); no login, cookies.txt for private files, rclone for durable auth
+- [terrarupa: commit to main](terrarupa-commit-to-main.md) — no feature branches in terrarupa; commit straight to main

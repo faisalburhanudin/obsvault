@@ -1,8 +1,5 @@
--suspend ndak kepakai
-## 2026-10-06
----
-- [x] [[Swap table name]]
-- [x] [[Enable Discard restart + fstrim]]
+## 2026-10-07
+- [ ] Check metabase always on
 - [ ] clean-up prefix backstage and connector
 - [ ] Differentiate service podman-lambda on logfire
 - [ ] OTEL chrome-live
@@ -14,6 +11,10 @@
 	- [ ] podman-fleet
 	- [ ] daytona-fleet
 	- [ ] fleet-gateway
+## 2026-10-08
+---
+- [x] [[Swap table name]]
+- [x] [[Enable Discard restart + fstrim]]
 
 ## 2026-10-05
 - [x] Bayar SPP
