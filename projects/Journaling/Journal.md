@@ -1,6 +1,8 @@
 ## 2026-10-07
 - [ ] Check metabase always on
-- [ ] clean-up prefix backstage and connector
+- [ ] clean-up prefix backstage
+	- [ ] Done remove 45 keys dev, prd, prd_dokku
+- [ ] connector
 - [ ] Differentiate service podman-lambda on logfire
 - [ ] OTEL chrome-live
 - [ ] Debug Pipe broken
