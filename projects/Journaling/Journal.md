@@ -4,7 +4,10 @@
 - [ ] 
 ---
 - [ ] Fix DNS Page Turner and Headline-hub
-- [ ] Fix: IP check test manager
+- [x] Fix: IP check test manager
+- [x] Pull latest chrome-live podman-fleet
+	- [ ] TODO: create CI to push image
+- [ ] 
 ## 2026-10-07
 - [[With GSN]]
 ---
