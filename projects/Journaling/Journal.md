@@ -1,5 +1,8 @@
 
 ## 2026-10-08
+- [ ] Check kerapatan lidar
+- [ ] 
+---
 - [ ] Fix DNS Page Turner and Headline-hub
 - [ ] Fix: IP check test manager
 ## 2026-10-07
