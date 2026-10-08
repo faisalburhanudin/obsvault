@@ -6,7 +6,7 @@
 - [x] clean-up prefix backstage
 	- [x] Done remove 45 keys dev, prd, prd_dokku
 - [x] Checking kuma
-- [ ] Debug Pipe broken
+- [x] Debug Pipe broken
 - [x] Debug N + 1 https://heyario.slack.com/archives/C0AG7EDJSEM/p1791273728854499 https://github.com/corelens-engineering/corelens-backstage/pull/167
 - [x] remove prefix connector https://github.com/corelens-engineering/connector/pull/58
 - [ ] Differentiate service podman-lambda on logfire
