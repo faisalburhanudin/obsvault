@@ -7,7 +7,8 @@
 - [x] Fix: IP check test manager
 - [x] Pull latest chrome-live podman-fleet
 	- [ ] TODO: create CI to push image
-- [ ] 
+- [x] chrome-live OTEL
+- [ ] Safeline instance
 ## 2026-10-07
 - [[With GSN]]
 ---
