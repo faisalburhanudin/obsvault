@@ -1,6 +1,7 @@
 
 ## 2026-10-08
-- Fix DNS Page Turner and Headline-hub
+- [ ] Fix DNS Page Turner and Headline-hub
+- [ ] Fix: IP check test manager
 ## 2026-10-07
 - [[With GSN]]
 ---
