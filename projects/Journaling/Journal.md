@@ -4,11 +4,14 @@
 - [ ] 
 ---
 - [ ] Fix DNS Page Turner and Headline-hub
+	- [x] Can't find the logfire
 - [x] Fix: IP check test manager
 - [x] Pull latest chrome-live podman-fleet
 	- [ ] TODO: create CI to push image
 - [x] chrome-live OTEL
 - [ ] Safeline instance
+	- [ ] Update architecture
+- [ ] Revise cost GCE
 ## 2026-10-07
 - [[With GSN]]
 ---
