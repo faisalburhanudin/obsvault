@@ -1,10 +1,9 @@
 ## Orchestrator
 - [x] Make it good
-- [ ] Credentials cloudflare queue
-- [ ] Integrate bucket put and cloudflare queue
-- [ ] Listen on Cloudflare Queue for processing new data
-- [ ] Deploy to VM on new port
-	- [ ] 
+- [x] Credentials cloudflare queue
+- [x] Integrate bucket put and cloudflare queue
+- [x] Listen on Cloudflare Queue for processing new data
+- [x] Deploy to VM on new port
 - [ ] if possible assign domain dagster.talamesa.com
 
 
