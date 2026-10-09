@@ -1,4 +1,6 @@
 
+## 2026-10-09
+- [ ] [[Talamesa Re-Architecture]]
 ## 2026-10-08
 - [ ] Check kerapatan lidar
 - [ ] 
