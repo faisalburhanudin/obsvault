@@ -1,19 +1,33 @@
 
-## 2026-10-09
+## 2026-10-10
 - [ ] [[Talamesa Re-Architecture]]
-## 2026-10-08
-- [ ] Check kerapatan lidar
-- [ ] 
+- [ ] Request Danis
+	- [ ] shp to city json EPSG:32749
+	- [ ] 3D tiles to b3dm
 ---
 - [ ] Fix DNS Page Turner and Headline-hub
-	- [x] Can't find the logfire
+- [ ] Move CI database migration to deploy
+- [ ] TODO: create CI to push image
+- [ ] Continue Safeline
+- [ ] Read Ariya reviews
+- [ ] Differentiate service podman-lambda on logfire
+- [ ] OTEL chrome-live
+- [ ] Safeline 
+- [ ] Protect main branch
+	- [ ] browserbase-fleet
+	- [ ] podman-fleet
+	- [ ] daytona-fleet
+	- [ ] fleet-gateway
+## 2026-10-09
+
+## 2026-10-08
+---
 - [x] Fix: IP check test manager
 - [x] Pull latest chrome-live podman-fleet
-	- [ ] TODO: create CI to push image
+	
 - [x] chrome-live OTEL
-- [ ] Safeline instance
-	- [ ] Update architecture
-- [ ] Revise cost GCE
+- [x] Safeline instance
+	- [x] Update architecture
 ## 2026-10-07
 - [[With GSN]]
 ---
@@ -24,14 +38,6 @@
 - [x] Debug Pipe broken
 - [x] Debug N + 1 https://heyario.slack.com/archives/C0AG7EDJSEM/p1791273728854499 https://github.com/corelens-engineering/corelens-backstage/pull/167
 - [x] remove prefix connector https://github.com/corelens-engineering/connector/pull/58
-- [ ] Differentiate service podman-lambda on logfire
-- [ ] OTEL chrome-live
-- [ ] Safeline 
-- [ ] Protect main branch
-	- [ ] browserbase-fleet
-	- [ ] podman-fleet
-	- [ ] daytona-fleet
-	- [ ] fleet-gateway
 ## 2026-10-08
 ---
 - [x] [[Swap table name]]
