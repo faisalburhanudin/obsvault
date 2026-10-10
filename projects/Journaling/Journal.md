@@ -11,7 +11,16 @@
 - [x] Move CI database migration to deploy https://github.com/corelens-engineering/corelens-backstage/pull/185
 - [x] podman-fleet update chrome-live periodically
 	- [x] add cron for GCE & Lambda
-- [ ] Continue Safeline
+- [x] Continue Safeline
+	- [x] Allow SSH to machine
+	- [x] Setup tailscale
+		- [x] Install
+		- [x] Setup tags and ACL for Admin only port 9443
+		- [x] serve port 9443
+	- [x] Change default password
+		- [x] Store password to keeper
+	- [x] Private origin listener
+	- [ ] TODO: Swithcing
 - [ ] Read Ariya reviews
 - [ ] Differentiate service podman-lambda on logfire
 - [ ] OTEL chrome-live
