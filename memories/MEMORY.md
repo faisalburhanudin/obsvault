@@ -101,3 +101,7 @@ Shared across all projects. Grouped by the repo the memory came from.
 - [LOD 2: look over accuracy](lod2-look-over-accuracy.md) — roofer base + Jev/vision judge for canopy + Astra look layer in a LiDAR harness
 - [gdown on homelab](gdown-on-homelab.md) — install with `pip3 --user --break-system-packages` (PEP 668/venv both blocked); no login, cookies.txt for private files, rclone for durable auth
 - [terrarupa: commit to main](terrarupa-commit-to-main.md) — no feature branches in terrarupa; commit straight to main
+
+## talamesa/orchestration
+
+- [Talamesa architecture plan](talamesa-architecture-plan.md) — monorepo tools/orchestration/studio, rigid R2 layout, Studio viewer reads local or R2
