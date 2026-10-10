@@ -2,12 +2,15 @@
 ## 2026-10-10
 - [ ] [[Talamesa Re-Architecture]]
 - [ ] Request Danis
-	- [ ] shp to city json EPSG:32749
-	- [ ] 3D tiles to b3dm
+	- [x] shp to city json EPSG:32749
+	- [x] 3D tiles to b3dm
 ---
-- [ ] Fix DNS Page Turner and Headline-hub
-- [ ] Move CI database migration to deploy
-- [ ] TODO: create CI to push image
+- [x] Fix DNS Page Turner and Headline-hub
+	- [x] https://github.com/remotebrowser/page-turner/pull/48
+	- [x] https://github.com/remotebrowser/headline-hub/pull/71
+- [x] Move CI database migration to deploy https://github.com/corelens-engineering/corelens-backstage/pull/185
+- [x] podman-fleet update chrome-live periodically
+	- [x] add cron for GCE & Lambda
 - [ ] Continue Safeline
 - [ ] Read Ariya reviews
 - [ ] Differentiate service podman-lambda on logfire
